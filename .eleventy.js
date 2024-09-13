@@ -27,6 +27,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("public");
   eleventyConfig.addPassthroughCopy("img");
 
+/* 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     // which file extensions to process
     extensions: 'html',
@@ -43,6 +44,7 @@ export default function(eleventyConfig) {
       decoding: 'async',
     },
   });
+ */
 
   /* From: https://github.com/artstorm/eleventy-plugin-seo
   
