@@ -35,6 +35,9 @@ export default function(eleventyConfig) {
     // optional, output image widths
     widths: ['auto'],
     // optional, attributes assigned on <img> override these values.
+    
+    urlPath: "/img/",
+    
     defaultAttributes: {
       loading: 'lazy',
       decoding: 'async',
