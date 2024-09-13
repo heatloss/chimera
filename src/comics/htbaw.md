@@ -1,7 +1,6 @@
 ---
 title: How To Be a Werewolf
 site: https://howtobeawerewolf.com/
-date: 2024-09-12
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_htbaw.png
 tags:
   - comics

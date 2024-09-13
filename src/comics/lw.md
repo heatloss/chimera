@@ -1,7 +1,6 @@
 ---
 title: Lies Within
 site: https://www.lieswithincomic.com/
-date: 2024-09-12
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_lies_within.png
 tags:
   - comics
