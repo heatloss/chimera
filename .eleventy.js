@@ -53,22 +53,16 @@ export default function(eleventyConfig) {
   const seo = {
     "title": "Hit Bricks: A comic webring",
     "description": "A webring, for comics.",
-    "url": "/",
+    "url": "https://hit-bricks.pages.dev",
     "image": "/img/logo-text.png",
     "robots": "index,follow",
     "author": "Chimera Collective",
 
     "og:title": "Hit Bricks: A Comics Webring",
     "og:type": "webring",
-    "og:url": "chimera-webring-ra2tn.kinsta.page",
+    "og:url": "https://hit-bricks.pages.dev",
     "og:description": "A travelogue, for webcomics",
-    "og:image": "/img/logo-text.png",
-
-    "twitter:card": "Hit Bricks: A Comics Webring",
-    "twitter:url": "https://chimera-webring-ra2tn.kinsta.page",
-    "twitter:title": "Hit Bricks: A Comics Webring",
-    "twitter:description": "A webring, for webcomics",
-    "twitter:image": "/img/logo-text.png"
+    "og:image": "https://hit-bricks.pages.dev/img/logo-text.png",
   }
 
   eleventyConfig.addPlugin(pluginSEO, seo);
