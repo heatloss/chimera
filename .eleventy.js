@@ -35,9 +35,9 @@ export default function(eleventyConfig) {
     // optional, output image widths
     widths: ['auto'],
     // optional, attributes assigned on <img> override these values.
-    
+
     urlPath: "/img/",
-    
+
     defaultAttributes: {
       loading: 'lazy',
       decoding: 'async',
@@ -52,17 +52,23 @@ export default function(eleventyConfig) {
   */
   const seo = {
     "title": "Hit Bricks: A comic webring",
-    "description": "A webring, for comics.",
+    "description": "A webring, for webcomics",
     "url": "https://hit-bricks.pages.dev",
-    "image": "/img/logo-text.png",
+    "image": "https://hit-bricks.pages.dev/img/logo-text.png",
     "robots": "index,follow",
     "author": "Chimera Collective",
 
     "og:title": "Hit Bricks: A Comics Webring",
     "og:type": "webring",
     "og:url": "https://hit-bricks.pages.dev",
-    "og:description": "A travelogue, for webcomics",
+    "og:description": "A webring, for webcomics",
     "og:image": "https://hit-bricks.pages.dev/img/logo-text.png",
+
+    "twitter:card": "Hit Bricks: A Comics Webring",
+    "twitter:url": "https://hit-bricks.pages.dev",
+    "twitter:title": "Hit Bricks: A Comics Webring",
+    "twitter:description": "A webring, for webcomics",
+    "twitter:image": "https://hit-bricks.pages.dev/img/logo-text.png"
   }
 
   eleventyConfig.addPlugin(pluginSEO, seo);
