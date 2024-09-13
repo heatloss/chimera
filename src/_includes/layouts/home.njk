@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-home
+---
+
+{# The Home page uses this template–it extends the base template #}
+
+<div class="wrapper home">
+  <header class="home-header">
+    <img class="home-logo" src="https://cdn.glitch.global/0908502d-24f2-4880-9c32-d8dd29e3c001/logo-text.png?v=1726169381388" /></header>
+  <div class="content">
+    <nav>I guess we would have a navbar with tags or categories?</nav>
+    {{ content | safe }}
+    
+    {# After the the content defined in index.md, list the blog posts in the collection #}
+    <ul>
+      {%- for comic in collections.comics -%}
+      <li{% if page.url == comic.url %} aria-current="page"{% endif %}>
+        <a class="comic-title" href='{{ comic.data.site }}'>{{ comic.data.title }}</a>
+        <div class="comic-desc">{{ comic.content | safe }}</div>
+        <a class="comic-thumb" href='{{ comic.data.site }}'><img src='{{comic.data.thumbnail}}' /></a>
+      </li>
+      {%- endfor -%}
+      
+    </ul>
+  </div>
+</div>
+
+
