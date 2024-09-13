@@ -1,0 +1,43 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-home
+---
+
+{# This is the template for individual blog posts–it builds the front matter properties into the page #}
+
+<div class="wrapper comic-page">
+	<header class="comic-header">
+		<a href="/"><img class="comic-logo" src="https://cdn.glitch.global/0908502d-24f2-4880-9c32-d8dd29e3c001/logo-text.png?v=1726169381388" alt="Logo for the Hit Bricks webcomic collective" /></a> 
+		<nav>
+			Again, a nav bar of some sort 
+		</nav>
+	</header>
+	<div class="comic-main">
+		<section class="banner-image">
+			<h2 class='banner-title'>
+				<a href="{{site}}">{{title}}</a> 
+			</h2>
+			<a href="{{site}}"><img src='{{thumbnail}}' alt='{{title}}' /></a> 
+		</section>
+		<article class="comic-desc">
+			{{ content | safe }} 
+		</article>
+		<aside class="sidebar">
+			<h4 class="credits">
+				By <cite class="credit">{{credits}}</cite> 
+			</h4>
+			And then other stuff would go here, like 
+			<ul class="stats">
+				<li>Genre, 
+				<li>Age Rating, 
+				<li>Update Status, etc. 
+			</ul>
+			<p>
+				Other comics the author has worked on, 
+			</p>
+			<p>
+				Merch shop links,<br>Social media links: you get it 
+			</p>
+		</aside>
+	</div>
+</div>
