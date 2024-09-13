@@ -1,10 +1,11 @@
 ---
 title: Lies Within
+credits: Lacey (byelacey)
 site: https://www.lieswithincomic.com/
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_lies_within.png
 tags:
   - comics
-layout: layouts/post.njk
+layout: layouts/comic.njk
 ---
 
 Lysander lacks direction in his life… though he seems to be the only one who doesn’t mind. He’s content to live rent-free under his sister’s roof, get high, watch monster movies, and canoodle with Simon, the new neighbour who moved in a few months ago. 

@@ -1,10 +1,11 @@
 ---
 title: Phantomarine
+credits: Claire Niebergall
 site: https://www.phantomarine.com
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_phantomarine.png
 tags:
   - comics
-layout: layouts/post.njk
+layout: layouts/comic.njk
 ---
 
 Phantomarine is a spooky-but-sweet fantasy webcomic about a ghostly princess and her perilous journey across a haunted sea, hoping to save her soul from a devious, shapeshifting death god known as the Red Tide King.

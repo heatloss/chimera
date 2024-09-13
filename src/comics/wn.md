@@ -1,10 +1,11 @@
 ---
 title: White Noise
+credits: Adrien Lee (thephooka)
 site: https://www.white-noise-comic.com/
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_whitenoise.png
 tags:
   - comics
-layout: layouts/post.njk
+layout: layouts/comic.njk
 ---
 
 In the early 1900s, the nation of Aetheri came out of its long interdimensional isolation and revealed to the humans of the Symphony Archipelago that they were not alone in the multiverse. Things swiftly got ugly after that.

@@ -1,10 +1,11 @@
 ---
 title: Daughter of the Lilies
+credits: Meg Syverud and Jessica "Yoko" Weaver (Nytrinhia)
 site: https://www.daughterofthelilies.com/
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_dotl.png
 tags:
   - comics
-layout: layouts/post.njk
+layout: layouts/comic.njk
 ---
 
 Thistle is just your average masked mage with a mysterious power, an enigmatic past, and, of course, the great burden of Destiny on her shoulders. 
