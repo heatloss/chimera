@@ -1,7 +1,6 @@
 ---
 title: Daughter of the Lilies
 site: https://www.daughterofthelilies.com/
-date: 2024-09-12
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_dotl.png
 tags:
   - comics
