@@ -38,7 +38,7 @@ export default function(eleventyConfig) {
     "title": "Chimera Comics Collective: A comic webring",
     "description": "A webring, for webcomics",
     "url": "https://chimeracollective.org",
-    "image": "https://chimeracollective.org/img/chimeracomicscollective.png",
+    "image": "https://chimeracollective.org/img/thechimera.png",
     "robots": "index,follow",
     "author": "Chimera Comics Collective",
 
@@ -46,13 +46,13 @@ export default function(eleventyConfig) {
     "og:type": "webring",
     "og:url": "https://chimeracollective.org",
     "og:description": "A collective webring, for comics",
-    "og:image": "https://chimeracollective.org/img/chimeracomicscollective.png",
+    "og:image": "https://chimeracollective.org/img/thechimera.png",
 
     "twitter:card": "Chimera Comics Collective",
     "twitter:url": "https://chimeracollective.org",
     "twitter:title": "Chimera Comics Collective",
     "twitter:description": "A collective webring, for comics",
-    "twitter:image": "https://chimeracollective.org/img/chimeracomicscollective.png"
+    "twitter:image": "https://chimeracollective.org/img/thechimera.png"
   }
 
   eleventyConfig.addPlugin(pluginSEO, seo);
