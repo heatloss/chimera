@@ -51,24 +51,24 @@ export default function(eleventyConfig) {
   still letting it have a proper glitch.me address via PROJECT_DOMAIN
   */
   const seo = {
-    "title": "Hit Bricks: A comic webring",
+    "title": "Chimera Comics Collective: A comic webring",
     "description": "A webring, for webcomics",
-    "url": "https://hit-bricks.pages.dev",
-    "image": "https://hit-bricks.pages.dev/img/logo-text.png",
+    "url": "https://chimeracollective.org",
+    "image": "https://chimeracollective.org/img/chimeracomicscollective.png",
     "robots": "index,follow",
-    "author": "Chimera Collective",
+    "author": "Chimera Comics Collective",
 
-    "og:title": "Hit Bricks: A Comics Webring",
+    "og:title": "Chimera Comics Collective",
     "og:type": "webring",
-    "og:url": "https://hit-bricks.pages.dev",
-    "og:description": "A webring, for webcomics",
-    "og:image": "https://hit-bricks.pages.dev/img/logo-text.png",
+    "og:url": "https://chimeracollective.org",
+    "og:description": "A collective webring, for comics",
+    "og:image": "https://chimeracollective.org/img/chimeracomicscollective.png",
 
-    "twitter:card": "Hit Bricks: A Comics Webring",
-    "twitter:url": "https://hit-bricks.pages.dev",
-    "twitter:title": "Hit Bricks: A Comics Webring",
-    "twitter:description": "A webring, for webcomics",
-    "twitter:image": "https://hit-bricks.pages.dev/img/logo-text.png"
+    "twitter:card": "Chimera Comics Collective",
+    "twitter:url": "https://chimeracollective.org",
+    "twitter:title": "Chimera Comics Collective",
+    "twitter:description": "A collective webring, for comics",
+    "twitter:image": "https://chimeracollective.org/img/chimeracomicscollective.png"
   }
 
   eleventyConfig.addPlugin(pluginSEO, seo);

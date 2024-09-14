@@ -149,13 +149,16 @@ a:visited {
 .home-header {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  a {
+		.home-logo {
+			width: 90vw;
+			height: auto;
+			margin-bottom: 2rem;
+		}
+  }
 }
 
-.home-logo {
-  width: calc(100vw - 6rem);
-  height: auto;
-  margin-bottom: 2rem;
-}
 
 .wrapper.home, .wrapper.comic-page {
 	nav {
@@ -163,7 +166,12 @@ a:visited {
 		color: #eee;
 		padding: 0.5rem;
 		margin-bottom: 2rem;
+		width: 84vw;
   }
+}
+
+.wrapper.comic-page nav {
+	width: calc(100% - 1rem);
 }
 
 .wrapper.home ul {
@@ -209,7 +217,7 @@ a:visited {
 .comic-header {
 	margin-bottom: 1rem;
 	.comic-logo {
-		width: 33vw;
+		width: 50vw;
 		height: auto;
 	}
 }
@@ -218,7 +226,7 @@ a:visited {
   display: grid;
   column-gap: 1rem;
   grid-template-columns: 3fr 2fr;
-  grid-template-areas:169
+  grid-template-areas:
     "banner banner"
     "desc sidebar";
 
