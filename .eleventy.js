@@ -27,22 +27,6 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("public");
   eleventyConfig.addPassthroughCopy("img");
 
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    // which file extensions to process
-    extensions: 'html',
-    // optional, output image formats
-    formats: ['avif', 'webp', 'jpeg'],
-    // optional, output image widths
-    widths: ['auto'],
-    // optional, attributes assigned on <img> override these values.
-
-    urlPath: "/img/",
-
-    defaultAttributes: {
-      loading: 'lazy',
-      decoding: 'async',
-    },
-  });
 
   /* From: https://github.com/artstorm/eleventy-plugin-seo
   
@@ -92,6 +76,24 @@ export default function(eleventyConfig) {
 
     return coll;
   });
+
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    // which file extensions to process
+    extensions: 'html',
+    // optional, output image formats
+    formats: ['avif', 'webp', 'jpeg'],
+    // optional, output image widths
+    widths: ['auto'],
+    // optional, attributes assigned on <img> override these values.
+
+    urlPath: "/img/",
+
+    defaultAttributes: {
+      loading: 'lazy',
+      decoding: 'async',
+    },
+  });
+
 
   return {
     dir: {
