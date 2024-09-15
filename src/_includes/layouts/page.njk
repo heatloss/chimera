@@ -6,7 +6,9 @@ templateClass: tmpl-home
 {# The About page uses this template and you can customize / use it for any new pages you add #}
 
 <div class="wrapper">
-  <div class="content">
-    {{ content | safe }}
-  </div>
+  <header class="comic-header">
+    <a href="/"><img class="comic-logo" src="/img/chimeracomicscollective-extended.png" alt="chimeracomicscollective-extended" width="2300" height="342" /></a>
+    <div class="content">
+      {{ content | safe }}
+    </div>
 </div>

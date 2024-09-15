@@ -2,6 +2,6 @@
 layout: layouts/page.njk
 ---
 
-## About the Hit Bricks
+## About the Chimera Comics Collective
 
-It is a webring.
+Our mascot has three heads.
