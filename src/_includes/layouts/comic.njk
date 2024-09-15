@@ -14,13 +14,23 @@ templateClass: tmpl-home
 	</header>
 	<div class="comic-main">
 		<section class="banner-image">
+			<a href="{{site}}" target="_blank"><img src='{{thumbnail}}' alt='{{title}}' /></a> 
 			<h2 class='banner-title'>
-				<a href="{{site}}">{{title}}</a> 
+				<a href="{{site}}" target="_blank">{{title}}</a> 
 			</h2>
-			<a href="{{site}}"><img src='{{thumbnail}}' alt='{{title}}' /></a> 
 		</section>
 		<article class="comic-desc">
 			{{ content | safe }} 
+			<div class="cover-block">
+				<div class="cover-image">
+					<a href="{{site}}" target="_blank"> <img src='{{cover}}' alt='{{title}}' /> </a> 
+				</div>
+				<menu class="cover-ops"> 
+					<li><a href="{{site}}" class="cover-op" target="_blank"> Jump to the Latest page </a></li>
+					<li><a href="{{startpage}}" class="cover-op" target="_blank"> Start from the First page </a></li>
+					<li><a href="{{aboutpage}}" class="cover-op" target="_blank"> Visit the About page </a></li>
+				</menu>
+			</div>
 		</article>
 		<aside class="sidebar">
 			<h4 class="credits">

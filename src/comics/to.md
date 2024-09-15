@@ -2,7 +2,10 @@
 title: The Otherknown
 credits: Lorian Merriman
 site: https://www.otherknown.com/
+startpage: https://www.otherknown.com/comic/the-otherknown-intro
+aboutpage: https://www.otherknown.com/about
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_otherknown.png
+cover: https://www.otherknown.com/comics/Intro.jpg
 tags:
   - comics
 layout: layouts/comic.njk

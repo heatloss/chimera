@@ -2,7 +2,10 @@
 title: Phantomarine
 credits: Claire Niebergall
 site: https://www.phantomarine.com
+startpage: https://www.phantomarine.com/comic/01-the-horizon-line
+aboutpage: https://www.phantomarine.com/about
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_phantomarine.png
+cover: https://phantomarine.com/comics/1620627688-phantomarine_0-1_the_horizon_line.jpg
 tags:
   - comics
 layout: layouts/comic.njk

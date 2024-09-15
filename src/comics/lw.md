@@ -2,7 +2,10 @@
 title: Lies Within
 credits: Lacey (byelacey)
 site: https://www.lieswithincomic.com/
+startpage: https://www.lieswithincomic.com/comic/page-0
+aboutpage: https://www.lieswithincomic.com/about
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_lies_within.png
+cover: https://www.lieswithincomic.com/comics/1619789286-0.png
 tags:
   - comics
 layout: layouts/comic.njk
