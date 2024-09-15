@@ -128,12 +128,14 @@ small,
 }
 
 ul > li,
-ol > li {}
+ol > li,
+menu > li {
+  list-style-type: none;
+}
 
 ul {
   padding: 0 0 0 0;
   margin: 0;
-  list-style-type: none;
 }
 
 /* Link styles */
@@ -150,28 +152,32 @@ a:visited {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   a {
-		.home-logo {
-			width: 90vw;
-			height: auto;
-			margin-bottom: 2rem;
-		}
+    .home-logo {
+      width: 90vw;
+      height: auto;
+      margin-bottom: 2rem;
+    }
   }
 }
 
 
-.wrapper.home, .wrapper.comic-page {
-	nav {
-		background-color: #444;
-		color: #eee;
-		padding: 0.5rem;
-		margin-bottom: 2rem;
-		width: 84vw;
+.wrapper.home {
+  nav {
+    background-color: #444;
+    color: #eee;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    width: 84vw;
   }
 }
 
 .wrapper.comic-page nav {
-	width: calc(100% - 1rem);
+    background-color: #444;
+    color: #eee;
+    padding: 0.5rem;
+		width: calc(100% - 1rem);
 }
 
 .wrapper.home ul {
@@ -215,16 +221,16 @@ a:visited {
 
 
 .comic-header {
-	margin-bottom: 1rem;
-	.comic-logo {
-		width: 50vw;
-		height: auto;
-	}
+
+  .comic-logo {
+    width: 50vw;
+    height: auto;
+  }
 }
 
 .comic-main {
   display: grid;
-  column-gap: 1rem;
+  column-gap: 2rem;
   grid-template-columns: 3fr 2fr;
   grid-template-areas:
     "banner banner"
@@ -232,9 +238,9 @@ a:visited {
 
   .banner-image {
     grid-area: banner;
-    
+
     .banner-title {
-    	margin-bottom: 1rem;
+      margin: 0.5rem 0 1rem 0;
     }
 
     img {
@@ -248,32 +254,61 @@ a:visited {
   .comic-desc {
     grid-area: desc;
     margin: 1rem;
-    
-/* 
-    &::first-letter {
-			initial-letter: 2;
-			font-weight: 900;
-			margin-right: 0.15em;
-		}
- */
+
     p {
-			font-size: 1.05rem;
+      font-size: 1.05rem;
     }
-    
+
+    .cover-block {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "comic-cover cover-ops";
+
+      .cover-image {
+        display: block;
+        grid-area: comic-cover;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .cover-ops {
+        grid-area: cover-ops;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        .cover-op {
+        	display: block;
+          font-size: 1.1rem;
+          padding: 0.5em 1em;
+          cursor: pointer;
+          
+          &:hover {
+          	background-color: #ccc;
+          }
+        }
+      }
+    }
   }
 
   .sidebar {
     grid-area: sidebar;
     margin: 1rem;
-    
+
     .credits {
-    	font-size: 1.2rem;
-    	margin-bottom: 1rem;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
     }
+
     .stats {
-    margin-left: 0.5rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
+      font-size: 1.1rem;
+      margin-left: 0.5rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
     }
   }
 }

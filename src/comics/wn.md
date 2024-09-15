@@ -2,7 +2,10 @@
 title: White Noise
 credits: Adrien Lee (thephooka)
 site: https://www.white-noise-comic.com/
+startpage: https://www.white-noise-comic.com/comic/1-0
+aboutpage: https://www.white-noise-comic.com/about
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_whitenoise.png
+cover: https://www.white-noise-comic.com/comics/1513480953-1-0.jpg
 tags:
   - comics
 layout: layouts/comic.njk
