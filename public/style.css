@@ -3,7 +3,7 @@
   --color-bg: #dddddd;
   --color-text-main: #000000;
   --color-primary: #afece0;
-  --wrapper-height: 85vh;
+  --wrapper-height: calc(100dvh - 2rem);
   --image-max-width: 320px;
   --font-family: "HK Grotesk";
   --font-family-header: "HK Grotesk";
@@ -63,17 +63,17 @@ body {
   background-color: var(--color-bg);
 }
 
-.wrapper {
-  min-height: var(--wrapper-height);
-  place-items: center;
-  margin: 2rem;
-}
-
-.content {
+main {
   display: flex;
   flex-direction: column;
-  max-width: 72rem;
-  margin: 0 auto;
+  align-items: center;
+
+  .wrapper {
+    min-height: var(--wrapper-height);
+    place-items: center;
+    margin: 2rem;
+    max-width: 72rem;
+  }
 }
 
 /* Typography */
