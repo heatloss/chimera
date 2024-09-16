@@ -168,7 +168,7 @@ a:hover {
 
   .home-logotype {
     grid-area: logotype;
-    /* width: 20vw; */
+    align-content: end;
 
     img {
       max-width: 100%;
@@ -276,7 +276,7 @@ a:hover {
         font-size: 1.05rem;
       }
     }
-    
+
     .comic-titlebar {
       grid-area: titlebar;
     }
@@ -344,22 +344,20 @@ a:hover {
 
   .home-header,
   .comic-header {
-    grid-template-columns: auto;
-    grid-template-columns: 20fr 80fr;
+    height: auto;
+    margin-bottom: 1.5rem;
+    grid-template-columns: 21fr 79fr;
+    column-gap: 1rem;
     grid-template-areas:
       "logo logotype"
       "navbar navbar";
-    height: auto;
-    margin-bottom: 1.5rem;
 
     .home-nav {
-
       ul {
         margin-top: 1rem;
 
         & > li {
           font-size: 5vw;
-
         }
       }
     }
@@ -388,24 +386,25 @@ a:hover {
       }
     }
   }
-  
+
   .comic-main {
     grid-template-columns: auto;
     grid-template-rows: auto;
     row-gap: 1rem;
     grid-template-areas:
-    "banner"
-    "titlebar"
-    "desc"
-    "sidebar";
-    
-    .comic-desc {
-    
-    .cover-block {
-      grid-template-columns: 4fr 3fr;
-    }
-    .description-content {
-      margin-bottom: 1.5rem;
+      "banner"
+      "titlebar"
+      "desc"
+      "sidebar";
 
-  }
-}
+    .comic-desc {
+
+      .cover-block {
+        grid-template-columns: 4fr 3fr;
+      }
+
+      .description-content {
+        margin-bottom: 1.5rem;
+
+      }
+    }
