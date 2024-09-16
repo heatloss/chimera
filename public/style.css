@@ -74,7 +74,7 @@ body {
 .wrapper {
   min-height: var(--wrapper-height);
   place-items: center;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .content {
@@ -133,7 +133,8 @@ menu > li {
   list-style-type: none;
 }
 
-ul, menu {
+ul,
+menu {
   padding: 0 0 0 0;
   margin: 0;
 }
@@ -143,44 +144,69 @@ a:link,
 a:visited {
   text-decoration: none;
   color: var(--foreground);
-  transition: background 0.2s linear;
+  transition: background 0.1s linear;
 }
 
 /* Home */
 
-.home-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.home-header,
+.comic-header {
+  display: grid;
+  grid-template-columns: 25fr 75fr;
+  column-gap: 1.5rem;
+  grid-template-areas:
+    "logo logotype"
+    "logo navbar";
+  height: auto;
+  margin-bottom: 2rem;
 
-  a {
-    .home-logo {
-      width: 90vw;
+  .home-logo {
+    grid-area: logo;
+    /* width: 20vw; */
+
+    img {
+      max-width: 100%;
       height: auto;
-      margin-bottom: 2rem;
+    }
+  }
+
+  .home-logotype {
+    grid-area: logotype;
+    /* width: 20vw; */
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .home-nav {
+    grid-area: navbar;
+    align-content: end;
+
+    ul {
+      text-transform: uppercase;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    li {
+      font-size: 2vw;
+
+      a {
+        padding: 0.5rem;
+        font-weight: bold;
+
+        &:hover {
+          color: #666;
+        }
+      }
     }
   }
 }
 
-
-.wrapper.home {
-  nav {
-    background-color: #444;
-    color: #eee;
-    padding: 0.5rem;
-    margin-bottom: 2rem;
-    width: 84vw;
-  }
-}
-
-.wrapper.comic-page nav {
-    background-color: #444;
-    color: #eee;
-    padding: 0.5rem;
-		width: calc(100% - 1rem);
-}
-
-.wrapper.home ul {
+.wrapper.home .comic-grid {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -189,7 +215,6 @@ a:visited {
 
   & > li {
     display: block;
-    width: 20vw;
     position: relative;
     transition: transform 0.125s cubic-bezier(0.25, 0, 0, 1);
 
@@ -253,11 +278,15 @@ a:visited {
 
   .comic-desc {
     grid-area: desc;
-    margin: 1rem;
 
-    p {
-      font-size: 1.05rem;
+    .description-content {
+      margin-bottom: 2rem;
+
+      p {
+        font-size: 1.05rem;
+      }
     }
+
 
     .cover-block {
       display: grid;
@@ -283,13 +312,14 @@ a:visited {
         gap: 0.5rem;
 
         .cover-op {
-        	display: block;
+          display: block;
           font-size: 1.1rem;
+          font-weight: bold;
           padding: 0.5em 1em;
           cursor: pointer;
-          
+
           &:hover {
-          	background-color: #ccc;
+            background-color: #ccc;
           }
         }
       }
@@ -306,10 +336,8 @@ a:visited {
     }
 
     .stats {
-      font-size: 1.1rem;
       margin-left: 0.5rem;
       margin-bottom: 1rem;
-      font-weight: bold;
     }
   }
 }
