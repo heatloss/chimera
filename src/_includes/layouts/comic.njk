@@ -7,25 +7,33 @@ templateClass: tmpl-home
 
 <div class="wrapper comic-page">
 	<header class="comic-header">
-		<a href="/"><img class="comic-logo" src="/img/chimeracomicscollective-extended.png" alt="chimeracomicscollective-extended" width="2300" height="342" /></a> 
-		<nav>
-			Again, a nav bar of some sort 
+		<a href="/" class="home-logo"><img src="/img/LOGO_chimera.png" alt="LOGO_chimera" width="797" height="684" /></a>
+		<a href="/" class="home-logotype"><img src="/img/LOGOTYPE_comics-collective.png" alt="LOGOTYPE_comics-collective" width="1453" height="311" /></a>
+		<nav class="home-nav">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/store">Store</a></li>
+			</ul>
 		</nav>
 	</header>
 	<div class="comic-main">
 		<section class="banner-image">
-			<a href="{{site}}" target="_blank"><img src='{{thumbnail}}' alt='{{title}}' /></a> 
+			<a href="{{site}}" target="_blank"><img src='{{thumbnail}}' alt='{{title}}' /></a>
 			<h2 class='banner-title'>
-				<a href="{{site}}" target="_blank">{{title}}</a> 
+				<a href="{{site}}" target="_blank">{{title}}</a>
 			</h2>
 		</section>
 		<article class="comic-desc">
-			{{ content | safe }} 
+			<div class="description-content">
+				{{ content | safe }}
+			</div>
 			<div class="cover-block">
 				<div class="cover-image">
-					<a href="{{site}}" target="_blank"> <img src='{{cover}}' alt='{{title}}' /> </a> 
+					<a href="{{site}}" target="_blank"> <img src='{{cover}}' alt='{{title}}' /> </a>
 				</div>
-				<menu class="cover-ops"> 
+				<menu class="cover-ops">
 					<li><a href="{{site}}" class="cover-op" target="_blank"> Jump to the Latest page </a></li>
 					<li><a href="{{startpage}}" class="cover-op" target="_blank"> Start from the First page </a></li>
 					<li><a href="{{aboutpage}}" class="cover-op" target="_blank"> Visit the About page </a></li>
@@ -34,19 +42,19 @@ templateClass: tmpl-home
 		</article>
 		<aside class="sidebar">
 			<h4 class="credits">
-				By <cite class="credit">{{credits}}</cite> 
+				By <cite class="credit">{{credits}}</cite>
 			</h4>
-			And then other stuff would go here, like 
+			And then other stuff would go here, like
 			<ul class="stats">
-				<li>Genre, 
-				<li>Age Rating, 
-				<li>Update Status, etc. 
+				<li>Genre,</li>
+				<li>Age Rating,</li>
+				<li>Update Status, etc.</li>
 			</ul>
 			<p>
-				Other comics the author has worked on, 
+				<b>Other comics</b> the author has worked on,
 			</p>
 			<p>
-				Merch shop links,<br>Social media links: you get it 
+				<b>Merch shop</b> links,<br><b>Social media</b> links: you get it
 			</p>
 		</aside>
 	</div>
