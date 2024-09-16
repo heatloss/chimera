@@ -4,7 +4,7 @@ credits: Suzana Harcum and Owena White
 site: https://www.liftcomic.com/
 startpage: https://www.liftcomic.com/comic/lift-chapter-one
 aboutpage: https://www.liftcomic.com/cast
-thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/07/livinginfuturetenseicon.png
+thumbnail: /img/hubbox_LIFT.png
 cover: https://liftcomic.com/comics/1704154763-lift01-00a.png
 tags:
   - comics

@@ -86,7 +86,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   margin: 0;
   font-family: var(--font-family-header);
   font-weight: 600;
@@ -114,6 +115,10 @@ h5 {
   font-size: 1.25rem;
 }
 
+h5 {
+  font-size: 1.1rem;
+}
+
 small,
 .text_small {
   font-size: 0.8rem;
@@ -126,7 +131,8 @@ menu > li {
 }
 
 ul,
-menu {
+menu,
+figure {
   padding: 0 0 0 0;
   margin: 0;
 }
@@ -198,44 +204,85 @@ a:hover {
   }
 }
 
-.wrapper.home .comic-grid {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1vw;
+.wrapper.home {
+  .promo-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
-  & > li {
-    display: block;
-    position: relative;
-    transition: transform 0.125s cubic-bezier(0.25, 0, 0, 1);
+    .banner-block {
+      margin-bottom: 2rem;
 
-    &:hover {
-      transform: scale(1.15);
-      z-index: 1;
+      .banner-image {
+        display: block;
+        overflow: hidden;
+        border-radius: 1rem;
 
-      .comic-thumb {
-        box-shadow: 0 0 0px 10px var(--color-bg);
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .banner-caption {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 0.25rem;
+
+        .banner-title {
+          font-size: 3.6vw;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
+        .banner-credit {
+          font-size: 2.8vw;
+        }
       }
     }
+  }
 
-    .comic-thumb {
+  .comic-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1vw;
+
+    & > li {
       display: block;
-      border-radius: 1vw;
-      overflow: hidden;
-      transition: transform 0.25s cubic-bezier(0.25, 0, 0, 1);
-      box-shadow: 0 0 0px 0px var(--color-bg);
+      position: relative;
+      transition: transform 0.125s cubic-bezier(0.25, 0, 0, 1);
+      width: calc(25% - 0.5rem);
 
-      img {
+      &:hover {
+        transform: scale(1.15);
+        z-index: 1;
+
+        .comic-thumb {
+          box-shadow: 0 0 0px 10px var(--color-bg);
+        }
+      }
+
+      .comic-thumb {
         display: block;
-        width: 20vw;
-        height: 20vw;
-        object-fit: cover;
+        border-radius: 1vw;
+        overflow: hidden;
+        transition: transform 0.25s cubic-bezier(0.25, 0, 0, 1);
+        box-shadow: 0 0 0px 0px var(--color-bg);
+
+
+        img {
+          display: block;
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
       }
     }
   }
 }
-
 
 .comic-header {
 
@@ -250,11 +297,11 @@ a:hover {
   column-gap: 3rem;
   row-gap: 2rem;
   grid-template-columns: 3fr 2fr;
-  grid-template-rows: auto 4rem auto;
   grid-template-areas:
     "banner banner"
     "desc titlebar"
-    "desc sidebar";
+    "desc sidebar"
+    "desc empty";
 
   .banner-image {
     grid-area: banner;
@@ -276,11 +323,6 @@ a:hover {
         font-size: 1.05rem;
       }
     }
-
-    .comic-titlebar {
-      grid-area: titlebar;
-    }
-
 
     .cover-block {
       display: grid;
@@ -320,13 +362,23 @@ a:hover {
     }
   }
 
+  .comic-titlebar {
+    grid-area: titlebar;
+    
+    .title {
+      font-size: 1.333rem;
+      margin-bottom: 0.25em;
+    }
+    
+    .credits {
+      font-weight: normal;
+      font-size: 1rem;
+    }
+
+  }
+
   .sidebar {
     grid-area: sidebar;
-
-    .credits {
-      font-size: 1.2rem;
-      margin-bottom: 1rem;
-    }
 
     .stats {
       margin-left: 0.5rem;
@@ -363,6 +415,35 @@ a:hover {
     }
   }
 
+.wrapper.home {
+  .promo-banner {
+    .banner-block {
+      margin-bottom: 1.5rem;
+  
+      .banner-image {
+        overflow: hidden;
+        border-radius: 2rem;
+  
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+  
+      .banner-caption {
+        .banner-title {
+          font-size: 4.8vw;
+        }
+  
+        .banner-credit {
+          font-size: 3.6vw;
+        }
+      }
+  
+    }
+  }
+
+}
   .wrapper.home .comic-grid {
     display: flex;
     flex-direction: row;
@@ -378,8 +459,6 @@ a:hover {
 
         img {
           display: block;
-          width: 44vw;
-          height: 44vw;
           object-fit: cover;
           border-radius: 1vw;
         }
