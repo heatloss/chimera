@@ -21,9 +21,6 @@ templateClass: tmpl-home
 	<div class="comic-main">
 		<section class="banner-image">
 			<a href="{{site}}" target="_blank"><img src='{{thumbnail}}' alt='{{title}}' /></a>
-			<h2 class='banner-title'>
-				<a href="{{site}}" target="_blank">{{title}}</a>
-			</h2>
 		</section>
 		<article class="comic-desc">
 			<div class="description-content">
@@ -40,10 +37,15 @@ templateClass: tmpl-home
 				</menu>
 			</div>
 		</article>
-		<aside class="sidebar">
+		<section class="comic-titlebar">
+			<h3 class="title">
+				<a href="{{site}}" target="_blank">{{title}}</a>
+			</h3>
 			<h4 class="credits">
 				By <cite class="credit">{{credits}}</cite>
 			</h4>
+		</section>
+		<aside class="sidebar">
 			And then other stuff would go here, like
 			<ul class="stats">
 				<li>Genre,</li>
