@@ -254,7 +254,7 @@ a:hover {
       display: block;
       position: relative;
       transition: transform 0.125s cubic-bezier(0.25, 0, 0, 1);
-      width: calc(25% - 0.5rem);
+      width: calc(25% - 0.55rem);
 
       &:hover {
         transform: scale(1.15);
