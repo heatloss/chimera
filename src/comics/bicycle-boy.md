@@ -6,9 +6,6 @@ startpage: https://www.bicycleboy.net/bicycle-boy/1-0
 aboutpage: https://www.bicycleboy.net/about
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_bicycle_boy.png
 cover: https://www.bicycleboy.net/comics/1681802719-BICYCLEBOY%20CH1%20P0-NEWnetvers2.png
-tags:
-  - comics
-layout: layouts/comic.njk
 ---
 
 Bicycle Boy is a post-apocalyptic sci-fi adventure comic by Jackarais.

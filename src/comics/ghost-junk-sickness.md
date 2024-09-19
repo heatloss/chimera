@@ -6,9 +6,6 @@ startpage: https://www.ghostjunksickness.com/comic/volume-1-cover
 aboutpage: https://www.ghostjunksickness.com/about
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_gjs.png
 cover: https://www.ghostjunksickness.com/comics/1515103554-vol%201%20supernewcover%20title.jpg
-tags:
-  - comics
-layout: layouts/comic.njk
 ---
 
 12-year-old Chandra (and her rich jewelry magnate aunt, Ajupris Lerazmine) have accidentally gone back in time. Now, they have one mission: to get their hands on the gigantic cache of the dangerous mineral that got them into this whole mess, chronotite, before it is officially discovered years in the future.
