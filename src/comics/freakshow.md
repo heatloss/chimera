@@ -8,6 +8,8 @@ thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/0
 cover: https://www.freakshow-comic.com/comics/1542252925-003.png
 ---
 
-Long ago, the fairies mysteriously faded.
-Once a powerful and feared civilization, their disappearance allowed human society to thrive and prosper.
-One day, an old archaeologist named William accidentally awakens Faelinn, a fairy princess who fell to a magical sleep...
+A show on the outskirts of Paris and on its last legs.
+
+An old woman's murder starts a spree of disappearances around the area.
+
+All eyes are on one suspect, Christophe Edith.
