@@ -70,7 +70,7 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection('comics', function (collection) {
-    const coll = collection.getFilteredByTag('comics');
+    const coll = collection.getFilteredByTag('comics').sort((a, b) => a.data.title.localeCompare(b.data.title));
     return coll;
   });
 
