@@ -385,9 +385,84 @@ a:hover {
   .sidebar {
     grid-area: sidebar;
 
-    .stats {
-      margin-left: 0.5rem;
-      margin-bottom: 1rem;
+    .related {
+      margin: 0.5rem 0 0 0;
+
+      dt {
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        font-style: italic;
+        margin-left: -0.125em;
+      }
+
+      dd {
+        font-size: 1.1rem;
+        margin: 0;
+        font-weight: bold;
+        display: inline-block;
+
+        &:has(+ dd)::after {
+          content: ",";
+          margin-right: 0.333em;
+          font-weight: normal;
+        }
+
+        a {
+          text-decoration: underline;
+        }
+
+        a[href*="ko-fi.com"],
+        a[href*="patreon.com"],
+        a[href*="paypal.com"],
+        a[href*="gofundme.com"] {
+          .link {
+            display: inline-block;
+            width: 0;
+            overflow: hidden;
+            text-indent: -999vw;
+          }
+
+        }
+
+        a[href*="ko-fi.com"] {
+          &::before {
+            content: "Ko-Fi"
+          }
+        }
+
+        a[href*="patreon.com"] {
+          &::before {
+            content: "Patreon"
+          }
+        }
+
+        a[href*="paypal.com"] {
+          &::before {
+            content: "PayPal"
+          }
+        }
+
+        a[href*="gofundme.com"] {
+          &::before {
+            content: "GoFundMe"
+          }
+        }
+
+
+      }
+
+      dt + dd {
+        /* margin-left: 0.125em; */
+
+        &::before {
+          content: none;
+        }
+      }
+
+      dd + dt {
+        margin-top: 0.75em;
+      }
+
     }
   }
 }

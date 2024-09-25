@@ -2,10 +2,22 @@
 title: Lady Fay
 credits: Violette Nouvel
 site: https://ladyfaycomic.com
-startpage: https://www.webtoons.com/en/canvas/lady-fay/introduction/viewer?title_no=753413&episode_no=2
-aboutpage: https://violettenouvel.carrd.co
+start_page: https://www.webtoons.com/en/canvas/lady-fay/introduction/viewer?title_no=753413&episode_no=2
+about_page: https://violettenouvel.carrd.co
 thumbnail: /img/THMB_Lady-Fay.png
 cover: /img/COVR_Lady-Fay.jpg
+genre: 
+  - fantasy
+  - romance
+
+general_tags: 
+  - faeries
+
+update_status: hiatus
+other_works:
+merch: (link to shop)
+support: https://www.patreon.com/violettenouvel
+social: (instagram, bluesky, etc.)
 ---
 
 Long ago, the fairies mysteriously faded.

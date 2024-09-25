@@ -73,6 +73,24 @@ export default function (eleventyConfig) {
     return arr.find((item) => item.data.title === title).data['credits'];
   });
 
+  eleventyConfig.addFilter('toDD', function (list) {
+    const URLize = (string) => {
+      try {
+        new URL(string);
+        return `<a href="${string}" target="_blank"><span class="link">${string}<span></a>`;
+      } catch (e) {
+        return string;
+      }
+    };
+    return typeof list === 'string'
+      ? `<dd>${URLize(list)}</dd>`
+      : list
+          .map((item) => {
+            return `<dd>${URLize(item)}</dd>`;
+          })
+          .join('');
+  });
+
   eleventyConfig.setBrowserSyncConfig({
     ghostMode: false,
   });
