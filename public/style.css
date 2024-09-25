@@ -209,7 +209,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+
     ul > li:not(.show) {
       display: none;
     }
@@ -242,6 +242,7 @@ a:hover {
 
         .banner-credit {
           font-size: 2.8vw;
+          text-align: right;
         }
       }
     }
@@ -368,12 +369,12 @@ a:hover {
 
   .comic-titlebar {
     grid-area: titlebar;
-    
+
     .title {
       font-size: 1.333rem;
       margin-bottom: 0.25em;
     }
-    
+
     .credits {
       font-weight: normal;
       font-size: 1rem;
@@ -419,35 +420,36 @@ a:hover {
     }
   }
 
-.wrapper.home {
-  .promo-banner {
-    .banner-block {
-      margin-bottom: 1.5rem;
-  
-      .banner-image {
-        overflow: hidden;
-        border-radius: 2rem;
-  
-        img {
-          width: 100%;
-          height: auto;
+  .wrapper.home {
+    .promo-banner {
+      .banner-block {
+        margin-bottom: 1.5rem;
+
+        .banner-image {
+          overflow: hidden;
+          border-radius: 2rem;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
         }
+
+        .banner-caption {
+          .banner-title {
+            font-size: 4.8vw;
+          }
+
+          .banner-credit {
+            font-size: 3.6vw;
+          }
+        }
+
       }
-  
-      .banner-caption {
-        .banner-title {
-          font-size: 4.8vw;
-        }
-  
-        .banner-credit {
-          font-size: 3.6vw;
-        }
-      }
-  
     }
+
   }
 
-}
   .wrapper.home .comic-grid {
     display: flex;
     flex-direction: row;
