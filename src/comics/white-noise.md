@@ -2,10 +2,25 @@
 title: White Noise
 credits: Adrien Lee (thephooka)
 site: https://www.white-noise-comic.com/
-startpage: https://www.white-noise-comic.com/comic/1-0
-aboutpage: https://www.white-noise-comic.com/about
+start_page: https://www.white-noise-comic.com/comic/1-0
+about_page: https://www.white-noise-comic.com/about
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_whitenoise.png
 cover: https://www.white-noise-comic.com/comics/1513480953-1-0.jpg
+genre: 
+  - drama
+
+general_tags: 
+  - lgbt
+  - found family
+
+update_status: ongoing
+other_works:
+merch: (link to shop)
+support: 
+  - https://www.patreon.com/thephooka
+  - https://www.paypal.com/donate?token=nr3ztFB9XA5EPSwwoafH-5FppbPDR-BqIEj15T-ufTFdQ9lp3ugcHQsTHfwvSB3bmcA1mO3qbvx_dDQM
+
+social: (instagram, bluesky, etc.)
 ---
 
 In the early 1900s, the nation of Aetheri came out of its long interdimensional isolation and revealed to the humans of the Symphony Archipelago that they were not alone in the multiverse. Things swiftly got ugly after that.

@@ -2,10 +2,26 @@
 title: Bicycle Boy
 credits: Jackarais
 site: https://www.bicycleboy.net/
-startpage: https://www.bicycleboy.net/bicycle-boy/1-0
-aboutpage: https://www.bicycleboy.net/about
+start_page: https://www.bicycleboy.net/bicycle-boy/1-0
+about_page: https://www.bicycleboy.net/about
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_bicycle_boy.png
 cover: https://www.bicycleboy.net/comics/1681802719-BICYCLEBOY%20CH1%20P0-NEWnetvers2.png
+genre: 
+  - dystopian
+  - drama
+  - action-adventure
+  - sci-fi
+
+general_tags: 
+  - mature audiences
+  - gore
+  - violence
+
+update_status: ongoing
+other_works:
+merch: (link to shop)
+support: https://www.patreon.com/jackarais
+social: (instagram, bluesky, etc.)
 ---
 
 Bicycle Boy is a post-apocalyptic sci-fi adventure comic by Jackarais.

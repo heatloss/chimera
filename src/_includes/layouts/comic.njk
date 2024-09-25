@@ -3,61 +3,104 @@ layout: layouts/base.njk
 templateClass: tmpl-home
 ---
 
-{# This is the template for individual blog posts–it builds the front matter properties into the page #}
+{# This is the template for individual blog posts–it builds the front matter
+properties into the page #}
 
 <div class="wrapper comic-page">
-	<header class="comic-header">
-		<a href="/" class="home-logo"><img src="/img/LOGO_chimera.png" alt="LOGO_chimera" width="797" height="684" /></a>
-		<a href="/" class="home-logotype"><img src="/img/LOGOTYPE_comics-collective.png" alt="LOGOTYPE_comics-collective" width="1453" height="311" /></a>
-		<nav class="home-nav">
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/about">About</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li><a href="/store">Store</a></li>
-			</ul>
-		</nav>
-	</header>
-	<div class="comic-main">
-		<section class="banner-image">
-			<a href="{{site}}" target="_blank"><img src='{{thumbnail}}' alt='{{title}}' /></a>
-		</section>
-		<article class="comic-desc">
-			<div class="description-content">
-				{{ content | safe }}
-			</div>
-			<div class="cover-block">
-				<div class="cover-image">
-					<a href="{{site}}" target="_blank"> <img src='{{cover}}' alt='{{title}}' sizes="22vw" eleventy:widths="360,720" /> </a>
-				</div>
-				<menu class="cover-ops">
-					<li><a href="{{site}}" class="cover-op" target="_blank"> Jump to the Latest page </a></li>
-					<li><a href="{{startpage}}" class="cover-op" target="_blank"> Start from the First page </a></li>
-					<li><a href="{{aboutpage}}" class="cover-op" target="_blank"> Visit the About page </a></li>
-				</menu>
-			</div>
-		</article>
-		<section class="comic-titlebar">
-			<h3 class="title">
-				<a href="{{site}}" target="_blank">{{title}}</a>
-			</h3>
-			<h4 class="credits">
-				By <cite class="credit">{{credits}}</cite>
-			</h4>
-		</section>
-		<aside class="sidebar">
-			And then other stuff would go here, like
-			<ul class="stats">
-				<li>Genre,</li>
-				<li>Age Rating,</li>
-				<li>Update Status, etc.</li>
-			</ul>
-			<p>
-				<b>Other comics</b> the author has worked on,
-			</p>
-			<p>
-				<b>Merch shop</b> links,<br><b>Social media</b> links: you get it
-			</p>
-		</aside>
-	</div>
+  <header class="comic-header">
+    <a href="/" class="home-logo"
+      ><img
+        src="/img/LOGO_chimera.png"
+        alt="LOGO_chimera"
+        width="797"
+        height="684"
+    /></a>
+    <a href="/" class="home-logotype"
+      ><img
+        src="/img/LOGOTYPE_comics-collective.png"
+        alt="LOGOTYPE_comics-collective"
+        width="1453"
+        height="311"
+    /></a>
+    <nav class="home-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/store">Store</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="comic-main">
+    <section class="banner-image">
+      <a href="{{site}}" target="_blank"
+        ><img src="{{thumbnail}}" alt="{{title}}"
+      /></a>
+    </section>
+    <article class="comic-desc">
+      <div class="description-content">{{ content | safe }}</div>
+      <div class="cover-block">
+        <div class="cover-image">
+          <a href="{{site}}" target="_blank">
+            <img
+              src="{{cover}}"
+              alt="{{title}}"
+              sizes="22vw"
+              eleventy:widths="360,720"
+            />
+          </a>
+        </div>
+        <menu class="cover-ops">
+          <li>
+            <a href="{{site}}" class="cover-op" target="_blank">
+              Jump to the Latest page
+            </a>
+          </li>
+          <li>
+            <a href="{{start_page}}" class="cover-op" target="_blank">
+              Start from the First page
+            </a>
+          </li>
+          <li>
+            <a href="{{about_page}}" class="cover-op" target="_blank">
+              Visit the About page
+            </a>
+          </li>
+        </menu>
+      </div>
+    </article>
+    <section class="comic-titlebar">
+      <h3 class="title">
+        <a href="{{site}}" target="_blank">{{title}}</a>
+      </h3>
+      <h4 class="credits">By <cite class="credit">{{credits}}</cite></h4>
+    </section>
+    <aside class="sidebar">
+      <h5>Related:</h5>
+      <dl class="related">
+        <dt>Genre:</dt>
+        {{genre | toDD | safe }}
+        <dt>General Tags:</dt>
+        {{general_tags | toDD | safe }}
+        <dt>Update status:</dt>
+        <dd>{{update_status}}</dd>
+        {% if other_works %}
+        <dt>Other works:</dt>
+        <dd>{{other_works}}</dd>
+        {% endif %}
+				{% if merch %}
+        <dt>Merch:</dt>
+        <dd>{{merch}}</dd>
+        {% endif %} 
+				{% if support %}
+        <dt>Support:</dt>
+        {{support | toDD | safe }}
+				{% endif %}
+				{% if social %}
+        <dt>Social Media:</dt>
+        <dd>{{social}}</dd>
+        {% endif %}
+      </dl>
+    </aside>
+  </div>
 </div>
