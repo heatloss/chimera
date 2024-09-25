@@ -7,22 +7,20 @@ layout: layouts/home.njk
 {%- for promo in collections.promos -%}
 	<li>
 		<figure class="banner-block">
-			<a href="/comics/{{promo.data.slug}}" class="banner-image">
-				<img src="{{promo.data.image}}" alt="{{promo.data.title}}}, by {{promo.data.credits}}" />
+			<a href="{{promo.data.title | getUrlFromTitle : collections.comics}}" class="banner-image">
+				<img src="{{promo.data.image}}" alt="{{promo.data.title}}}, by {{promo.data.title | getCreditsFromTitle : collections.comics}}" />
 			</a>
 			<figcaption class="banner-caption">
-				<h6 class="banner-title"><a href="/comics/{{promo.data.slug}}">{{promo.data.title}}</a> </h6>
-				<cite class="banner-credit">By {{promo.data.credits}}</cite>
+				<h6 class="banner-title"><a href="{{promo.data.title | getUrlFromTitle : collections.comics}}">
+					{{promo.data.title}}
+				</a></h6>
+				<cite class="banner-credit">By {{promo.data.title | getCreditsFromTitle : collections.comics}}</cite>
 			</figcaption>
 		</figure>
 	</li>
-
-	{%- endfor -%}
-
+{%- endfor -%}
 	</ul>
+
 </section>
-
-
-
 
 <script type="module" src="/js/randompromo.js"></script>

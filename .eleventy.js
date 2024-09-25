@@ -65,12 +65,22 @@ export default function (eleventyConfig) {
     }).toFormat('yyyy-LL-dd');
   });
 
+  eleventyConfig.addFilter('getUrlFromTitle', function (title, arr, attr) {
+    return arr.find((item) => item.data.title === title)['url'];
+  });
+
+  eleventyConfig.addFilter('getCreditsFromTitle', function (title, arr, attr) {
+    return arr.find((item) => item.data.title === title).data['credits'];
+  });
+
   eleventyConfig.setBrowserSyncConfig({
     ghostMode: false,
   });
 
   eleventyConfig.addCollection('comics', function (collection) {
-    const coll = collection.getFilteredByTag('comics').sort((a, b) => a.data.title.localeCompare(b.data.title));
+    const coll = collection
+      .getFilteredByTag('comics')
+      .sort((a, b) => a.data.title.localeCompare(b.data.title));
     return coll;
   });
 
