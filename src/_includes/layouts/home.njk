@@ -21,7 +21,6 @@ templateClass: tmpl-home
   <div class="content">
     {{ content | safe }}
 
-    {# After the the content defined in index.md, list the blog posts in the collection #}
     <ul class="comic-grid">
       {%- for comic in collections.comics -%}
       <li{% if page.url == comic.url %} aria-current="page" {% endif %}>

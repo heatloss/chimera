@@ -220,9 +220,10 @@ a:hover {
       .banner-image {
         display: block;
         overflow: hidden;
-        border-radius: 1rem;
+        border-radius: 1vw;
 
         img {
+          display: block;
           width: 100%;
           height: auto;
         }
@@ -288,6 +289,45 @@ a:hover {
     }
   }
 }
+
+.wrapper.home {
+  .campaigns {
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: .75rem;
+    grid-template-areas:
+      "camp-1 camp-2";
+
+    .campaign {
+      .campaign-title {
+        font-size: 1.8rem;
+        font-weight: normal;
+        margin-bottom: 0.25rem;
+      }
+
+      .image-block {
+        a {
+          display: block;
+          overflow: hidden;
+          border-radius: 1vw;
+          margin-bottom: 0.5rem;
+
+          img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+          }
+        }
+
+        .image-caption {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
 
 .comic-header {
 
