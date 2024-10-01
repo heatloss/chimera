@@ -554,6 +554,7 @@ button[data-toggler]::after {
 
   .comic-desc {
     grid-area: desc;
+    padding-left: 4vw;
 
     .description-content {
       margin-bottom: 2rem;
@@ -571,13 +572,20 @@ button[data-toggler]::after {
         "comic-cover cover-ops";
 
       .cover-image {
-        display: block;
         grid-area: comic-cover;
-      }
 
-      img {
-        max-width: 100%;
-        height: auto;
+        a {
+          display: block;
+          border: 0.333vw solid var(--color-text-main);
+          border-radius: 0.5vw;
+          overflow: hidden;
+
+          img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+          }
+        }
       }
 
       .cover-ops {
@@ -603,6 +611,7 @@ button[data-toggler]::after {
 
   .comic-titlebar {
     grid-area: titlebar;
+    padding-right: 4vw;
 
     .title {
       font-size: 1.333rem;
@@ -617,6 +626,7 @@ button[data-toggler]::after {
 
   .sidebar {
     grid-area: sidebar;
+    padding-right: 4vw;
 
     .related {
       margin: 0.5rem 0 0 0;
@@ -638,10 +648,6 @@ button[data-toggler]::after {
           content: ",";
           margin-right: 0.333em;
           font-weight: normal;
-        }
-
-        a {
-          text-decoration: underline;
         }
 
         a[href*="ko-fi.com"],
