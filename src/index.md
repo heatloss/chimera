@@ -10,7 +10,8 @@ layout: layouts/home.njk
 			<a href="{{promo.data.title | getUrlFromTitle : collections.comics}}"> {{promo.data.title}} </a>
 		</h6>
 		<figure class="banner-block">
-			<a href="{{promo.data.title | getUrlFromTitle : collections.comics}}" class="banner-image"> <img src="{{promo.data.image}}" alt="{{promo.data.title}}, by {{promo.data.title | getCreditsFromTitle : collections.comics}}" /> </a> 
+			<a href="{{promo.data.title | getUrlFromTitle : collections.comics}}" class="banner-image">
+				<img src="{{promo.data.image}}" alt="{{promo.data.title}}, by {{promo.data.title | getCreditsFromTitle : collections.comics}}" /> </a> 
 			<figcaption class="banner-caption">
 				<cite class="banner-credit">By {{promo.data.title | getCreditsFromTitle : collections.comics}}</cite> 
 			</figcaption>

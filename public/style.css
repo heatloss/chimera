@@ -13,7 +13,6 @@
   --color-link: #801955;
   --color-link-hover: #BF1C7B;
   --color-link-bg: #E1B4CE;
-  --wrapper-height: calc(100dvh - 2rem);
   --font-family: "Rubik";
   --font-family-header: "Arigato";
 }
@@ -31,13 +30,14 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  gap: 12vw;
   align-items: center;
+  min-height: 100dvh;
 
   .wrapper {
     min-height: var(--wrapper-height);
     place-items: center;
-    /* margin: 2rem; */
-    /* max-width: 72rem; */
   }
 }
 
@@ -149,18 +149,32 @@ button[data-toggler]::after {
     "navbar";
   height: auto;
   margin-bottom: 2rem;
-  background-image: url(/img/BG_markerstripe.png);
-  background-repeat: repeat-x;
-  background-size: auto 36%;
-  background-position: center bottom calc(0.5rem + 2vw);
-  border-bottom: 2px solid var(--color-text-main);
+  border-bottom: 3px solid var(--color-text-main);
   margin-bottom: 8vw;
+  position: relative;
+  background-image: linear-gradient(180deg, rgba(251, 242, 78, 0.72) 0%, rgba(251, 242, 78, 1) 64%, rgba(251, 242, 78, 0) 65%, rgba(251, 242, 78, 0) 100%);
+
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(/img/BG_markerstripe.png);
+    background-repeat: repeat-x;
+    background-size: auto 36%;
+    background-position: center bottom calc(0.5rem + 2vw);
+  }
 
   .home-logotype {
     grid-area: logotype;
     align-content: center;
     margin: 4rem 1.5rem 0 1.5rem;
     max-width: 1084px;
+    position: relative;
+    z-index: 0;
 
     img {
       max-width: 100%;
@@ -171,6 +185,9 @@ button[data-toggler]::after {
   .home-nav {
     grid-area: navbar;
     width: 72%;
+    padding-left: 28%;
+    position: relative;
+    z-index: 1;
 
     ul {
       text-transform: uppercase;
@@ -239,13 +256,14 @@ button[data-toggler]::after {
         display: block;
         background-color: var(--color-text-main);
         border: 0.333vw solid var(--color-text-main);
+        border-width: 0.33vw 0;
 
         img {
           display: block;
           width: 100%;
           height: auto;
-          overflow: hidden;
-          border-radius: 0.5vw;
+          /* overflow: hidden;
+          border-radius: 0.5vw; */
         }
       }
 
@@ -680,7 +698,6 @@ button[data-toggler]::after {
 }
 
 .footer {
-  margin-top: 12vw;
   padding-top: 0.5rem;
   width: 100%;
   flex-wrap: wrap;
@@ -688,7 +705,6 @@ button[data-toggler]::after {
   background-repeat: repeat-x;
   background-size: 125%;
   background-position: center top;
-  border-bottom: 2px solid var(--color-text-main);
 
   .links {
     display: flex;
@@ -726,10 +742,14 @@ button[data-toggler]::after {
 
   .home-header,
   .comic-header {
-    /* background-size: auto 30%; */
-    background-position: center bottom calc(1rem + 3.5vw);
-    row-gap: 0;
     margin-bottom: 12vw;
+    row-gap: 0;
+    /* border-width: 3px; */
+
+    &::before {
+      background-size: auto 29%;
+      background-position: center bottom calc(0.5rem + 6vw);
+    }
 
     .home-logotype {
       margin: 2rem 1rem 0 1rem;
@@ -739,7 +759,7 @@ button[data-toggler]::after {
       width: 100%;
 
       ul {
-        margin-top: 1rem;
+        margin-top: 1vw;
 
         & > li {
           font-size: 4.8vw;
@@ -772,6 +792,7 @@ button[data-toggler]::after {
         .banner-block {
 
           .banner-image {
+            border-width: 0.667vw 0vw;
 
             img {}
           }
@@ -824,7 +845,7 @@ button[data-toggler]::after {
         "comic-grid";
 
       .comics-title {
-        font-size: 6.4vw;
+        font-size: 6.9vw;
         line-height: 0.8;
       }
 
