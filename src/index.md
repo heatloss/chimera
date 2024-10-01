@@ -21,7 +21,7 @@ layout: layouts/home.njk
 	</ul>
 </section>
 <section class="campaigns">
-	<div class="campaign">
+	<!-- <div class="campaign">
 		<h6 class="campaign-title">
 			Sale! 
 		</h6>
@@ -31,13 +31,24 @@ layout: layouts/home.njk
 				Imagine if we had a sale 
 			</figcaption>
 		</figure>
+	</div> --> 
+	<div class="campaign">
+		<h6 class="campaign-title">
+			Crowd<wbr/>funder! 
+		</h6>
+		<figure class="image-block">
+			<a href="https://www.kickstarter.com/projects/scottycomics/nigh-heaven-and-hell-book-1-and-2-kickstarter" target="_blank"><img src="/img/CAMP_NHH.jpg" alt="Nigh Heaven & Hell: Book 1 & 2" /></a> 
+			<figcaption class="image-caption">
+				Just launched! 
+			</figcaption>
+		</figure>
 	</div>
 	<div class="campaign">
 		<h6 class="campaign-title">
 			Bundle! 
 		</h6>
 		<figure class="image-block">
-			<a href="#"><img src="/img/CAMP_EBOOKS.jpg" alt="E-book bundle" style="filter: grayscale(100%) contrast(67%);" /></a> 
+			<a href="#"><img src="/img/CAMP_EBOOKS.jpg" alt="E-book bundle" style="filter: contrast(75%);" /></a> 
 			<figcaption class="image-caption">
 				Imagine if we had ebooks 
 			</figcaption>
@@ -48,7 +59,7 @@ layout: layouts/home.njk
 			Crowd<wbr/>funder! 
 		</h6>
 		<figure class="image-block">
-			<a href="https://www.kickstarter.com/projects/1344443281/ghost-junk-sickness-the-complete-series"><img src="/img/CAMP_GJR.jpg" alt="Ghost Junk Sickness: The Complete Collection" /></a> 
+			<a href="https://www.kickstarter.com/projects/1344443281/ghost-junk-sickness-the-complete-series" target="_blank"><img src="/img/CAMP_GJR.jpg" alt="Ghost Junk Sickness: The Complete Collection" /></a> 
 			<figcaption class="image-caption">
 				Stretch goal unlocked! 
 			</figcaption>
