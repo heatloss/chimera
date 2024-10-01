@@ -255,8 +255,8 @@ button[data-toggler]::after {
       .banner-image {
         display: block;
         background-color: var(--color-text-main);
-        border: 0.333vw solid var(--color-text-main);
-        border-width: 0.33vw 0;
+        border: 1px solid var(--color-text-main);
+        border-width: 0.667vw 0;
 
         img {
           display: block;
@@ -792,13 +792,6 @@ button[data-toggler]::after {
         }
 
         .banner-block {
-
-          .banner-image {
-            border-width: 0.667vw 0vw;
-
-            img {}
-          }
-
           .banner-caption {
             .banner-credit {
               font-size: 3.7vw;
@@ -818,7 +811,6 @@ button[data-toggler]::after {
       }
 
       .campaign {
-
         .campaign-title {
           font-size: 7vw;
           margin-left: 3vw;
@@ -883,7 +875,6 @@ button[data-toggler]::after {
         border-top: 1vw solid var(--color-text-main);
       }
     }
-
   }
 
   .comic-main {
@@ -897,14 +888,13 @@ button[data-toggler]::after {
       "sidebar";
 
     .comic-desc {
-
       .cover-block {
         grid-template-columns: 4fr 3fr;
       }
 
       .description-content {
         margin-bottom: 1.5rem;
-
       }
     }
   }
+}
