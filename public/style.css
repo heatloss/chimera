@@ -213,7 +213,7 @@ button[data-toggler]::after {
   .content {
     display: flex;
     flex-direction: column;
-    row-gap: 12vw;
+    row-gap: 16vw;
   }
 }
 
@@ -290,7 +290,7 @@ button[data-toggler]::after {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 0.75rem;
-    padding: 0 0.75rem;
+    padding: 0 1.5rem;
     position: relative;
 
     &::before {
@@ -322,9 +322,11 @@ button[data-toggler]::after {
       .campaign-title {
         position: absolute;
         left: 0;
-        bottom: 100%;
+        bottom: 101%;
         width: 100%;
-        font-size: 4.5vw;
+        font-size: 6vw;
+        line-height: 0.667;
+        margin-left: 1vw;
         font-weight: normal;
         font-family: var(--font-family-header);
         text-transform: uppercase;
@@ -818,8 +820,7 @@ button[data-toggler]::after {
       .campaign {
 
         .campaign-title {
-          font-size: 6.667vw;
-          line-height: 0.8;
+          font-size: 7vw;
           margin-left: 3vw;
         }
 
