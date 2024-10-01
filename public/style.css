@@ -157,7 +157,6 @@ button[data-toggler]::after {
     "logotype"
     "navbar";
   height: auto;
-  margin-bottom: 2rem;
   border-bottom: 3px solid var(--color-text-main);
   margin-bottom: 4rem;
   position: relative;
@@ -534,6 +533,8 @@ button[data-toggler]::after {
 }
 
 .comic-header {
+  margin-bottom: 0;
+  
   .comic-logo {
     width: 50vw;
     height: auto;
