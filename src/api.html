@@ -1,0 +1,15 @@
+---
+permalink: '/api/data.js'
+---
+export default {
+	comics: [
+		{%- for comic in collections.comics -%}
+			{
+				title: "{{ comic.data.title }}",
+				genre: [{{ comic.data.genre | toStringsArray }}],
+				tags: [{{ comic.data.general_tags | toStringsArray }}],
+				status: "{{ comic.data.update_status }}",
+			},
+		{%- endfor -%}
+	]
+}
