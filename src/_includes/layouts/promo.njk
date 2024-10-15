@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-home
+---
+
+<li>
+  <figure class="banner-block">
+    <a href="/comics/{{slug}}" class="banner-image"><img src="{{image}}" alt="{{title}}}, by {{credits}}" /></a>
+    <figcaption class="banner-caption">
+      <h6 class="banner-title"><a href="/comics/{{slug}}">{{title}}</a> </h6>
+      <cite class="banner-credit">By {{credits}}</cite>
+    </figcaption>
+  </figure>
+</li>

@@ -2,13 +2,28 @@
 title: Ghost Junk Sickness
 credits: Krispy and Space (studioCARTRIDGE)
 site: https://www.ghostjunksickness.com
-startpage: https://www.ghostjunksickness.com/comic/volume-1-cover
-aboutpage: https://www.ghostjunksickness.com/about
+start_page: https://www.ghostjunksickness.com/comic/volume-1-cover
+about_page: https://www.ghostjunksickness.com/about
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_gjs.png
 cover: https://www.ghostjunksickness.com/comics/1515103554-vol%201%20supernewcover%20title.jpg
-tags:
-  - comics
-layout: layouts/comic.njk
+genre:
+  - sci-fi
+  - action-adventure
+
+general_tags: 
+  - lgbt
+  - aliens
+  - supernatural
+  - black-and-white
+
+update_status: ongoing
+other_works:
+merch: (link to shop)
+support: 
+  - https://ko-fi.com/studiocartridge
+  - https://www.patreon.com/studioCARTRIDGE
+	
+social: (instagram, bluesky, etc.)
 ---
 
 Trigger Elliot is a bounty hunter who travels around the galaxy with his not-so-fully-licensed-and-technically-illegal-hunting-partner Vahn Gavotte. They’re lousy at what they do and often resort to petty tactics just to get a bounty, this is their life.

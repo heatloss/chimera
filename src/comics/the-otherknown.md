@@ -2,13 +2,24 @@
 title: The Otherknown
 credits: Lorian Merriman
 site: https://www.otherknown.com/
-startpage: https://www.otherknown.com/comic/the-otherknown-intro
-aboutpage: https://www.otherknown.com/about
+start_page: https://www.otherknown.com/comic/the-otherknown-intro
+about_page: https://www.otherknown.com/about
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_otherknown.png
 cover: https://www.otherknown.com/comics/Intro.jpg
-tags:
-  - comics
-layout: layouts/comic.njk
+genre: 
+  - dystopian
+  - drama
+  - sci-fi
+
+general_tags: 
+  - space
+  - violence
+
+update_status: hiatus
+other_works:
+merch: (link to shop)
+support: https://www.patreon.com/grackling
+social: (instagram, bluesky, etc.)
 ---
 
 12-year-old Chandra (and her rich jewelry magnate aunt, Ajupris Lerazmine) have accidentally gone back in time. Now, they have one mission: to get their hands on the gigantic cache of the dangerous mineral that got them into this whole mess, chronotite, before it is officially discovered years in the future.

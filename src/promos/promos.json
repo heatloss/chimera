@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/promo.njk",
+  "tags": "promos"
+}

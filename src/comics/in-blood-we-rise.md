@@ -2,13 +2,29 @@
 title: In Blood We Rise
 credits: Mera
 site: https://inbloodwerise.com/
-startpage: https://inbloodwerise.com/comic/prologue
-aboutpage: https://www.inbloodwerise.com/about
+start_page: https://inbloodwerise.com/comic/prologue
+about_page: https://www.inbloodwerise.com/about
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_inblood.png
 cover: https://inbloodwerise.com/comics/1672866515-prologue_0000.png
-tags:
-  - comics
-layout: layouts/comic.njk
+genre:
+  - fantasy
+  - romance
+  - historical
+  - urban fantasy
+  - mystery
+  - drama
+
+general_tags: 
+  - lgbt
+  - witches
+  - vampires
+  - mature audiences
+
+update_status: ongoing
+other_works:
+merch: (link to shop)
+support: https://ko-fi.com/captainmera
+social: (instagram, bluesky, etc.)
 ---
 
 The fates are weaving their yarn, destiny is already decided.
