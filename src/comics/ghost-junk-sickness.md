@@ -11,6 +11,6 @@ tags:
 layout: layouts/comic.njk
 ---
 
-12-year-old Chandra (and her rich jewelry magnate aunt, Ajupris Lerazmine) have accidentally gone back in time. Now, they have one mission: to get their hands on the gigantic cache of the dangerous mineral that got them into this whole mess, chronotite, before it is officially discovered years in the future.
+Trigger Elliot is a bounty hunter who travels around the galaxy with his not-so-fully-licensed-and-technically-illegal-hunting-partner Vahn Gavotte. They’re lousy at what they do and often resort to petty tactics just to get a bounty, this is their life.
 
-There's only one problem: the small moon where the chronotite is hidden is owned and operated by a corrupt galactic organization, A.I.D.E., and they'll have to pass the scrutiny of local administrator Mr. Demeck to get it. And even with knowledge of the future, there are some twists Chandra and her aunt can't predict.
+Their home planet, June 7, is a world rebuilding itself from an inexplicable catastrophic phenomenon that destroyed 75% of the planet’s surface. It has been 5 years since the destruction of June 7 and the planet now thrives on the transient and growing population of bounty hunters. Trigger and Vahn’s routine changes when a ambiguous huge bounty surfaces; an alleged bounty hunter killer named the ‘ghost’ with frightening abilities and an unknown motive. When Trigger’s past catches up with him, there begins a strain on his and Vahns hunting dynamic, forcing them to become further involved in chasing the elusive and unpredictable ghost.
