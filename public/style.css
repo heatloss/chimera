@@ -778,6 +778,7 @@ button[data-toggler]::after {
 
       ul {
         margin-top: 1vw;
+        flex-wrap: wrap;
 
         & > li {
           font-size: 4.8vw;
