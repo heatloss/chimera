@@ -5,7 +5,7 @@ site: https://www.wychwoodcomic.com/
 start_page: https://www.wychwoodcomic.com/comic/1
 about_page: https://www.wychwoodcomic.com/about
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_wychwood.png
-cover: https://www.wychwoodcomic.com/comicsthumbs/wychwood_000.jpg
+cover: https://wychwoodcomic.com/comics/wychwood_000.jpg
 genre: 
   - action-adventure
   - sci-fi
