@@ -48,20 +48,20 @@ layout: layouts/home.njk
 			Bundle! 
 		</h6>
 		<figure class="image-block">
-			<a href="#"><img src="/img/CAMP_EBOOKS.jpg" alt="E-book bundle" style="filter: contrast(75%);" /></a> 
+			<a href="#"><img src="/img/CAMP_EBOOKS.jpg" alt="E-book bundle" /></a> 
 			<figcaption class="image-caption">
-				Imagine if we had ebooks 
+				Imagine if we had ebooks?
 			</figcaption>
 		</figure>
 	</div>
 	<div class="campaign">
 		<h6 class="campaign-title">
-			Crowd<wbr/>funder! 
+			Kick<wbr>Started! 
 		</h6>
 		<figure class="image-block">
 			<a href="https://www.kickstarter.com/projects/1344443281/ghost-junk-sickness-the-complete-series" target="_blank"><img src="/img/CAMP_GJR.jpg" alt="Ghost Junk Sickness: The Complete Collection" /></a> 
 			<figcaption class="image-caption">
-				Stretch goal unlocked! 
+				Campaign successful! 
 			</figcaption>
 		</figure>
 	</div>
