@@ -2,5 +2,6 @@
 // Make sure to surface these as well in config.njk
 
 export default {
-  apiBaseUrl: process.env.API_BASE_URL
+  apiBaseUrl: process.env.API_BASE_URL,
+  airtableAPIKey: process.env.AIRTABLE_API_KEY
 };

@@ -2,7 +2,7 @@
   "name": "Chimera Collective Webring",
   "version": "0.1.0",
   "description": "A simple web ring, running on Eleventy.",
-	"type": "module",
+  "type": "module",
   "scripts": {
     "start": "eleventy --serve",
     "build": "NODE_ENV=production eleventy"
@@ -10,9 +10,10 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^4.0.2",
+    "airtable": "^0.12.2",
+    "dotenv": "^16.4.5",
     "eleventy-plugin-seo": "0.5.2",
-    "luxon": "^3.4.0",
-    "dotenv": "^16.4.5"
+    "luxon": "^3.4.0"
   },
   "engines": {
     "node": "20"

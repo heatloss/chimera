@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/splash.njk",
+  "tags": "splash"
+}

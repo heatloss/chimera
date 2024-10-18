@@ -65,6 +65,13 @@ export default function (eleventyConfig) {
     }).toFormat('yyyy-LL-dd');
   });
 
+  eleventyConfig.addFilter('addWBR', (string) => {
+    let newString = string.toLowerCase();
+    newString = newString.replace('crowdfund', 'crowd<wbr/>fund');
+    newString = newString.replace('kickstart', 'kick<wbr/>start');
+    return newString;
+  });
+
   eleventyConfig.addFilter('toDDFromTitle', function (titles, arr, attr) {
     if (typeof titles === 'string') {
       const titleURL = arr.find((item) => item.data.title === titles)['url'];
@@ -120,8 +127,8 @@ export default function (eleventyConfig) {
     return coll;
   });
 
-  eleventyConfig.addCollection('promos', (collection) => {
-    const coll = collection.getFilteredByTag('promos');
+  eleventyConfig.addCollection('splash', (collection) => {
+    const coll = collection.getFilteredByTag('splash');
     return coll;
   });
 
