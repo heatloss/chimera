@@ -4,7 +4,7 @@ layout: layouts/home.njk
 
 <section class="promo-banner">
 	<ul>
-		{%- for promo in collections.promos -%} 
+		{%- for splash in collections.splash -%} 
 		<li data-title="{{promo.data.title}}"> 
 		<h6 class="banner-title">
 			<a href="{{promo.data.title | getUrlFromTitle : collections.comics}}"> {{promo.data.title}} </a>
@@ -21,50 +21,19 @@ layout: layouts/home.njk
 	</ul>
 </section>
 <section class="campaigns">
-	<!-- <div class="campaign">
-		<h6 class="campaign-title">
-			Sale! 
-		</h6>
-		<figure class="image-block">
-			<a href="#"><img src="/img/CAMP_SALE.jpg" alt="50% off sale" style="filter: grayscale(100%) contrast(40%);" /></a> 
-			<figcaption class="image-caption">
-				Imagine if we had a sale 
-			</figcaption>
-		</figure>
-	</div> --> 
+	{%- for campaign in collections.campaigns -%} 
 	<div class="campaign">
 		<h6 class="campaign-title">
-			Crowd<wbr/>funder! 
+			{{campaign.data.label | addWBR }}
 		</h6>
 		<figure class="image-block">
-			<a href="https://www.kickstarter.com/projects/scottycomics/nigh-heaven-and-hell-book-1-and-2-kickstarter" target="_blank"><img src="/img/CAMP_NHH.jpg" alt="Nigh Heaven & Hell: Book 1 & 2" /></a> 
+			<a href="{{campaign.data.link}}" target="_blank"><img src="{{campaign.data.image}}" alt="{{campaign.data.label}}" /></a> 
 			<figcaption class="image-caption">
-				Goal reached! 
+				{{campaign.data.blurb}}
 			</figcaption>
 		</figure>
 	</div>
-	<div class="campaign">
-		<h6 class="campaign-title">
-			Bundle! 
-		</h6>
-		<figure class="image-block">
-			<a href="#"><img src="/img/CAMP_EBOOKS.jpg" alt="E-book bundle" /></a> 
-			<figcaption class="image-caption">
-				Imagine if we had ebooks?
-			</figcaption>
-		</figure>
-	</div>
-	<div class="campaign">
-		<h6 class="campaign-title">
-			Kick<wbr>Started! 
-		</h6>
-		<figure class="image-block">
-			<a href="https://www.kickstarter.com/projects/1344443281/ghost-junk-sickness-the-complete-series" target="_blank"><img src="/img/CAMP_GJR.jpg" alt="Ghost Junk Sickness: The Complete Collection" /></a> 
-			<figcaption class="image-caption">
-				Campaign successful! 
-			</figcaption>
-		</figure>
-	</div>
+	{%- endfor -%} 	
 </section>
 <section class="comics">
 	<h4 class="comics-title">
