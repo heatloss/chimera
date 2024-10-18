@@ -39,7 +39,7 @@ layout: layouts/home.njk
 		<figure class="image-block">
 			<a href="https://www.kickstarter.com/projects/scottycomics/nigh-heaven-and-hell-book-1-and-2-kickstarter" target="_blank"><img src="/img/CAMP_NHH.jpg" alt="Nigh Heaven & Hell: Book 1 & 2" /></a> 
 			<figcaption class="image-caption">
-				Just launched! 
+				Goal reached! 
 			</figcaption>
 		</figure>
 	</div>
