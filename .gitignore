@@ -1,5 +1,5 @@
-.glitchdotcom.json
 build
 node_modules
 web_modules
 /.cache
+.env
