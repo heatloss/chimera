@@ -1,11 +1,21 @@
 ---
+
 title: Tigress Queen
+
 credits: Allison Shaw (Alli)
+
 site: https://www.tigressqueen.com/
+
 start_page: https://www.tigressqueen.com/comic/page-0001
+
 about_page: https://www.tigressqueen.com/about
+
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/09/tigress-queen.png
+
+banner:
+
 cover: https://www.tigressqueen.com/comics/1650911531-TQ%200001%20new.png
+
 genre:
   - fantasy
   - action-adventure
@@ -15,10 +25,15 @@ general_tags:
   - violence
 
 update_status: hiatus
+
 other_works:
+
 merch: (link to shop)
+
 support: https://www.patreon.com/AlliDrawsComics
+
 social: (instagram, bluesky, etc.)
+
 ---
 
 Barbarian warlord Kizarasunga and pampered Prince Jintu meet face to face for the first time at the negotiation table to end a war that has been raging for decades. Tensions are already high when the Emperor proposes a marriage alliance that he’s certain could solve everything. Needless to say, it doesn’t go over well.

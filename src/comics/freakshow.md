@@ -1,11 +1,21 @@
 ---
+
 title: Freakshow
+
 credits: Crystal Jayme (Scotty)
+
 site: https://www.freakshow-comic.com
+
 start_page: https://www.freakshow-comic.com/comic/000
+
 about_page: https://www.freakshow-comic.com/about
+
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_freakshow.png
+
+banner:
+
 cover: https://www.freakshow-comic.com/comics/1542252925-003.png
+
 genre:
   - drama
   - historical
@@ -15,10 +25,17 @@ general_tags:
   - violence
 
 update_status: hiatus
+
 other_works:
+  - Hazy London
+  - Nigh Heaven and Hell
+
 merch: (link to shop)
+
 support: https://www.patreon.com/scottycomics
+
 social: (instagram, bluesky, etc.)
+
 ---
 
 A show on the outskirts of Paris and on its last legs.
