@@ -1,11 +1,21 @@
 ---
+
 title: Fairmeadow
+
 credits: KP
+
 site: http://www.fairmeadowcomic.com/
+
 start_page: http://www.fairmeadowcomic.com/comic/ch-01-pg-01
+
 about_page: http://www.fairmeadowcomic.com/about
+
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_fairmeadow.png
+
+banner:
+
 cover: http://www.fairmeadowcomic.com/comics/1709945240-ch01_web_001.jpg
+
 genre: 
   - drama
   - fantasy
@@ -16,13 +26,17 @@ general_tags:
   - mature audiences
 
 update_status: ongoing
+
 other_works:
+
 merch: (link to shop)
+
 support: 
   - https://ko-fi.com/hagofbolding
   - https://www.patreon.com/hagofbolding
-	
+
 social: (instagram, bluesky, etc.)
+
 ---
 
 Goma, a wayward Orcish soldier, finds herself in Fairmeadow, a commune of pacifists deep in the Cascadian wilderness. Isolation has allowed the commune to thrive in the shadow of a century-long war, but Goma’s arrival brings troubling reminders of the world outside to those who have settled there in search of respite.  Fairmeadow’s enigmatic leader, Sanctuary, finds his utopian vision challenged as he struggles to keep the peace. Their self-sufficiency exists on thin margins - margins that threaten to break if Goma cannot learn to live alongside those who she has sworn to fight. 

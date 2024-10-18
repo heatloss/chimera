@@ -10,7 +10,7 @@ import {} from 'dotenv/config';
  * Try extending it to suit your needs!
  */
 
-export default function(eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.setTemplateFormats([
     // Templates:
     'html',
@@ -65,19 +65,33 @@ export default function(eleventyConfig) {
     }).toFormat('yyyy-LL-dd');
   });
 
-  eleventyConfig.addFilter('getUrlFromTitle', function(title, arr, attr) {
+  eleventyConfig.addFilter('toDDFromTitle', function (titles, arr, attr) {
+    if (typeof titles === 'string') {
+      const titleURL = arr.find((item) => item.data.title === titles)['url'];
+      return `<dd><a href="${titleURL}" target="_blank"><span class="link">${titles}<span></a></dd>`;
+    } else {
+      return titles
+        .map((title) => {
+          const titleURL = arr.find((item) => item.data.title === title)['url'];
+          return `<dd><a href="${titleURL}" target="_blank"><span class="link">${title}<span></a></dd>`;
+        })
+        .join('');
+    }
+  });
+
+  eleventyConfig.addFilter('getUrlFromTitle', function (title, arr, attr) {
     return arr.find((item) => item.data.title === title)['url'];
   });
 
-  eleventyConfig.addFilter('getCreditsFromTitle', function(title, arr, attr) {
+  eleventyConfig.addFilter('getCreditsFromTitle', function (title, arr, attr) {
     return arr.find((item) => item.data.title === title).data['credits'];
   });
-  
-  eleventyConfig.addFilter('toStringsArray', function(arr) {
+
+  eleventyConfig.addFilter('toStringsArray', function (arr) {
     return arr.map((item) => `"${item}",`);
   });
-  
-  eleventyConfig.addFilter('toDD', function(list) {
+
+  eleventyConfig.addFilter('toDD', function (list) {
     const URLize = (string) => {
       try {
         new URL(string);
@@ -86,13 +100,13 @@ export default function(eleventyConfig) {
         return string;
       }
     };
-    return typeof list === 'string' ?
-      `<dd>${URLize(list)}</dd>` :
-      list
-      .map((item) => {
-        return `<dd>${URLize(item)}</dd>`;
-      })
-      .join('');
+    return typeof list === 'string'
+      ? `<dd>${URLize(list)}</dd>`
+      : list
+          .map((item) => {
+            return `<dd>${URLize(item)}</dd>`;
+          })
+          .join('');
   });
 
   eleventyConfig.setBrowserSyncConfig({
@@ -114,7 +128,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addCollection('genres', (collection) => {
     const allComics = collection.getFilteredByTag('comics');
     let tagSet = new Set();
-    allComics.forEach(comic => {
+    allComics.forEach((comic) => {
       if ('genre' in comic.data) {
         for (const tag of comic.data.genre) {
           tagSet.add(tag);
@@ -123,11 +137,11 @@ export default function(eleventyConfig) {
     });
     return [...tagSet];
   });
-  
+
   eleventyConfig.addCollection('generalTags', (collection) => {
     const allComics = collection.getFilteredByTag('comics');
     let tagSet = new Set();
-    allComics.forEach(comic => {
+    allComics.forEach((comic) => {
       if ('general_tags' in comic.data) {
         for (const tag of comic.data.general_tags) {
           tagSet.add(tag);
@@ -140,7 +154,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addCollection('statuses', (collection) => {
     const allComics = collection.getFilteredByTag('comics');
     let tagSet = new Set();
-    allComics.forEach(comic => {
+    allComics.forEach((comic) => {
       if ('update_status' in comic.data) {
         tagSet.add(comic.data.update_status);
       }

@@ -137,7 +137,7 @@ button[data-toggler]::after {
   width: 100%;
   display: flex;
   flex-direction: column;
-  
+
   .content {
     max-width: 72rem;
     align-self: center;
@@ -534,7 +534,7 @@ button[data-toggler]::after {
 
 .comic-header {
   margin-bottom: 0;
-  
+
   .comic-logo {
     width: 50vw;
     height: auto;
@@ -557,7 +557,7 @@ button[data-toggler]::after {
 
     img {
       width: 100%;
-      height: 20vw;
+      height: 25vw;
       object-fit: cover;
     }
   }
@@ -637,6 +637,16 @@ button[data-toggler]::after {
   .sidebar {
     grid-area: sidebar;
     padding-right: 4vw;
+
+    & > h5 {
+      font-family: var(--font-family);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      border-bottom: 2.5px solid var(--color-text-main);
+      line-height: 0.6;
+      margin-left: -0.1rem;
+    }
 
     .related {
       margin: 0.5rem 0 0 0;
@@ -789,7 +799,7 @@ button[data-toggler]::after {
 
   .wrapper {
     .comic-header {
-      margin-bottom: 4vw;
+      margin-bottom: 0;
 
       & ~ .content {
         margin: 0 1rem;
@@ -905,6 +915,8 @@ button[data-toggler]::after {
       "sidebar";
 
     .comic-desc {
+      padding: 0 4vw;
+
       .cover-block {
         grid-template-columns: 4fr 3fr;
       }
@@ -913,5 +925,29 @@ button[data-toggler]::after {
         margin-bottom: 1.5rem;
       }
     }
+
+    .comic-titlebar {
+      padding: 0 4vw;
+    }
+
+    .sidebar {
+      padding: 0;
+      
+      h5 {
+        font-size: 5vw;
+        line-height: 0.55;
+        padding-left: 3.9vw;
+        margin-top: 1rem;
+      }
+
+      .related {
+        padding: 0 4vw;
+        
+        dt {
+          font-size: 4vw;
+        }
+      }
+    }
+
   }
 }

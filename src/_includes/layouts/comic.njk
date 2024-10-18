@@ -3,9 +3,6 @@ layout: layouts/base.njk
 templateClass: tmpl-home
 ---
 
-{# This is the template for individual blog posts–it builds the front matter
-properties into the page #}
-
 <div class="wrapper comic-page">
   <header class="comic-header">
     <a href="/" class="home-logotype"><img src="/img/LOGO_home-cyan.png" alt="Chimera Comics Collective" width="2169" height="601" /></a>
@@ -20,9 +17,11 @@ properties into the page #}
   </header>
   <div class="comic-main">
     <section class="banner-image">
-      <a href="{{site}}" target="_blank"
-        ><img src="{{thumbnail}}" alt="{{title}}"
-      /></a>
+      <a href="{{site}}" target="_blank">
+        {% if banner %}<img src="{{banner}}" alt="{{title}}"/>
+        {% else %}<img src="{{thumbnail}}" alt="{{title}}"/>
+        {% endif %}
+      </a>
     </section>
     <article class="comic-desc">
       <div class="description-content">{{ content | safe }}</div>
@@ -73,7 +72,7 @@ properties into the page #}
         <dd>{{update_status}}</dd>
         {% if other_works %}
         <dt>Other works:</dt>
-        <dd>{{other_works}}</dd>
+        {{other_works | toDDFromTitle(collections.comics) | safe }}
         {% endif %}
 				{% if merch %}
         <dt>Merch:</dt>

@@ -1,11 +1,21 @@
 ---
+
 title: Daughter of the Lilies
+
 credits: Meg Syverud and Jessica "Yoko" Weaver (Nytrinhia)
+
 site: https://www.daughterofthelilies.com/
+
 start_page: https://www.daughterofthelilies.com/dotl/part-1-a-girl-with-no-face
+
 about_page: https://www.daughterofthelilies.com/about
+
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/09/daughter-of-the-lilies.jpg
+
+banner:
+
 cover: https://www.daughterofthelilies.com/comics/1603216074-00-00.jpg
+
 genre: 
  - fantasy
 
@@ -19,13 +29,17 @@ general_tags:
   - angels
 
 update_status: hiatus
+
 other_works:
+
 merch: (link to shop)
+
 support: 
   - https://www.patreon.com/MegSyv
   - https://www.paypal.com/paypalme/MegSyv
-  
+
 social: (instagram, bluesky, etc.)
+
 ---
 
 Thistle is just your average masked mage with a mysterious power, an enigmatic past, and, of course, the great burden of Destiny on her shoulders. 
