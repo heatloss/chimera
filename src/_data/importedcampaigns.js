@@ -18,6 +18,5 @@ export default async function () {
       return { id: campaign.id, ...campaign.fields };
     })
     .sort((a, b) => a.Order - b.Order);
-  // console.log(campaignsJSON);
   return campaignsJSON;
 }
