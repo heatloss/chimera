@@ -226,7 +226,7 @@ button[data-toggler]::after {
 }
 
 .wrapper.home {
-  .promo-banner {
+  .splash-banner {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -802,7 +802,7 @@ button[data-toggler]::after {
       row-gap: 24vw;
     }
 
-    .promo-banner {
+    .splash-banner {
       ul > li {
         .banner-title {
           font-size: 7.2vw;

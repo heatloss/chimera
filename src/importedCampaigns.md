@@ -11,8 +11,8 @@
     eleventyComputed: {
         label: data => data.importedcampaign.Label, // Campaign label from data
         blurb: data => data.importedcampaign.Blurb, // Campaign blurb from data
-        image: data => data.importedcampaign.Image, // Campaign image from data
         link: data => data.importedcampaign.Link, // Campaign link from data
+        image: data => data.importedcampaign.Image[0].url, // Campaign link from data
     }
 }
 ---

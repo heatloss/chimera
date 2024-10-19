@@ -45,7 +45,6 @@ const updateGrid = (e) => {
       return comicVisible ? comic : null;
     })
     .filter(Boolean);
-		console.log(filteredComics)
 
   gridComics.forEach((comicLi) => {
     if (filteredComics.some((comic) => comic.title === comicLi.dataset.title)) {

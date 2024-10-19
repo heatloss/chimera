@@ -2,18 +2,19 @@
 layout: layouts/home.njk
 ---
 
-<section class="promo-banner">
+<section class="splash-banner">
 	<ul>
 		{%- for splash in collections.splash -%} 
-		<li data-title="{{promo.data.title}}"> 
+		<li data-title="{{splash.data.title}}"> 
 		<h6 class="banner-title">
-			<a href="{{promo.data.title | getUrlFromTitle : collections.comics}}"> {{promo.data.title}} </a>
+			<a href="{{splash.data.title | getUrlFromTitle : collections.comics}}"> {{splash.data.title}} </a>
 		</h6>
 		<figure class="banner-block">
-			<a href="{{promo.data.title | getUrlFromTitle : collections.comics}}" class="banner-image">
-				<img src="{{promo.data.image}}" alt="{{promo.data.title}}, by {{promo.data.title | getCreditsFromTitle : collections.comics}}" /> </a> 
+			<a href="{{splash.data.title | getUrlFromTitle : collections.comics}}" class="banner-image">
+				<img src="{{splash.data.image}}" alt="{{splash.data.title}}, by {{splash.data.title | getCreditsFromTitle : collections.comics}}" />
+			</a> 
 			<figcaption class="banner-caption">
-				<cite class="banner-credit">By {{promo.data.title | getCreditsFromTitle : collections.comics}}</cite> 
+				<cite class="banner-credit">By {{splash.data.title | getCreditsFromTitle : collections.comics}}</cite> 
 			</figcaption>
 		</figure>
 		</li>
@@ -91,5 +92,5 @@ layout: layouts/home.njk
 		</ul>
 	</div>
 </section>
-<script type="module" src="/js/randompromo.js"></script>
+<script type="module" src="/js/randomsplash.js"></script>
 <script type="module" src="/js/togglers.js"></script>
