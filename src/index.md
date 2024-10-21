@@ -92,5 +92,4 @@ layout: layouts/home.njk
 		</ul>
 	</div>
 </section>
-<script type="module" src="/js/randomsplash.js"></script>
 <script type="module" src="/js/togglers.js"></script>

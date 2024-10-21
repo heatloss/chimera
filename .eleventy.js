@@ -128,7 +128,9 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection('splash', (collection) => {
-    const coll = collection.getFilteredByTag('splash');
+    const coll = collection
+      .getFilteredByTag('splash')
+      .sort(() => 0.5 - Math.random());
     return coll;
   });
 
