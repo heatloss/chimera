@@ -29,7 +29,7 @@ layout: layouts/home.njk
 		</h6>
 		<figure class="image-block">
 			<a href="{{campaign.data.link}}" target="_blank"><img src="{{campaign.data.image}}" sizes="31vw"
-			eleventy:widths="360,720" alt="{{campaign.data.label}}" /></a> 
+			eleventy:widths="300,600" alt="{{campaign.data.label}}" /></a> 
 			<figcaption class="image-caption">
 				{{campaign.data.blurb}}
 			</figcaption>
