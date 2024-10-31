@@ -824,13 +824,14 @@ button[data-toggler]::after {
       padding: 0 0.333rem;
 
       &::after {
-        top: 76%;
+        top: 80%;
       }
 
       .campaign {
         .campaign-title {
-          font-size: 7vw;
-          margin-left: 3vw;
+          font-size: 5.6vw;
+          margin-left: 1.5vw;
+          width: calc(100% - 3vw);
         }
 
         .image-block {
@@ -839,7 +840,7 @@ button[data-toggler]::after {
           }
 
           .image-caption {
-            font-size: 4vw;
+            font-size: 3vw;
             margin-right: 2vw;
           }
 
