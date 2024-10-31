@@ -27,7 +27,7 @@ export default function (eleventyConfig) {
     'woff2',
   ]);
   eleventyConfig.addPassthroughCopy('public');
-  eleventyConfig.addPassthroughCopy('img');
+  eleventyConfig.addPassthroughCopy('src/img');
 
   /* From: https://github.com/artstorm/eleventy-plugin-seo
   

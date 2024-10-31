@@ -23,10 +23,9 @@ body {
   font-weight: 200;
   background-color: var(--color-bg);
   background-image: image-set(
-      url(/img/BG_paper.webp) type("image/webp"),
-      url(/img/BG_paper.jpg) type("image/jpeg")
-    );
-  }
+    url(/img/BG_paper.webp) type("image/webp"),
+    url(/img/BG_paper.jpg) type("image/jpeg")
+  );
   background-size: 50%;
   margin: 0;
 }
@@ -175,6 +174,11 @@ button[data-toggler]::after {
     right: 0;
     bottom: 0;
     background-image: url(/img/BG_markerstripe.png);
+    background-image: image-set(
+      url(/img/BG_markerstripe.webp) type("image/webp"),
+      url(/img/BG_markerstripe.png) type("image/png")
+    );
+    
     background-repeat: repeat-x;
     background-size: auto 36%;
     background-position: center bottom calc(0.5rem + 2vw);
@@ -239,7 +243,7 @@ button[data-toggler]::after {
     background-size: 100%;
     background-repeat: repeat-x;
     background-position: center bottom;
-    
+
     ul > li:not(:first-child) {
       display: none;
     }
@@ -927,7 +931,7 @@ button[data-toggler]::after {
 
     .sidebar {
       padding: 0;
-      
+
       h5 {
         font-size: 5vw;
         line-height: 0.55;
@@ -937,7 +941,7 @@ button[data-toggler]::after {
 
       .related {
         padding: 0 4vw;
-        
+
         dt {
           font-size: 4vw;
         }
