@@ -88,7 +88,8 @@ layout: layouts/home.njk
 		<ul class="comic-grid">
 			{%- for comic in collections.comics -%}
 			<li{% if page.url== comic.url %} aria-current="page" {% endif %} data-title="{{comic.data.title}}">
-				<a class="comic-thumb" href='{{ comic.url }}'><img src='{{comic.data.thumbnail}}' alt='{{comic.data.title}}' /></a>
+				<a class="comic-thumb" href='{{ comic.url }}'><img src='{{comic.data.thumbnail}}' sizes="(min-width: 1rem) 50vw, (min-width: 35rem) 24vw, (min-width: 49rem) 18vw,"
+				eleventy:widths="400,500,600" alt='{{comic.data.title}}' /></a>
 			</li>
 			{%- endfor -%} 
 		</ul>
