@@ -12,7 +12,7 @@ layout: layouts/home.njk
 		<figure class="banner-block">
 			<a href="{{splash.data.title | getUrlFromTitle : collections.comics}}" class="banner-image">
 				<img src="{{splash.data.image}}" loading="eager" sizes="100vw"
-				eleventy:widths="480,960" alt="{{splash.data.title}}, by {{splash.data.title | getCreditsFromTitle : collections.comics}}" />
+				eleventy:widths="360,480,960" alt="{{splash.data.title}}, by {{splash.data.title | getCreditsFromTitle : collections.comics}}" />
 			</a> 
 			<figcaption class="banner-caption">
 				<cite class="banner-credit">By {{splash.data.title | getCreditsFromTitle : collections.comics}}</cite> 
@@ -29,8 +29,8 @@ layout: layouts/home.njk
 			{{campaign.data.label | addWBR }}
 		</h6>
 		<figure class="image-block">
-			<a href="{{campaign.data.link}}" target="_blank"><img src="{{campaign.data.image}}" sizes="31vw"
-			eleventy:widths="300,600" alt="{{campaign.data.label}}" /></a> 
+			<a href="{{campaign.data.link}}" target="_blank"><img src="{{campaign.data.image}}" sizes="30vw"
+			eleventy:widths="240,320,480" alt="{{campaign.data.label}}" /></a> 
 			<figcaption class="image-caption">
 				{{campaign.data.blurb}}
 			</figcaption>
