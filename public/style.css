@@ -173,7 +173,6 @@ button[data-toggler]::after {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(/img/BG_markerstripe.png);
     background-image: image-set(
       url(/img/BG_markerstripe.webp) type("image/webp"),
       url(/img/BG_markerstripe.png) type("image/png")
