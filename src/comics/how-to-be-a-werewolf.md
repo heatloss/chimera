@@ -16,7 +16,7 @@ banner:
 
 cover: https://www.howtobeawerewolf.com/comics/teaserimage.jpg
 
-chimebar: /img/HTBAW.png
+chimebar: /img/BAR_HTBAW.png
 
 genre:
   - comedy
