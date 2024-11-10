@@ -16,7 +16,7 @@ banner:
 
 cover: https://www.godslavecomic.com/comics/1662126698-CH1%20cover.png
 
-chimebar: /img/Godslave.png
+chimebar: /img/BAR_Godslave.png
 
 genre:
   - fairytale
