@@ -16,6 +16,8 @@ banner:
 
 cover: https://www.tigressqueen.com/comics/1650911531-TQ%200001%20new.png
 
+chimebar: /img/TQ.png
+
 genre:
   - fantasy
   - action-adventure

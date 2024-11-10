@@ -16,6 +16,8 @@ banner:
 
 cover: https://www.bicycleboy.net/comics/1681802719-BICYCLEBOY%20CH1%20P0-NEWnetvers2.png
 
+chimebar: /img/BB.png
+
 genre: 
   - dystopian
   - drama

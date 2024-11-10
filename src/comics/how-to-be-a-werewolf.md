@@ -16,6 +16,8 @@ banner:
 
 cover: https://www.howtobeawerewolf.com/comics/teaserimage.jpg
 
+chimebar: /img/HTBAW.png
+
 genre:
   - comedy
   - urban fantasy

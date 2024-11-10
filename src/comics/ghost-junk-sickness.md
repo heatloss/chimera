@@ -16,6 +16,8 @@ banner:
 
 cover: https://www.ghostjunksickness.com/comics/1515103554-vol%201%20supernewcover%20title.jpg
 
+chimebar: /img/GJS.png
+
 genre:
   - sci-fi
   - action-adventure
