@@ -16,6 +16,8 @@ banner:
 
 cover: http://www.fairmeadowcomic.com/comics/1709945240-ch01_web_001.jpg
 
+chimebar: /img/BAR_Fairmeadow.png
+
 genre: 
   - drama
   - fantasy

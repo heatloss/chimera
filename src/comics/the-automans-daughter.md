@@ -16,6 +16,8 @@ banner: /img/BANNER_Automans-Daughter_2400x600.jpg
 
 cover: https://www.automansdaughter.com/comics/1481492547-chapter-1.jpg
 
+chimebar: /img/TAD.png
+
 genre: 
  - sci-fi
  - steampunk

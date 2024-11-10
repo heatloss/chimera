@@ -16,6 +16,8 @@ banner:
 
 cover: https://liftcomic.com/comics/1704154763-lift01-00a.png
 
+chimebar: /img/BAR_LIFT.png
+
 genre: 
   - romance
   - slice of life

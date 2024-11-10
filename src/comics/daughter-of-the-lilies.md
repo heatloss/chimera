@@ -16,6 +16,8 @@ banner:
 
 cover: https://www.daughterofthelilies.com/comics/1603216074-00-00.jpg
 
+chimebar: /img/BAR_DOTL.png
+
 genre: 
  - fantasy
 

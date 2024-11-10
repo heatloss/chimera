@@ -14,6 +14,8 @@ thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_whit
 
 banner:
 
+chimebar: /img/BAR_White-Noise.png
+
 cover: https://www.white-noise-comic.com/comics/1513480953-1-0.jpg
 
 genre: 

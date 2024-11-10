@@ -16,6 +16,8 @@ banner:
 
 cover: https://phantomarine.com/comics/1620627688-phantomarine_0-1_the_horizon_line.jpg
 
+chimebar: /img/Phantomarine.png
+
 genre: 
   - mystery
   - fantasy
