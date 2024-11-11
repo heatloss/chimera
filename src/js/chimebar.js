@@ -6,6 +6,7 @@ const chimeStyles = `
   display: table;
   flex-direction: column;
   position: relative;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
 
   & > a.logo {
     display: block;
