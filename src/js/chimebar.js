@@ -5,8 +5,9 @@ const chimeStyles = `
   margin: 1rem 0;
   display: table;
   flex-direction: column;
+  position: relative;
 
-  & > span {
+  & > a.logo {
     display: block;
     font-size: 1.1rem;
     padding: 0.125rem 0.5rem 0 0.5rem;
@@ -16,6 +17,28 @@ const chimeStyles = `
     margin: 0 0 -3px 0.5rem;
     overflow: hidden;
     text-indent: -999vw;
+
+    &:hover ~ .description {
+      visibility: visible;
+    }
+  }
+
+  & > .description {
+    background-color: black;
+    box-shadow: 0 -16px 0px 0 black;
+    color: #ddd;
+    padding: 0 0.75rem 0.5rem 0.75rem;
+    border-radius: 0 0 0.75vw 0.75vw;
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    
+    strong {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
   }
 
   ul {
@@ -64,6 +87,7 @@ const chimeStyles = `
 
         strong {
           font-size: 1.1rem;
+          text-transform: uppercase;
         }
       }
 
@@ -86,11 +110,11 @@ const randomizedChimebar = chimebarComics
   .sort((a, b) => a.sort - b.sort)
   .map(({ value }) => value);
 
-randomizedChimebar.length = 7;
+randomizedChimebar.length = 10;
 
 const chimeList = document.createElement('ul');
-const chimeLabelString = `<span>Chimera</span>`
-  
+const chimeLabelString = `<a class="logo" href="https://chimeracomics.org">Chimera</a><small class="description">The <strong>Chimera Comics Collective</strong> is an organization of independent comic creators.</small>`;
+
 randomizedChimebar.forEach((comic) => {
   const barString = `<li><a href="${comic.site}" title="${
     comic.title
@@ -104,7 +128,9 @@ randomizedChimebar.forEach((comic) => {
 
 document.querySelector('#chimebar').appendChild(chimeList);
 
-document.querySelector('#chimebar').insertAdjacentHTML('afterbegin', chimeLabelString, chimeList);
+document
+  .querySelector('#chimebar')
+  .insertAdjacentHTML('afterbegin', chimeLabelString, chimeList);
 
 const style = document.createElement('style');
 style.innerHTML = chimeStyles;
