@@ -35,7 +35,7 @@ const chimeStyles = `
     left: 0;
     width: 100%;
     visibility: hidden;
-    
+
     strong {
       font-weight: bold;
       text-transform: uppercase;
@@ -84,11 +84,17 @@ const chimeStyles = `
         top: calc(100% + 6px);
         left: 0;
         width: 100%;
+        box-sizing: border-box;
         visibility: hidden;
 
         strong {
           font-size: 1.1rem;
           text-transform: uppercase;
+        }
+
+        p {
+          margin-block-end: 0.5rem;
+          margin-block-start: 0.5rem;
         }
       }
 
