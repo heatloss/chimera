@@ -16,6 +16,8 @@ banner:
 
 cover: https://inbloodwerise.com/comics/1672866515-prologue_0000.png
 
+chimebar: /img/BAR_IBWR.png
+
 genre:
   - fantasy
   - romance

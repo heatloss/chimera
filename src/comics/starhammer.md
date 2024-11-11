@@ -16,6 +16,8 @@ banner:
 
 cover: https://www.starhammercomic.com/comics/1460095692-cover.png
 
+chimebar: /img/BAR_Starhammer.png
+
 genre: 
   - slice of life
   - superhero

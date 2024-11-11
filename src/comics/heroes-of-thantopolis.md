@@ -16,6 +16,8 @@ banner:
 
 cover: https://www.heroesofthantopolis.com/comics/1524029253-Book%201%20cover%20for%20web.png
 
+chimebar: /img/BAR_HOT.png
+
 genre: 
   - fantasy
   - action-adventure
