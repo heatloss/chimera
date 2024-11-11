@@ -16,6 +16,8 @@ banner:
 
 cover: https://www.sisterclaire.com/comics/1537311881-b1_ch0_p0_s.png
 
+chimebar: /img/BAR_Sister-Claire.png
+
 genre: 
   - fantasy
   - horror

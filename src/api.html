@@ -9,7 +9,9 @@ export default {
 				genre: [{{ comic.data.genre | toStringsArray }}],
 				tags: [{{ comic.data.general_tags | toStringsArray }}],
 				status: "{{ comic.data.update_status }}",
+				site: "{{ comic.data.site }}",
 				chimebar: "{{ comic.data.chimebar }}",
+				description: `{{ comic.content }}`
 			},
 		{%- endfor -%}
 	]

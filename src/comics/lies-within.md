@@ -16,6 +16,8 @@ banner:
 
 cover: https://www.lieswithincomic.com/comics/1619789286-0.png
 
+chimebar: /img/BAR_Lies-Within.png
+
 genre:
   - drama
   - urban fantasy
