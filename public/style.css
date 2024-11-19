@@ -55,6 +55,13 @@ h6 {
   font-weight: 600;
   line-height: 1.1;
   color: var(--color-text-main);
+  
+  & + h2, & + h3, & + h4, & + h5, & + h6 {
+    margin-top: 0.5rem;
+  }
+  & + ul {
+    margin-top: 0.75rem;
+  }
 }
 
 h1 {
@@ -147,6 +154,10 @@ button[data-toggler]::after {
     width: 100%;
     padding: 0 4vw;
     box-sizing: border-box;
+    
+    & > h3 {
+      margin-top: 1rem;
+    }
   }
 }
 
