@@ -4,7 +4,7 @@ layout: layouts/page.njk
 
 ### Links
 
-##### Other things exist! For example, here are things:
+##### Maybe the real links were the friends we made along the way.
 
 * <a href="https://webcomictravelogue.com/" target="_blank">The Webcomic Travelogue</a>
 
