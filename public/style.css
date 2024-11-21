@@ -681,7 +681,11 @@ button[data-toggler]::after {
         a[href*="ko-fi.com"],
         a[href*="patreon.com"],
         a[href*="paypal.com"],
-        a[href*="gofundme.com"] {
+        a[href*="gofundme.com"],
+        a[href*="tumblr.com"],
+        a[href*="bsky.app"],
+        a[href*="instagram.com"],
+        a[href*="bigcartel.com"] {
           .link {
             display: inline-block;
             width: 0;
@@ -701,20 +705,42 @@ button[data-toggler]::after {
             content: "Patreon"
           }
         }
-
+        
         a[href*="paypal.com"] {
           &::before {
             content: "PayPal"
           }
         }
-
+        
         a[href*="gofundme.com"] {
           &::before {
             content: "GoFundMe"
           }
         }
-
-
+        
+        a[href*="tumblr.com"] {
+          &::before {
+            content: "Tumblr"
+          }
+        }
+        
+        a[href*="bsky.app"] {
+          &::before {
+            content: "Bluesky"
+          }
+        }
+        
+        a[href*="instagram.com"] {
+          &::before {
+            content: "Instagram"
+          }
+        }
+        
+        a[href*="bigcartel.com"] {
+          &::before {
+            content: "Big Cartel"
+          }
+        }
       }
 
       dt + dd {

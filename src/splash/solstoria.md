@@ -1,4 +1,4 @@
 ---
 title: Solstoria
-image: /img/BANR_SOLSTORIA.png
+image: /img/SPLASH_SOLSTORIA.png
 ---

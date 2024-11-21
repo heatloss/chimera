@@ -1,4 +1,4 @@
 ---
 title: Lies Within
-image: /img/BANR_LIES-WITHIN.png
+image: /img/SPLASH_LIES-WITHIN.png
 ---
