@@ -2,8 +2,6 @@ import data from '/api/data.js';
 const chimeDomain = 'https://chimeracomics.org';
 const chimeScript = document.getElementById('chimescript');
 const lightMode = chimeScript.getAttribute('mode') || "light";
-console.log(lightMode);
-
 const chimeStyles = `
 :root {
   --text-color: ${lightMode === "light" ? "#000" : "#ddd"};
