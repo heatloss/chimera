@@ -12,7 +12,7 @@ about_page: https://www.godslavecomic.com/about
 
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_godslave.png
 
-banner:
+banner: /img/BANNER_Godslave_2400x600.png
 
 cover: https://www.godslavecomic.com/comics/1662126698-CH1%20cover.png
 
@@ -34,12 +34,15 @@ update_status: ongoing
 
 other_works:
 
-merch: (link to shop)
+merch: https://megacarter.bigcartel.com
 
 support: https://www.patreon.com/megacarter
 
-social: (instagram, bluesky, etc.)
-
+social: 
+  - https://www.instagram.com/megacarter 
+  - https://www.godslavecomic.tumblr.com
+  - https://bsky.app/profile/megacarter.bsky.social
+  
 ---
 
 Godslave is about a girl thrown into the drama and danger of modern day Egyptian Mythology!

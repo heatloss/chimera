@@ -1,4 +1,4 @@
 ---
 title: Phantomarine
-image: /img/BANR_PHANTOMARINE.jpg
+image: /img/SPLASH_PHANTOMARINE.jpg
 ---

@@ -1,4 +1,4 @@
 ---
 title: Tigress Queen
-image: /img/BANR_TIGRESS-QUEEN.png
+image: /img/SPLASH_TIGRESS-QUEEN.png
 ---

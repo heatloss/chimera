@@ -12,7 +12,7 @@ about_page: https://www.white-noise-comic.com/about
 
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_whitenoise.png
 
-banner:
+banner: /img/BANNER_White-Noise_2400x600.jpg
 
 chimebar: /img/BAR_White-Noise.png
 
@@ -29,13 +29,15 @@ update_status: ongoing
 
 other_works:
 
-merch: (link to shop)
+merch: 
 
 support: 
   - https://www.patreon.com/thephooka
   - https://www.paypal.com/donate?token=nr3ztFB9XA5EPSwwoafH-5FppbPDR-BqIEj15T-ufTFdQ9lp3ugcHQsTHfwvSB3bmcA1mO3qbvx_dDQM
 
-social: (instagram, bluesky, etc.)
+social: 
+  - https://bsky.app/profile/thephooka.bsky.social
+  - http://www.thephooka.tumblr.com/
 
 ---
 
