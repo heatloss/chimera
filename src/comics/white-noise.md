@@ -41,8 +41,7 @@ social:
 
 ---
 
-In the early 1900s, the nation of Aetheri came out of its long interdimensional isolation and revealed to the humans of the Symphony Archipelago that they were not alone in the multiverse. Things swiftly got ugly after that.
+When Hawk's brother Emry is killed and his half-sister Liya stolen away by otherworldly soldiers, Hawk is determined to find the only family he has left, no matter what it takes...even if that means crossing a country that wants creatures like him snuffed out.
 
-In the early 1990s, Aetheri’s leadership changed, and in the Archipelago, a tiny broken family of half-siblings banded together in the face of the bile and hate that was boiling up between the humans and the non-humans.
+Liya, meanwhile, finds herself alone on another planet populated by monsters. Full of grief over her lost brothers and anger at the enemy now surrounding her, she struggles to understand this new world she's been forced to take part in--and slowly begins to realize that all the things she thought she knew about it were wrong.
 
-In the early 2000s, that family was split apart. Hawk Press and his sister Liya Kiski both begin a long journey towards understanding the difference between friend and enemy–and between the family you’re given, and the family you make.
