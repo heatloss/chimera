@@ -979,7 +979,7 @@ button[data-toggler]::after {
         padding: 0 4vw;
 
         dt {
-          font-size: 4vw;
+          font-size: 1.1rem;
         }
       }
     }
