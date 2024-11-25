@@ -30,14 +30,19 @@ update_status: hiatus
 
 other_works:
 
-merch: (link to shop)
+merch: 
 
 support: 
   - https://ko-fi.com/phantomarine
   - https://www.paypal.com/donate/?hosted_button_id=8L4UK6XJQLCLN
   - https://www.patreon.com/phantomarine
 
-social: (instagram, bluesky, etc.)
+social: 
+  - https://bsky.app/profile/phantomarine.bsky.social
+  - https://www.instagram.com/ckniebergall/
+  - https://discord.gg/ps2JtZA
+  - https://phantomarine.tumblr.com/
+  
 
 ---
 
