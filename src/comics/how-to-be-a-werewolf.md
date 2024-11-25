@@ -12,7 +12,7 @@ about_page: https://www.howtobeawerewolf.com/about
 
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_htbaw.png
 
-banner:
+banner: /img/BANNER_HowToBeAWerewolf_2400x600.jpg
 
 cover: https://www.howtobeawerewolf.com/comics/teaserimage.jpg
 
@@ -34,11 +34,13 @@ update_status: ongoing
 
 other_works:
 
-merch: 
+merch: https://society6.com/shawnlenore
 
-support: (patreon/kofi)
+support: https://www.patreon.com/shawnlenore
 
-social: (instagram, bluesky, etc.)
+social: 
+  - https://www.instagram.com/shawnlenore/
+  - http://shawnlenore.tumblr.com/
 
 ---
 

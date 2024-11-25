@@ -2,7 +2,7 @@
 
 title: Godslave
 
-credits: Megan Carter
+credits: Meaghan Carter
 
 site: https://www.godslavecomic.com
 
@@ -10,7 +10,7 @@ start_page: https://www.godslavecomic.com/comic/chapter-one
 
 about_page: https://www.godslavecomic.com/about
 
-thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_godslave.png
+thumbnail: /img/TILE_Godslave.png
 
 banner: /img/BANNER_Godslave_2400x600.png
 
@@ -39,7 +39,7 @@ merch: https://megacarter.bigcartel.com
 support: https://www.patreon.com/megacarter
 
 social: 
-  - https://www.instagram.com/megacarter 
+  - https://www.instagram.com/megacarter
   - https://www.godslavecomic.tumblr.com
   - https://bsky.app/profile/megacarter.bsky.social
   

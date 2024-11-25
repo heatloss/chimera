@@ -35,7 +35,10 @@ merch:
 
 support: https://www.patreon.com/toyboxcomics
 
-social: (instagram, bluesky, etc.)
+social: 
+  - https://akasuzana.tumblr.com/
+  - https://www.facebook.com/toyboxcomics
+  - https://www.instagram.com/toyboxcomics
 
 ---
 

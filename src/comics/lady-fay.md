@@ -31,7 +31,9 @@ merch:
 
 support: https://www.patreon.com/violettenouvel
 
-social: (instagram, bluesky, etc.)
+social: 
+  - https://www.instagram.com/violettenouvel/
+  - https://violettenouvel.tumblr.com/
 
 ---
 

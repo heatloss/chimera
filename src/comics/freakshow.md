@@ -12,7 +12,7 @@ about_page: https://www.freakshow-comic.com/about
 
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_freakshow.png
 
-banner: /img/BANNER_Freakshow.png
+banner: /img/BANNER_Freakshow_2400x600.png
 
 cover: https://www.freakshow-comic.com/comics/1542252925-003.png
 
