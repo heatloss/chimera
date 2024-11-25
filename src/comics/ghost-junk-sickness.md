@@ -10,9 +10,9 @@ start_page: https://www.ghostjunksickness.com/comic/volume-1-cover
 
 about_page: https://www.ghostjunksickness.com/about
 
-thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_gjs.png
+thumbnail: /img/TILE_GJS.jpg
 
-banner:
+banner: /img/BANNER_GhostJunkSickness_2400x600.jpg
 
 cover: https://www.ghostjunksickness.com/comics/1515103554-vol%201%20supernewcover%20title.jpg
 
@@ -32,13 +32,16 @@ update_status: ongoing
 
 other_works: Lunar Blight
 
-merch: (link to shop)
+merch: 
 
 support: 
   - https://ko-fi.com/studiocartridge
   - https://www.patreon.com/studioCARTRIDGE
 
-social: (instagram, bluesky, etc.)
+social: 
+  - https://bsky.app/profile/studiocartridge.bsky.social
+  - https://ghostjunksickness.tumblr.com/
+  - https://www.facebook.com/GJScomic
 
 ---
 

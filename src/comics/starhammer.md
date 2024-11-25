@@ -31,7 +31,7 @@ update_status: hiatus
 
 other_works:
 
-merch: (link to shop)
+merch: 
 
 support: 
   - https://www.patreon.com/starteamgo

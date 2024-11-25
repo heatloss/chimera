@@ -31,7 +31,7 @@ update_status: ongoing
 
 other_works:
 
-merch: (link to shop)
+merch: 
 
 support: 
   - https://ko-fi.com/hagofbolding

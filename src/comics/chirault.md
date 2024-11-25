@@ -10,9 +10,9 @@ start_page: https://chirault.sevensmith.net/?comic_id=0
 
 about_page: https://chirault.sevensmith.net/v2/about.php
 
-thumbnail: /img/THMB_Chirault.jpg
+thumbnail: /img/TILE_Chirault.jpg
 
-banner:
+banner: /img/BANNER_Chirault_2400x600.jpg
 
 cover: http://chirault.sevensmith.net/comics/20070201.jpg
 
@@ -29,11 +29,12 @@ update_status: completed
 
 other_works: Wychwood
 
-merch: (link to shop)
+merch: 
 
 support: http://www.patreon.com/chirault
 
-social: (instagram, bluesky, etc.)
+social: 
+  - http://chirault.tumblr.com/
 
 ---
 

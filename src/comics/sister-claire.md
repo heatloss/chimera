@@ -12,7 +12,7 @@ about_page: https://www.sisterclaire.com/about/
 
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_sisterclaire.png
 
-banner:
+banner: /img/BANNER_SisterClaire_2400x600.png
 
 cover: https://www.sisterclaire.com/comics/1537311881-b1_ch0_p0_s.png
 
@@ -35,11 +35,13 @@ update_status: ongoing
 
 other_works:
 
-merch: (link to shop)
+merch: 
 
 support: https://www.patreon.com/varethane
 
-social: (instagram, bluesky, etc.)
+social: 
+  - http://sisterclaire.tumblr.com/
+  - https://www.facebook.com/Sister-Claire-34359909316
 
 ---
 

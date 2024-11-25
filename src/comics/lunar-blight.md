@@ -12,7 +12,7 @@ about_page: https://lunarblight.com/about
 
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_lunarblight.png
 
-banner:
+banner: /img/BANNER_LunarBlight_2400x600.jpg
 
 cover: https://lunarblight.com/comics/1677432163-LunarBlightposter%20smol.jpg
 
@@ -29,11 +29,13 @@ update_status: ongoing
 
 other_works: Ghost Junk Sickness
 
-merch: (link to shop)
+merch: 
 
 support: https://www.patreon.com/studioCARTRIDGE
 
-social: (instagram, bluesky, etc.)
+social: 
+  - https://bsky.app/profile/studiocartridge.bsky.social
+  - https://studiocartridge.tumblr.com/
 
 ---
 

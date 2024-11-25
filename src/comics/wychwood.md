@@ -27,7 +27,7 @@ update_status: ongoing
 
 other_works: Chirault
 
-merch: (link to shop)
+merch: 
 
 support: https://www.patreon.com/varethane
 
