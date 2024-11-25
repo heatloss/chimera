@@ -20,15 +20,13 @@ chimebar: /img/BAR_DOTL.png
 
 genre: 
  - fantasy
+ - adventure
 
 general_tags: 
-  - supernatural
-  - dragons
-  - faeries
-  - ghosts
-  - werewolves
-  - demons
-  - angels
+  - mental health
+  - found family
+  - lgbtq+
+  - young adult
 
 update_status: hiatus
 
@@ -41,13 +39,15 @@ support:
   - https://www.paypal.com/paypalme/MegSyv
 
 social: 
-  - http://bludragongal.tumblr.com/
+  - https://www.instagram.com/megsyvart/
+  - https://bsky.app/profile/megsyv.bsky.social
+  - https://bludragongal.tumblr.com/
   - https://discordapp.com/invite/QScEaam
 
 ---
 
-Thistle is just your average masked mage with a mysterious power, an enigmatic past, and, of course, the great burden of Destiny on her shoulders. 
+Thistle is a masked mage with a mysterious power, an enigmatic past, and, of course, the great burden of Destiny on her shoulders. 
 
-She’s chased out of every town with torches and pitchforks when the locals see her face, and is eagerly sought after by a great and terrible figure who defines most of her dark thoughts towards herself. Out of a desperate need to make a quick buck so she can move on to a new quiet place to live, she joins up with a small band of Mercenaries, but quickly finds herself unwittingly swept up in and caught off guard by their bonds of loyalty. 
+She’s chased out of every town with torches and pitchforks when the locals see her face, and is eagerly sought after by a great and terrible figure who defines most of her dark thoughts towards herself. In desperation, she briefly joins up with a small band of Mercenaries, but finds herself swept up in and caught off guard by their loyalty and acceptance. 
 
-Will these unruly, uncultured, rough-around-the-edge fighters be the ones to help Thistle realize her sense of self-worth in time to stop the shadows of her past from overwhelming and consuming the world?
+Who (or what) is Thistle? Where did she come from? Will these unruly, uncultured, rough-around-the-edge fighters be the ones to help Thistle realize her sense of self-worth in time to stop the shadows of her past from overwhelming and consuming the world?
