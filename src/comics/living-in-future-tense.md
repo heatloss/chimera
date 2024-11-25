@@ -10,7 +10,7 @@ start_page: https://www.liftcomic.com/comic/lift-chapter-one
 
 about_page: https://www.liftcomic.com/cast
 
-thumbnail: /img/hubbox_LIFT.png
+thumbnail: /img/TILE_LIFT.jpg
 
 banner:
 
