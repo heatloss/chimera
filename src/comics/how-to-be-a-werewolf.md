@@ -34,7 +34,7 @@ update_status: ongoing
 
 other_works:
 
-merch: (link to shop)
+merch: 
 
 support: (patreon/kofi)
 

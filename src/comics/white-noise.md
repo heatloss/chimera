@@ -10,7 +10,7 @@ start_page: https://www.white-noise-comic.com/comic/1-0
 
 about_page: https://www.white-noise-comic.com/about
 
-thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_whitenoise.png
+thumbnail: /img/TILE_White-Noise.jpg
 
 banner: /img/BANNER_White-Noise_2400x600.jpg
 

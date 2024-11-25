@@ -12,7 +12,7 @@ about_page: https://www.solstoria.net/about
 
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_solstoria.png
 
-banner:
+banner: img/BANNER_Solstoria_2400x600.png
 
 cover: https://www.solstoria.net/comics/prologue_cover.png
 
@@ -28,11 +28,13 @@ update_status: hiatus
 
 other_works:
 
-merch: (link to shop)
+merch: 
 
 support: https://www.patreon.com/charmwitch
 
-social: (instagram, bluesky, etc.)
+social:
+  - https://bsky.app/profile/charmwitch.bsky.social
+  - https://charmwitch.tumblr.com/
 
 ---
 

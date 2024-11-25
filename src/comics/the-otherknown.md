@@ -12,7 +12,7 @@ about_page: https://www.otherknown.com/about
 
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_otherknown.png
 
-banner:
+banner: /img/BANNER_Otherknown_2400x600.png
 
 cover: https://www.otherknown.com/comics/Intro.jpg
 
@@ -29,11 +29,11 @@ update_status: hiatus
 
 other_works:
 
-merch: (link to shop)
+merch: 
 
 support: https://www.patreon.com/grackling
 
-social: (instagram, bluesky, etc.)
+social: https://longlostlorian.tumblr.com/
 
 ---
 

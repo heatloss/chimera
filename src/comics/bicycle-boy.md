@@ -12,7 +12,7 @@ about_page: https://www.bicycleboy.net/about
 
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_bicycle_boy.png
 
-banner:
+banner: /img/BANNER_BicycleBoy_2400x600.png
 
 cover: https://www.bicycleboy.net/comics/1681802719-BICYCLEBOY%20CH1%20P0-NEWnetvers2.png
 

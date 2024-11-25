@@ -34,7 +34,7 @@ update_status: hiatus
 
 other_works:
 
-merch: (link to shop)
+merch: https://ko-fi.com/megsyv
 
 support: 
   - https://www.patreon.com/MegSyv
