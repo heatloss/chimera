@@ -10,7 +10,7 @@ start_page: https://www.nighheavenandhell.com/comic/007
 
 about_page: https://www.nighheavenandhell.com/about
 
-thumbnail: /img/THMB_Nigh-Heaven-and-Hell.png
+thumbnail: /img/TILE_Nigh-Heaven-and-Hell.png
 
 banner: /img/BANNER_Nigh-Heaven-And-Hell.png
 

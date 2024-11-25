@@ -12,7 +12,7 @@ about_page: https://www.solstoria.net/about
 
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_solstoria.png
 
-banner: img/BANNER_Solstoria_2400x600.png
+banner: /img/BANNER_Solstoria_2400x600.png
 
 cover: https://www.solstoria.net/comics/prologue_cover.png
 

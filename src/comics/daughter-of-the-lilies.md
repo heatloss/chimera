@@ -40,7 +40,9 @@ support:
   - https://www.patreon.com/MegSyv
   - https://www.paypal.com/paypalme/MegSyv
 
-social: (instagram, bluesky, etc.)
+social: 
+  - http://bludragongal.tumblr.com/
+  - https://discordapp.com/invite/QScEaam
 
 ---
 

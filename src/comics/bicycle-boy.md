@@ -33,11 +33,13 @@ update_status: ongoing
 
 other_works:
 
-merch: (link to shop)
+merch: https://payhip.com/Jackarais
 
 support: https://www.patreon.com/jackarais
 
-social: (instagram, bluesky, etc.)
+social: 
+  - http://bicycleboyblog.tumblr.com/
+  - https://discord.gg/7Pt9GACSUC
 
 ---
 

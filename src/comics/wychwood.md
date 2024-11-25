@@ -12,7 +12,7 @@ about_page: https://www.wychwoodcomic.com/about
 
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_wychwood.png
 
-banner:
+banner: /img/BANNER_Wychwood_2400x600.jpg
 
 cover: https://wychwoodcomic.com/comics/wychwood_000.jpg
 
@@ -31,7 +31,7 @@ merch:
 
 support: https://www.patreon.com/varethane
 
-social: (instagram, bluesky, etc.)
+social: https://varethane.tumblr.com/
 
 ---
 
