@@ -693,11 +693,15 @@ button[data-toggler]::after {
         a[href*='tumblr.com'],
         a[href*='bsky.app'],
         a[href*='discord.gg'],
+        a[href*='twitch.tv'],
+        a[href*='mastodon'],
         a[href*='instagram.com'],
         a[href*='facebook.com'],
         a[href*='youtube.com'],
         a[href*='tiktok.com'],
         a[href*='payhip.com'],
+        a[href*='storenvy.com'],
+        a[href*='society6.com'],
         a[href*='bigcartel.com'] {
           .link {
             display: inline-block;
@@ -742,7 +746,13 @@ button[data-toggler]::after {
             content: 'Bluesky';
           }
         }
-
+        
+        a[href*='mastodon'] {
+          &::before {
+            content: 'Mastodon';
+          }
+        }
+        
         a[href*='instagram.com'] {
           &::before {
             content: 'Instagram';
@@ -761,9 +771,21 @@ button[data-toggler]::after {
           }
         }
         
+        a[href*='society6.com'] {
+          &::before {
+            content: 'Society6';
+          }
+        }
+        
         a[href*='facebook.com'] {
           &::before {
             content: 'Facebook';
+          }
+        }
+        
+        a[href*='storenvy.com'] {
+          &::before {
+            content: 'Storenvy';
           }
         }
         
@@ -776,6 +798,12 @@ button[data-toggler]::after {
         a[href*='tiktok.com'] {
           &::before {
             content: 'TikTok';
+          }
+        }
+        
+        a[href*='twitch.tv'] {
+          &::before {
+            content: 'Twitch';
           }
         }
         

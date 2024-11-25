@@ -12,7 +12,7 @@ about_page: https://www.inbloodwerise.com/about
 
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_inblood.png
 
-banner:
+banner: /img/BANNER_InBloodWeRise_2400x600.png
 
 cover: https://inbloodwerise.com/comics/1672866515-prologue_0000.png
 
@@ -40,7 +40,11 @@ merch:
 
 support: https://ko-fi.com/captainmera
 
-social: (instagram, bluesky, etc.)
+social: 
+  - https://instagram.com/captain.mera/
+  - https://www.youtube.com/channel/UCqJDSDhMgIV_o3EgiIoykGw
+  - https://captainmera.tumblr.com/
+  - https://www.twitch.tv/vikingmera
 
 ---
 

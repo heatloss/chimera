@@ -12,7 +12,7 @@ about_page: https://www.tigressqueen.com/about
 
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/09/tigress-queen.png
 
-banner:
+banner: /img/BANNER_TigressQueen_2400x600.jpg
 
 cover: https://www.tigressqueen.com/comics/1650911531-TQ%200001%20new.png
 
@@ -34,7 +34,9 @@ merch:
 
 support: https://www.patreon.com/AlliDrawsComics
 
-social: (instagram, bluesky, etc.)
+social:
+  - https://bsky.app/profile/allidrawscomics.bsky.social
+  - https://discord.gg/q3CmJux
 
 ---
 

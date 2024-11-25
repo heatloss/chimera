@@ -12,7 +12,7 @@ about_page: https://www.heroesofthantopolis.com/about
 
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/09/300x250_heroesofthantopolis.png
 
-banner:
+banner: /img/BANNER_HeroesOfThantopolis_2400x600.png
 
 cover: https://www.heroesofthantopolis.com/comics/1524029253-Book%201%20cover%20for%20web.png
 
@@ -36,7 +36,7 @@ merch:
 
 support:
 
-social: (instagram, bluesky, etc.)
+social: http://strontiumsun.tumblr.com/
 
 ---
 

@@ -12,7 +12,7 @@ about_page: https://www.hazylondon.com/about
 
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_hazy.png
 
-banner: /img/BANNER_Hazy-London.png
+banner: /img/BANNER_Hazy-London_2400x600.png
 
 cover: https://www.hazylondon.com/comics/1684372241-000.png
 

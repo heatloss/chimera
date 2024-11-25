@@ -12,7 +12,7 @@ about_page: https://www.daughterofthelilies.com/about
 
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/09/daughter-of-the-lilies.jpg
 
-banner:
+banner: /img/BANNER_DaughterOfTheLilies_2400x600.png
 
 cover: https://www.daughterofthelilies.com/comics/1603216074-00-00.jpg
 

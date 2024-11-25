@@ -12,7 +12,7 @@ about_page: https://www.lieswithincomic.com/about
 
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_lies_within.png
 
-banner:
+banner: /img/BANNER_LiesWithin_2400x600.jpg
 
 cover: https://www.lieswithincomic.com/comics/1619789286-0.png
 
@@ -32,11 +32,14 @@ update_status: ongoing
 
 other_works:
 
-merch: 
+merch:
 
 support: https://patreon.com/byelacey
 
-social: (instagram, bluesky, etc.)
+social: 
+  - https://bsky.app/profile/byelacey.bsky.social
+  - https://www.instagram.com/byelacey/
+  - https://byelacey.tumblr.com/
 
 ---
 

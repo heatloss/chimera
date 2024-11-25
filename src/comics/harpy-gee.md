@@ -12,7 +12,7 @@ about_page: https://www.harpygee.com/about
 
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_harpygee.png
 
-banner:
+banner: /img/BANNER_HarpyGee_2400x600.png
 
 cover: https://www.harpygee.com/comics/1409625851-cover.jpg
 
@@ -36,7 +36,9 @@ support:
   - https://ko-fi.com/briannedrouhard
   - https://patreon.com/BrianneDrouhard
 
-social: (instagram, bluesky, etc.)
+social: 
+  - http://harpygee.tumblr.com/
+  - https://www.facebook.com/OfficialHarpyGee/
 
 ---
 
