@@ -693,6 +693,7 @@ button[data-toggler]::after {
         a[href*='tumblr.com'],
         a[href*='bsky.app'],
         a[href*='discord.gg'],
+        a[href*='discordapp.com'],
         a[href*='twitch.tv'],
         a[href*='mastodon'],
         a[href*='instagram.com'],
@@ -807,7 +808,7 @@ button[data-toggler]::after {
           }
         }
         
-        a[href*='discord.gg'] {
+        a[href*='discord.gg'],a[href*='discordapp.com'] {
           &::before {
             content: 'Discord';
           }
