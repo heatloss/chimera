@@ -1,22 +1,22 @@
 ---
 
-title: LIFT (Living in Future Tense)
+title: Tripping Over You
 
 credits: Suzana Harcum and Owena White
 
-site: https://www.liftcomic.com/
+site: https://www.trippingoveryou.com/
 
-start_page: https://www.liftcomic.com/comic/lift-chapter-one
+start_page: https://www.trippingoveryou.com/comic/wiggle-room
 
-about_page: https://www.liftcomic.com/cast
+about_page: https://www.trippingoveryou.com/cast
 
-thumbnail: /img/hubbox_LIFT.png
+thumbnail: /img/TILE_TOY.jpg
 
-banner:
+banner: /img/BANNER_TrippingOverYou_2400x600.jpg
 
-cover: https://liftcomic.com/comics/1704154763-lift01-00a.png
+cover: https://www.trippingoveryou.com/comics/tripping00_01.png
 
-chimebar: /img/BAR_LIFT.png
+chimebar: 
 
 genre: 
   - romance
@@ -27,16 +27,21 @@ general_tags:
   - contemporary 
   - lgbt
 
-update_status: ongoing
+update_status: completed
 
-other_works:
+other_works: LIFT (Living in Future Tense)
 
 merch: 
 
 support: https://www.patreon.com/toyboxcomics
 
-social: (instagram, bluesky, etc.)
+social: 
+  - https://akasuzana.tumblr.com/
+  - https://www.instagram.com/toyboxcomics
+  - https://www.facebook.com/toyboxcomics
 
 ---
 
-A sequel to Tripping Over You. Milo and Liam have settled into their long-term careers and begun a family. Their lives are uprooted, however, when Milo's baby sister needs a quiet place to heal from a traumatic accident.
+Milo Dunstan, an energetic theater kid, falls for his withdrawn classmate, Liam Schwartz.
+
+Despite being unlikely friends, Milo and Liam strike up a mutual understanding of each other, as both feel like misfits in their London-based boarding school. Their friendship develops into a secret relationship that becomes difficult to hide.

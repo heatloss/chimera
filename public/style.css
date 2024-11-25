@@ -697,6 +697,7 @@ button[data-toggler]::after {
         a[href*='facebook.com'],
         a[href*='youtube.com'],
         a[href*='tiktok.com'],
+        a[href*='payhip.com'],
         a[href*='bigcartel.com'] {
           .link {
             display: inline-block;
@@ -751,6 +752,12 @@ button[data-toggler]::after {
         a[href*='bigcartel.com'] {
           &::before {
             content: 'Big Cartel';
+          }
+        }
+        
+        a[href*='payhip.com'] {
+          &::before {
+            content: 'Payhip';
           }
         }
         

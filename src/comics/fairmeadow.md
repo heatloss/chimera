@@ -10,9 +10,9 @@ start_page: http://www.fairmeadowcomic.com/comic/ch-01-pg-01
 
 about_page: http://www.fairmeadowcomic.com/about
 
-thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_fairmeadow.png
+thumbnail: /img/TILE_Fairmeadow.jpg
 
-banner:
+banner: /img/BANNER_Fairmeadow_2400x600.jpg
 
 cover: http://www.fairmeadowcomic.com/comics/1709945240-ch01_web_001.jpg
 
@@ -37,7 +37,7 @@ support:
   - https://ko-fi.com/hagofbolding
   - https://www.patreon.com/hagofbolding
 
-social: (instagram, bluesky, etc.)
+social: https://www.instagram.com/hagofbolding/
 
 ---
 
