@@ -12,7 +12,7 @@ about_page: https://www.hazylondon.com/about
 
 thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_hazy.png
 
-banner:
+banner: /img/BANNER_Hazy-London.png
 
 cover: https://www.hazylondon.com/comics/1684372241-000.png
 
@@ -31,11 +31,16 @@ other_works:
   - Freakshow
   - Nigh Heaven and Hell
 
-merch: (link to shop)
+merch: 
 
 support: https://www.patreon.com/scottycomics
 
-social: (instagram, bluesky, etc.)
+social: 
+  - https://bsky.app/profile/scottycomics.bsky.social
+  - https://www.instagram.com/scottycomics/
+  - https://www.youtube.com/@scottycomics
+  - https://www.facebook.com/HazyLondonComic/
+  - https://discord.gg/kV88DG5
 
 ---
 

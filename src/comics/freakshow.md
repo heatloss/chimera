@@ -12,7 +12,7 @@ about_page: https://www.freakshow-comic.com/about
 
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_freakshow.png
 
-banner:
+banner: /img/BANNER_Freakshow.png
 
 cover: https://www.freakshow-comic.com/comics/1542252925-003.png
 
@@ -30,11 +30,18 @@ other_works:
   - Hazy London
   - Nigh Heaven and Hell
 
-merch: (link to shop)
+merch: 
 
 support: https://www.patreon.com/scottycomics
 
-social: (instagram, bluesky, etc.)
+social: 
+  - https://bsky.app/profile/scottycomics.bsky.social
+  - https://www.instagram.com/scottycomics/
+  - http://scottycomics.tumblr.com/
+  - https://www.tiktok.com/@scottycomics
+  - https://www.facebook.com/Freakshow-Comic-248153945254720/?ref=hl
+  - https://www.youtube.com/@scottycomics
+  - https://discord.gg/kV88DG5
 
 ---
 

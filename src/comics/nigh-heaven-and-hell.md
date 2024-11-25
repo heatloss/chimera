@@ -4,7 +4,7 @@ title: Nigh Heaven and Hell
 
 credits: Crystal Jayme (Scotty)
 
-site: https://www.freakshow-comic.com
+site: https://www.nighheavenandhell.com
 
 start_page: https://www.nighheavenandhell.com/comic/007
 
@@ -12,7 +12,7 @@ about_page: https://www.nighheavenandhell.com/about
 
 thumbnail: /img/THMB_Nigh-Heaven-and-Hell.png
 
-banner:
+banner: /img/BANNER_Nigh-Heaven-And-Hell.png
 
 cover: https://www.nighheavenandhell.com/comics/1701919362-007.png
 
@@ -33,11 +33,18 @@ other_works:
   - Hazy London
   - Freakshow
 
-merch: (link to shop)
-
+merch: 
+  
 support: https://www.patreon.com/scottycomics
 
-social: (instagram, bluesky, etc.)
+social: 
+  - https://bsky.app/profile/scottycomics.bsky.social
+  - https://www.instagram.com/scottycomics/
+  - http://scottycomics.tumblr.com/
+  - https://www.tiktok.com/@scottycomics
+  - https://www.youtube.com/@scottycomics
+  - https://discord.gg/kV88DG5
+
 
 ---
 
