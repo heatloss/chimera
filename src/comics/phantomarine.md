@@ -12,7 +12,7 @@ about_page: https://www.phantomarine.com/about
 
 thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_phantomarine.png
 
-banner:
+banner: /img/BANNER_Phantomarine_2400x600.jpg
 
 cover: https://phantomarine.com/comics/1620627688-phantomarine_0-1_the_horizon_line.jpg
 
