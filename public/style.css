@@ -693,6 +693,9 @@ button[data-toggler]::after {
         a[href*='bsky.app'],
         a[href*='discord.gg'],
         a[href*='instagram.com'],
+        a[href*='facebook.com'],
+        a[href*='youtube.com'],
+        a[href*='tiktok.com'],
         a[href*='bigcartel.com'] {
           .link {
             display: inline-block;
@@ -749,7 +752,25 @@ button[data-toggler]::after {
             content: 'Big Cartel';
           }
         }
-
+        
+        a[href*='facebook.com'] {
+          &::before {
+            content: 'Facebook';
+          }
+        }
+        
+        a[href*='youtube.com'] {
+          &::before {
+            content: 'YouTube';
+          }
+        }
+        
+        a[href*='tiktok.com'] {
+          &::before {
+            content: 'TikTok';
+          }
+        }
+        
         a[href*='discord.gg'] {
           &::before {
             content: 'Discord';
