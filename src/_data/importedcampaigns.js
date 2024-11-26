@@ -9,7 +9,10 @@ export default async function () {
   });
   const base = Airtable.base('appqBhJfcXnGiVeSx');
 
-  const campaignRecords = await base('Campaigns').select().all();
+  const campaignRecords = await base('Campaigns').select({
+    maxRecords: 3,
+    view: 'Live campaigns',
+  }).all();
   const campaignsJSON = campaignRecords
     .map(function (record) {
       return record['_rawJson'];
