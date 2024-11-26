@@ -10,7 +10,7 @@ start_page: https://www.harpygee.com/comic/cover
 
 about_page: https://www.harpygee.com/about
 
-thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_harpygee.png
+thumbnail: /img/TILE_HarpyGee.jpg
 
 banner: /img/BANNER_HarpyGee_2400x600.jpg
 
