@@ -10,7 +10,7 @@ start_page: https://www.freakshow-comic.com/comic/000
 
 about_page: https://www.freakshow-comic.com/about
 
-thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_freakshow.png
+thumbnail: /img/TILE_Freakshow.png
 
 banner: /img/BANNER_Freakshow_2400x600.png
 

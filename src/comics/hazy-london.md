@@ -10,7 +10,7 @@ start_page: https://www.hazylondon.com/comic/001
 
 about_page: https://www.hazylondon.com/about
 
-thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_hazy.png
+thumbnail: /img/TILE_HazyLondon.png
 
 banner: /img/BANNER_Hazy-London_2400x600.png
 
