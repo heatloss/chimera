@@ -160,6 +160,11 @@ button[data-toggler]::after {
 
     & > h3 {
       margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+    ul + h5 {
+      margin-top: 1.5rem;
     }
   }
 }
