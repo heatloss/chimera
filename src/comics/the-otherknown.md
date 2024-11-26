@@ -10,7 +10,7 @@ start_page: https://www.otherknown.com/comic/the-otherknown-intro
 
 about_page: https://www.otherknown.com/about
 
-thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_otherknown.png
+thumbnail: /img/TILE_Otherknown.png
 
 banner: /img/BANNER_Otherknown_2400x600.png
 
