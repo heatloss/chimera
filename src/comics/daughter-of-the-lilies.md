@@ -10,7 +10,7 @@ start_page: https://www.daughterofthelilies.com/dotl/part-1-a-girl-with-no-face
 
 about_page: https://www.daughterofthelilies.com/about
 
-thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/09/daughter-of-the-lilies.jpg
+thumbnail: /img/TILE_DOTL.jpg
 
 banner: /img/BANNER_DaughterOfTheLilies_2400x600.jpg
 
