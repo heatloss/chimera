@@ -2,7 +2,7 @@
 
 title: Daughter of the Lilies
 
-credits: Meg Syverud and Jessica "Yoko" Weaver (Nytrinhia)
+credits: Meg Syverud and Yoko Weaver
 
 site: https://www.daughterofthelilies.com/
 
