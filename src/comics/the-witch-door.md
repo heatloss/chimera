@@ -39,6 +39,8 @@ merch:
 support: https://www.patreon.com/annikcomics
 
 social: 
+  - https://bsky.app/profile/annikcomics.bsky.social
+  - https://www.instagram.com/annikcomics/ 
   - http://kindlyanni.tumblr.com/
   - https://www.youtube.com/user/Nieida9
 
