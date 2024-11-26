@@ -10,7 +10,7 @@ start_page: https://www.phantomarine.com/comic/01-the-horizon-line
 
 about_page: https://www.phantomarine.com/about
 
-thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_phantomarine.png
+thumbnail: /img/TILE_Phantomarine.jpg
 
 banner: /img/BANNER_Phantomarine_2400x600.jpg
 
