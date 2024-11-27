@@ -10,9 +10,9 @@ start_page: https://www.lieswithincomic.com/comic/page-0
 
 about_page: https://www.lieswithincomic.com/about
 
-thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/02/hubbox_lies_within.png
+thumbnail: /img/TILE_LiesWithin.png
 
-banner: /img/BANNER_LiesWithin_2400x600.jpg
+banner: /img/BANNER_LiesWithin_2400x600.png
 
 cover: https://www.lieswithincomic.com/comics/1619789286-0.png
 
