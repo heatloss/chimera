@@ -10,7 +10,7 @@ start_page: https://inbloodwerise.com/comic/prologue
 
 about_page: https://www.inbloodwerise.com/about
 
-thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_inblood.png
+thumbnail: /img/TILE_IBWR.png
 
 banner: /img/BANNER_InBloodWeRise_2400x600.png
 
