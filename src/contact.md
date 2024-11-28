@@ -1,5 +1,6 @@
 ---
 layout: layouts/page.njk
+title: Contact
 ---
 
 ### Contact the Chimera Comics Collective

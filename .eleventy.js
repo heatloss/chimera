@@ -36,7 +36,7 @@ export default function (eleventyConfig) {
   still letting it have a proper glitch.me address via PROJECT_DOMAIN
   */
   const seo = {
-    title: 'Chimera Comics Collective: A comic webring',
+    title: 'Chimera Comics Collective',
     description: 'A webring, for webcomics',
     url: 'https://chimeracollective.org',
     image: 'https://chimeracollective.org/img/thechimera.png',

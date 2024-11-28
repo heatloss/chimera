@@ -1,5 +1,6 @@
 ---
 layout: layouts/page.njk
+title: Resources
 ---
 
 ### Resources

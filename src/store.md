@@ -1,5 +1,6 @@
 ---
 layout: layouts/page.njk
+title: Store
 ---
 
 ### Shop the Chimera Comics Collective
