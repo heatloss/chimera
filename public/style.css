@@ -397,14 +397,20 @@ button[data-toggler]::after {
           }
         }
 
+        &:not(.active) {
+          .banner-title {
+            transform: translateX(-10cqw);
+          }
+        }
+
         &.active ~ li {
           .banner-title {
-            transform: translateX(25cqw);
+            transform: translateX(10cqw);
           }
         }
 
         &:not(.active) .banner-credit {
-          transform: translateX(-20cqw);
+          transform: translateX(-10cqw);
         }
 
       }
@@ -961,6 +967,48 @@ button[data-toggler]::after {
   }
 }
 
+
+@media screen and (pointer: coarse) {
+  .wrapper.home {
+    .splash-banner {
+      .splash-controls {
+        display: none;
+      }
+
+      & ul {
+        transform: translateX(0);
+        width: 100vw;
+        height: 60vw;
+        overflow-x: scroll;
+
+        &::-webkit-scrollbar {
+          display: none; // Safari and Chrome
+        }
+
+        scroll-snap-type: x mandatory;
+        scroll-padding: 50%;
+
+        & > li {
+          scroll-snap-align: center;
+          scroll-snap-stop: always;
+          width: 80vw;
+          flex: none;
+
+          &:not(.active) {
+            .banner-title {
+              transform: translateX(0) !important;
+            }
+
+            .banner-credit {
+              transform: translateX(0);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 767px) {
 
   .home-header,
@@ -1008,18 +1056,10 @@ button[data-toggler]::after {
     }
 
     .splash-banner {
-      .splash-controls {
-        display: none;
-      }
-
       ul {
-        transform: translateX(0);
-
         & > li {
-          width: 100vw;
-
           .banner-title {
-            font-size: 5.9vw;
+            font-size: 5.5vw;
           }
 
           .banner-block {
@@ -1032,7 +1072,6 @@ button[data-toggler]::after {
           }
         }
       }
-
     }
 
     .campaigns {
