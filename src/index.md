@@ -21,6 +21,10 @@ layout: layouts/home.njk
 		</li>
 		{%- endfor -%} 
 	</ul>
+	<menu class="splash-controls">
+		<li class="splash-control splash-prev"><button value="-1">‹</button></li>
+		<li class="splash-control splash-next"><button value="1">›</button></li>
+	</menu>
 </section>
 <section class="campaigns">
 	{%- for campaign in collections.campaigns -%} 

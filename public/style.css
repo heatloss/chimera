@@ -22,12 +22,11 @@ body {
   font-family: var(--font-family);
   font-weight: 200;
   background-color: var(--color-bg);
-  background-image: image-set(
-    url(/img/BG_paper.webp) type('image/webp'),
-    url(/img/BG_paper.jpg) type('image/jpeg')
-  );
+  background-image: image-set(url(/img/BG_paper.webp) type('image/webp'),
+      url(/img/BG_paper.jpg) type('image/jpeg'));
   background-size: 50%;
   margin: 0;
+  container-type: inline-size;
 }
 
 main {
@@ -162,7 +161,7 @@ button[data-toggler]::after {
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
-    
+
     ul + h5 {
       margin-top: 1.5rem;
     }
@@ -182,13 +181,11 @@ button[data-toggler]::after {
   border-bottom: 3px solid var(--color-text-main);
   margin-bottom: 4rem;
   position: relative;
-  background-image: linear-gradient(
-    180deg,
-    rgba(251, 242, 78, 0.72) 0%,
-    rgba(251, 242, 78, 1) 64%,
-    rgba(251, 242, 78, 0) 65%,
-    rgba(251, 242, 78, 0) 100%
-  );
+  background-image: linear-gradient(180deg,
+      rgba(251, 242, 78, 0.72) 0%,
+      rgba(251, 242, 78, 1) 64%,
+      rgba(251, 242, 78, 0) 65%,
+      rgba(251, 242, 78, 0) 100%);
 
   &::before {
     content: '';
@@ -197,10 +194,8 @@ button[data-toggler]::after {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: image-set(
-      url(/img/BG_markerstripe.webp) type('image/webp'),
-      url(/img/BG_markerstripe.png) type('image/png')
-    );
+    background-image: image-set(url(/img/BG_markerstripe.webp) type('image/webp'),
+        url(/img/BG_markerstripe.png) type('image/png'));
 
     background-repeat: repeat-x;
     background-size: auto 36%;
@@ -260,67 +255,158 @@ button[data-toggler]::after {
   .splash-banner {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    width: 100cqw;
+    overflow-x: hidden;
+    justify-content: flex-start;
     border-top: 1.5px solid var(--color-text-main);
     background-image: url(/img/BG_inkline-below.png);
     background-size: 100%;
     background-repeat: repeat-x;
     background-position: center bottom;
+    position: relative;
 
-    ul > li:not(:first-child) {
-      display: none;
-    }
+    .splash-controls {
+      position: absolute;
+      top: 3.9vw;
+      bottom: 4.4vw;
+      left: 0;
+      right: 0;
+      pointer-events: none;
 
-    .banner-title {
-      font-size: 3.6vw;
-      line-height: 1;
-      font-weight: 700;
-      text-transform: uppercase;
-      position: relative;
-      top: 0.175em;
-      margin-left: 4%;
+      .splash-control {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 10cqw;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
 
-      a {
-        color: var(--color-text-main);
-
-        &:hover {
-          text-shadow: none;
-          text-decoration: none;
-        }
-      }
-    }
-
-    .banner-block {
-      .banner-image {
-        display: block;
-        background-color: var(--color-text-main);
-        border: 1px solid var(--color-text-main);
-        border-width: 0.667vw 0;
-
-        img {
-          display: block;
+        button {
+          background-color: transparent;
+          border: none;
+          position: absolute;
+          top: 0;
+          left: 0;
           width: 100%;
-          height: auto;
-          /* overflow: hidden;
-          border-radius: 0.5vw; */
-        }
-      }
-
-      .banner-caption {
-        display: flex;
-        justify-content: flex-end;
-        align-items: baseline;
-
-        .banner-credit {
-          font-size: 2.4vw;
-          line-height: 1.2;
-          width: 100%;
-          text-align: right;
+          height: 100%;
+          font-family: var(--font-family);
+          font-weight: 900;
+          font-size: 20vw;
           color: var(--color-bg);
-          margin-bottom: 1.333vw;
-          padding-right: 4%;
-          background-color: var(--color-text-main);
+          pointer-events: auto;
+          cursor: pointer;
+          opacity: 0.667;
         }
+
+        &.splash-prev {
+          left: 0;
+        }
+
+        &.splash-next {
+          right: 0;
+        }
+      }
+    }
+
+    &:not(.advance) {
+      .splash-controls .splash-control:hover {
+        transition: opacity 0.25s cubic-bezier(0.33, 0, 0, 1);
+        opacity: 1;
+      }
+    }
+
+    &.advance {
+      ul {
+        transition: transform 0.667s cubic-bezier(0.33, 0, 0, 1);
+      }
+
+      &[data-advance='1'] ul {
+        transform: translateX(-230cqw);
+      }
+
+      &[data-advance='-1'] ul {
+        transform: translateX(-70cqw);
+      }
+
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      transform: translateX(-150cqw);
+
+      & > li {
+        width: 80cqw;
+
+        .banner-title {
+          font-size: 3.6vw;
+          line-height: 1;
+          font-weight: 700;
+          text-transform: uppercase;
+          position: relative;
+          top: 0.175em;
+          margin-left: 4%;
+          transition: transform 0.444s cubic-bezier(0.333, 0, 0, 1);
+
+          a {
+            color: var(--color-text-main);
+
+            &:hover {
+              text-shadow: none;
+              text-decoration: none;
+            }
+          }
+        }
+
+        .banner-block {
+
+          .banner-image {
+            display: block;
+            background-color: var(--color-text-main);
+            border: 1px solid var(--color-text-main);
+            border-width: 0.667vw 0;
+            border-left: 0.5vw solid var(--color-text-main);
+            border-right: 0.5vw solid var(--color-text-main);
+
+            img {
+              display: block;
+              width: 100%;
+              height: 45.44cqw;
+              object-fit: cover;
+              transition: opacity 0.125s ease-out;
+            }
+          }
+
+          .banner-caption {
+            display: flex;
+            justify-content: flex-end;
+            align-items: baseline;
+
+            .banner-credit {
+              font-size: 2.4vw;
+              line-height: 1.2;
+              width: 100%;
+              text-align: right;
+              color: var(--color-bg);
+              margin-bottom: 1.333vw;
+              padding-right: 4%;
+              /* background-color: var(--color-text-main); */
+              transition: transform 0.444s cubic-bezier(0.333, 0, 0, 1);
+            }
+          }
+        }
+
+        &.active ~ li {
+          .banner-title {
+            transform: translateX(25cqw);
+          }
+        }
+
+        &:not(.active) .banner-credit {
+          transform: translateX(-20cqw);
+        }
+
       }
     }
   }
@@ -752,13 +838,13 @@ button[data-toggler]::after {
             content: 'Bluesky';
           }
         }
-        
+
         a[href*='mastodon'] {
           &::before {
             content: 'Mastodon';
           }
         }
-        
+
         a[href*='instagram.com'] {
           &::before {
             content: 'Instagram';
@@ -770,50 +856,51 @@ button[data-toggler]::after {
             content: 'Big Cartel';
           }
         }
-        
+
         a[href*='payhip.com'] {
           &::before {
             content: 'Payhip';
           }
         }
-        
+
         a[href*='society6.com'] {
           &::before {
             content: 'Society6';
           }
         }
-        
+
         a[href*='facebook.com'] {
           &::before {
             content: 'Facebook';
           }
         }
-        
+
         a[href*='storenvy.com'] {
           &::before {
             content: 'Storenvy';
           }
         }
-        
+
         a[href*='youtube.com'] {
           &::before {
             content: 'YouTube';
           }
         }
-        
+
         a[href*='tiktok.com'] {
           &::before {
             content: 'TikTok';
           }
         }
-        
+
         a[href*='twitch.tv'] {
           &::before {
             content: 'Twitch';
           }
         }
-        
-        a[href*='discord.gg'],a[href*='discordapp.com'] {
+
+        a[href*='discord.gg'],
+        a[href*='discordapp.com'] {
           &::before {
             content: 'Discord';
           }
@@ -875,6 +962,7 @@ button[data-toggler]::after {
 }
 
 @media only screen and (max-width: 767px) {
+
   .home-header,
   .comic-header {
     margin-bottom: 12vw;
@@ -898,7 +986,7 @@ button[data-toggler]::after {
         flex-wrap: wrap;
 
         & > li {
-          font-size: 4.8vw;
+          font-size: 4.5vw;
         }
       }
     }
@@ -920,20 +1008,31 @@ button[data-toggler]::after {
     }
 
     .splash-banner {
-      ul > li {
-        .banner-title {
-          font-size: 7.2vw;
-        }
+      .splash-controls {
+        display: none;
+      }
 
-        .banner-block {
-          .banner-caption {
-            .banner-credit {
-              font-size: 3.7vw;
-              margin-bottom: 1.5vw;
+      ul {
+        transform: translateX(0);
+
+        & > li {
+          width: 100vw;
+
+          .banner-title {
+            font-size: 5.9vw;
+          }
+
+          .banner-block {
+            .banner-caption {
+              .banner-credit {
+                font-size: 3.7vw;
+                margin-bottom: 1.5vw;
+              }
             }
           }
         }
       }
+
     }
 
     .campaigns {
