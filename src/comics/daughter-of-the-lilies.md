@@ -14,7 +14,7 @@ thumbnail: /img/TILE_DOTL.jpg
 
 banner: /img/BANNER_DaughterOfTheLilies_2400x600.jpg
 
-cover: https://www.daughterofthelilies.com/comics/1603216074-00-00.jpg
+cover: https://www.daughterofthelilies.com/comics/1603216074-00-00.webp
 
 chimebar: /img/BAR_DOTL.png
 

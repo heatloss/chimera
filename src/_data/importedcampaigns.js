@@ -1,7 +1,6 @@
 import Airtable from 'airtable';
 
 export default async function () {
-  const apiBaseUrl = process.env.API_BASE_URL;
   const airtableAPIKey = process.env.AIRTABLE_API_KEY;
   Airtable.configure({
     endpointUrl: 'https://api.airtable.com',

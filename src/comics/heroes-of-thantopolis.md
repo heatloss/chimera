@@ -10,7 +10,7 @@ start_page: https://www.heroesofthantopolis.com/comic/chapter-1-cover
 
 about_page: https://www.heroesofthantopolis.com/about
 
-thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/09/300x250_heroesofthantopolis.png
+thumbnail: /img/TILE_HOT.png
 
 banner: /img/BANNER_HeroesOfThantopolis_2400x600.png
 
