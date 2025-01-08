@@ -29,4 +29,3 @@ You'll get best use out of this project if you're familiar with basic HTML and J
 ← `comics/`: These are the Markdown files for the comics that make up your blog–you can add new pages here and remove any you don't want. Each one includes front matter that Eleventy uses to build the content into the site, passing the data into the template referenced as `layout` at the top of the file.
 
 ← `_includes/layouts/`: This is where all of your page level layouts go. The **\_** tells you that this is an _eleventy only_ folder. Each layout uses [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) to build the page or post data into an HTML page. There is one base layout that all others extend.
-
