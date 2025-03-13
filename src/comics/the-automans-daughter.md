@@ -12,7 +12,7 @@ about_page: https://www.automansdaughter.com/about
 
 thumbnail: /img/TILE_Automans-Daughter_800x800.png
 
-banner: /img/BANNER_Automans-Daughter_2400x600.jpg
+banner: /img/BANNER_Automans-Daughter_2400x600.png
 
 cover: https://www.automansdaughter.com/comics/1481492547-chapter-1.jpg
 
