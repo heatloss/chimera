@@ -14,7 +14,7 @@ thumbnail: /img/TILE_LIFT.jpg
 
 banner:
 
-cover: https://liftcomic.com/comics/1704154763-lift01-00a.png
+cover: https://www.liftcomic.com/wp-content/uploads/ch1-p1-to-see-Sylvia-Sinclair.png
 
 chimebar: /img/BAR_LIFT.png
 
