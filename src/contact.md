@@ -5,4 +5,6 @@ title: Contact
 
 ### Contact the Chimera Comics Collective
 
-Do not contact us. We will contact you.
+If you would like to contact the Chimera Comic Collective, please email us at chimeracomicscollective@gmail.com.
+
+The collective isn't currently open to submissions.
