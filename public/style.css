@@ -1054,7 +1054,7 @@ button[data-toggler]::after {
       & ul {
         transform: translateX(0);
         width: 100vw;
-        height: 60vw;
+        /* height: 60vw; */
         overflow-x: scroll;
 
         &::-webkit-scrollbar {
@@ -1173,7 +1173,7 @@ button[data-toggler]::after {
             .banner-caption {
               .banner-credit {
                 font-size: 3.7vw;
-                margin-top: 0.5vw;
+                margin: 0.75vw 0 13px 0;
               }
             }
           }
