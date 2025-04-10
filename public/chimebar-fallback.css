@@ -1,11 +1,6 @@
-import data from '/api/data.js';
-const chimeDomain = 'https://chimeracomics.org';
-const chimeScript = document.getElementById('chimescript');
-const lightMode = chimeScript.getAttribute('mode') || "light";
-const chimeStyles = `
 :root {
-  --bg-color: ${lightMode === "light" ? "#000" : "#333"};
-  --text-color: ${lightMode === "light" ? "#ddd" : "#eee"};
+  --bg-color: ${lightMode === "light" ? "#000" : "#222"};
+  --text-color: ${lightMode === "light" ? "#ddd" : "#eee"};;
 }
 
 #chimebar {
@@ -110,41 +105,3 @@ const chimeStyles = `
 #chimebar ul li:hover small {
   visibility: visible;
 }
-`;
-
-const chimebarComics = data.comics
-  .map((comic) => {
-    return comic.chimebar.length > 0 ? comic : null;
-  })
-  .filter(Boolean);
-
-const randomizedChimebar = chimebarComics
-  .map((value) => ({ value, sort: Math.random() }))
-  .sort((a, b) => a.sort - b.sort)
-  .map(({ value }) => value);
-
-randomizedChimebar.length = 10;
-
-const chimeList = document.createElement('ul');
-const chimeLabelString = `<a class="logo" href="https://chimeracomics.org">Chimera</a><small class="description">The <strong>Chimera Comics Collective</strong> is an organization of webcomic creators working across a monstrosity of different genres, styles and influences. Our aim is to lift the titles we catalog, provide a supportive community, and share resources among members to maximize everyone's chances to succeed. Much like a chimera, we embody a multitude of characteristics and abilities. Romance, horror, adventure, YA or adult—we celebrate what makes us unique, while working as one to build a supportive comic community. We'll be sharing resources, promotion and championing inclusivity and creativity.</small>`;
-
-randomizedChimebar.forEach((comic) => {
-  const barString = `<li><a href="${comic.site}" title="${
-    comic.title
-  }" target="_blank"><img src="${
-    chimeDomain + comic.chimebar
-  }" width="60" height="60" alt="${comic.title}" /></a><small><strong>${
-    comic.title
-  }</strong><br/>${comic.description}</small></li>`;
-  chimeList.insertAdjacentHTML('beforeend', barString);
-});
-
-document.querySelector('#chimebar').appendChild(chimeList);
-
-document
-  .querySelector('#chimebar')
-  .insertAdjacentHTML('afterbegin', chimeLabelString, chimeList);
-
-const style = document.createElement('style');
-style.innerHTML = chimeStyles;
-document.head.appendChild(style);
