@@ -859,6 +859,7 @@ button[data-toggler]::after {
         a[href*='gofundme.com'],
         a[href*='tumblr.com'],
         a[href*='bsky.app'],
+        a[href*='x.com'],
         a[href*='discord.gg'],
         a[href*='discordapp.com'],
         a[href*='twitch.tv'],
@@ -914,7 +915,13 @@ button[data-toggler]::after {
             content: 'Bluesky';
           }
         }
-
+        
+        a[href*='x.com'] {
+          &::before {
+            content: 'Twitter';
+          }
+        }
+        
         a[href*='mastodon'] {
           &::before {
             content: 'Mastodon';
