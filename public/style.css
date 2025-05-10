@@ -9,6 +9,7 @@
 /* Our default values set as CSS variables */
 :root {
   --color-bg: #f3f4ee;
+  --color-border: #989991;
   --color-text-main: #000000;
   --color-link: #801955;
   --color-link-hover: #bf1c7b;
@@ -34,7 +35,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   gap: 12vw;
-  align-items: center;
+  align-items: stretch;
   min-height: 100dvh;
 }
 
@@ -193,7 +194,7 @@ button[data-toggler]::after {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 50%;
+    width: 50vw;
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 0;
@@ -1032,12 +1033,42 @@ button[data-toggler]::after {
   }
 }
 
+.footerBox {
+  position: relative;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 20vw;
+    height: 20vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 0;
+    transform: rotate(180deg);
+  }
+
+  &:before {
+    left: 0;
+    background-image: url(/img/LOGO_splash-right.webp);
+    background-position: left -5vw;
+  }
+
+  &:after {
+    right: 0;
+    background-image: url(/img/LOGO_splash-left.webp);
+    background-position: right -5vw;
+  }
+}
+
 .footer {
   padding-bottom: 0.25rem;
   width: 100%;
   flex-wrap: wrap;
   position: relative;
   background-color: black;
+  z-index: 1;
 
   &:before {
     content: "";

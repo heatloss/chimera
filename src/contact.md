@@ -1,6 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Contact
+stylesheet: /public/mailchimp.css
 ---
 
 ### Contact the Chimera Comics Collective
@@ -14,3 +15,11 @@ Or, follow us on social media:
 * <mark>Bluesky:</mark> <a href="https://bsky.app/profile/chimeracomics.bsky.social" target="_blank">@chimeracomics.bsky.social</a></li>
 
 * <mark>Tumblr:</mark> <a href="https://www.tumblr.com/chimeracomicscollective" target="_blank">tumblr.com/chimeracomicscollective</a>
+
+You can also sign up for the <mark>Chimera Comics Collective newsletter</mark>.
+\
+Learn more about our creators, interviews, and webcomic resources.
+\
+You'll be the first to know about important updates like sales, kickstarters and convention plans!
+
+ {% include "mailchimp.njk" %}
