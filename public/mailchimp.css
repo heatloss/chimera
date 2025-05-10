@@ -1,0 +1,62 @@
+#mc_embed_signup_scroll {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin: 1rem;
+
+  & label {
+    font-style: italic;
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 14px;
+  }
+
+  & input[type="email"] {
+    border: 1px solid var(--color-border);
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 0.5em;
+    width: 16rem;
+    box-sizing: border-box;
+  }
+
+  & input[type="submit"] {
+    color: #fff;
+    border: solid;
+    border-width: 1.5px;
+    /* border-color: #EC2C8F  #373535 #3CACE1 #FAED36    ; */
+    border-color: #373535;
+    border-radius: 1rem;
+    text-shadow: 1px 1px 2px #373535, -1px -1px 2px #373535;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0.5em;
+    width: 16rem;
+    box-sizing: border-box;
+    background-image: url(/img/LOGO_splash-right.webp);
+    background-size: 200%;
+    background-position: right 14%;
+  }
+
+  .optionalParent {
+    p {
+      display: flex;
+      width: 16rem;
+      justify-content: center;
+      margin-top: 0.75rem;
+      
+      & > a {
+        display: block;
+      }
+    }
+
+    & .refferal_badge {
+      width: 110px;
+      height: auto;
+      display: flex;
+      padding: 2px 0px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

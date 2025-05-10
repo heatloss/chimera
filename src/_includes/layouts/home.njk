@@ -5,9 +5,9 @@ templateClass: tmpl-home
 
 {# The Home page uses this template–it extends the base template #}
 
-<div class="wrapper home">
+<section class="wrapper home">
   {% include "header.njk" %}
   <div class="content">
     {{ content | safe }}
   </div>
-</div>
+</section>

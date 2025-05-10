@@ -10,6 +10,12 @@
     <meta name="description" content="Chimera Comics Collective" />
     <link rel="stylesheet" type="text/css" href="/public/style.css" />
     {% seo "" %}
+    {% if stylesheet %}
+    <link rel="stylesheet" href="{{ stylesheet }}" />
+    {% endif %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <script>
       {% include "config.njk" %}
     </script>
@@ -24,8 +30,5 @@
     {% include "footer.njk" %}
     
   </main>
-  <style>
-    @import "https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-  </style>
   </body>
 </html>
