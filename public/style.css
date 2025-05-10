@@ -827,7 +827,7 @@ button[data-toggler]::after {
 
         a {
           display: block;
-          border: 0.333vw solid var(--color-text-main);
+          border: 0.333vw solid var(--color-border);
           border-radius: 0.5vw;
           overflow: hidden;
 
@@ -884,13 +884,32 @@ button[data-toggler]::after {
       font-weight: 600;
       text-transform: uppercase;
       font-size: 1.5rem;
-      border-bottom: 2.5px solid var(--color-text-main);
+      color: var(--color-heading);
+      /* padding-bottom: 2.5px; */
+      border-bottom: 2.5px solid var(--color-border-faint);
       line-height: 0.6;
       margin-left: -0.1rem;
+      position: relative;
+      z-index: 0;
+    
+      &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 100%;
+        height: 10.5px;
+        width: 100%;
+        background-color: var(--color-border-faint);
+        mask-image: url(/img/BGD_halftone-sm-down.png);
+        mask-size: auto 10.5px;
+        mask-repeat: repeat-x;
+        mask-position: center bottom;
+        z-index: -1;
+      }
     }
 
     .related {
-      margin: 0.5rem 0 0 0;
+      margin: 1rem 0 0 0;
 
       dt {
         text-transform: uppercase;
