@@ -9,9 +9,11 @@
 /* Our default values set as CSS variables */
 :root {
   --color-bg: #f3f4ee;
-  --color-border: #989991;
   --color-text-main: #000000;
+  --color-border: #292929;
+  --color-border-faint: #999996;
   --color-link: #801955;
+  --color-link-contrast: #991E66;
   --color-link-hover: #bf1c7b;
   --color-link-bg: #e1b4ce;
   --font-family: 'Rubik';
@@ -177,7 +179,7 @@ button[data-toggler]::after {
 .home-header,
 .comic-header {
   display: grid;
-  justify-content: center;
+  /* justify-content: center; */
   justify-items: center;
   grid-template-areas:
     'logobadge logotype'
@@ -219,7 +221,7 @@ button[data-toggler]::after {
     max-width: 1084px;
     position: relative;
     z-index: 3;
-    right: 5%;
+    right: 2.5vw;
 
     h1 {
       width: calc(67vw * 0.8);
@@ -244,7 +246,7 @@ button[data-toggler]::after {
     position: relative;
     top: -0.5vw;
     z-index: 2;
-    left: 5%;
+    left: 2.5vw;
 
     img {
       width: calc(26vw * 0.8);
@@ -256,12 +258,12 @@ button[data-toggler]::after {
     grid-area: logocollective;
     display: block;
     position: relative;
-    width: 100vw;
+    width: 100%;
     top: -2vw;
     left: 0;
     right: 0;
     height: 6.2vw;
-    background-color: #000;
+    background-color: var(--color-border);
     z-index: 1;
 
     &::before {
@@ -271,10 +273,11 @@ button[data-toggler]::after {
       left: 0;
       right: 0;
       bottom: 100%;
-      background-image: url(/img/BGD_halftone-lg-up.png);
-      background-repeat: repeat-x;
-      background-size: auto 26px;
-      background-position: center center;
+      background-color: var(--color-border);
+      mask-image: url(/img/BGD_halftone-lg-up.png);
+      mask-repeat: repeat-x;
+      mask-size: auto 26px;
+      mask-position: center center;
     }
 
     &::after {
@@ -284,10 +287,11 @@ button[data-toggler]::after {
       left: 0;
       right: 0;
       height: 26px;
-      background-image: url(/img/BGD_halftone-lg-down.png);
-      background-repeat: repeat-x;
-      background-size: auto 26px;
-      background-position: center center;
+      background-color: var(--color-border);
+      mask-image: url(/img/BGD_halftone-lg-down.png);
+      mask-repeat: repeat-x;
+      mask-size: auto 26px;
+      mask-position: center center;
     }
 
     h2 {
@@ -344,8 +348,8 @@ button[data-toggler]::after {
     width: 100cqw;
     overflow-x: hidden;
     justify-content: flex-start;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 50.1%);
-    background-position: center -1px;
+    background-image: linear-gradient(180deg, rgba(41, 41, 41, 0) 50%, rgba(41, 41, 41, 1) 50.1%);
+    background-position: center -16px;
     position: relative;
 
     &:after {
@@ -355,11 +359,11 @@ button[data-toggler]::after {
       right: 0;
       bottom: 0;
       height: 26px;
-      background-image: url(/img/BGD_halftone-md-down.png);
-      background-size: auto 16px;
-      /* background-color: red; */
-      background-repeat: repeat-x;
-      background-position: center bottom;
+      background-color: var(--color-border);
+      mask-image: url(/img/BGD_halftone-md-down.png);
+      mask-size: auto 16px;
+      mask-repeat: repeat-x;
+      mask-position: center bottom;
     }
 
     .splash-controls {
@@ -376,7 +380,7 @@ button[data-toggler]::after {
         height: 100%;
         width: 10cqw;
         z-index: 1;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(41, 41, 41, 0.5);
         opacity: 0;
 
         button {
@@ -447,7 +451,7 @@ button[data-toggler]::after {
           transition: transform 0.444s cubic-bezier(0.333, 0, 0, 1);
 
           a {
-            color: var(--color-text-main);
+            color: var(--color-border);
 
             &:hover {
               text-shadow: none;
@@ -460,11 +464,11 @@ button[data-toggler]::after {
 
           .banner-image {
             display: block;
-            background-color: var(--color-text-main);
-            border: 1px solid var(--color-text-main);
+            background-color: var(--color-border);
+            border: 1px solid var(--color-border);
             border-width: 0.667vw 0;
-            border-left: 0.5vw solid var(--color-text-main);
-            border-right: 0.5vw solid var(--color-text-main);
+            border-left: 0.5vw solid var(--color-border);
+            border-right: 0.5vw solid var(--color-border);
 
             img {
               display: block;
@@ -528,10 +532,11 @@ button[data-toggler]::after {
       left: 0;
       right: 0;
       top: 89%;
-      background-image: url(/img/BGD_halftone-stripe.png);
-      background-size: auto 11.67px;
-      background-repeat: repeat-x;
-      background-position: center top;
+      background-color: var(--color-border);
+      mask-image: url(/img/BGD_halftone-stripe.png);
+      mask-size: auto 11.67px;
+      mask-repeat: repeat-x;
+      mask-position: center top;
     }
 
     .campaign {
@@ -582,7 +587,7 @@ button[data-toggler]::after {
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: start;
-    border-bottom: 0.8vw solid var(--color-text-main);
+    border-bottom: 0.8vw solid var(--color-border);
     grid-template-areas:
       'comic-title comic-title'
       'comic-ops comic-grid';
@@ -595,11 +600,24 @@ button[data-toggler]::after {
       font-weight: 800;
       padding-left: 5vw;
       padding-bottom: 0.1vw;
-      background-image: url(/img/BGD_halftone-sm-up.png);
-      background-size: auto 10.5px;
-      background-repeat: repeat-x;
-      background-position: center bottom;
-      border-bottom: 1vw solid black;
+      color: var(--color-border);
+      position: relative;
+      border-bottom: 1vw solid var(--color-border);
+
+      
+      &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 10.5px;
+        width: 100%;
+        background-color: var(--color-border);
+        mask-image: url(/img/BGD_halftone-sm-up.png);
+        mask-size: auto 10.5px;
+        mask-repeat: repeat-x;
+        mask-position: center bottom;
+      }
     }
 
     #comics-list-options {
@@ -614,7 +632,7 @@ button[data-toggler]::after {
 
       .comic-op {
         padding: 0.5vw 1vw;
-        border-bottom: 2px solid var(--color-text-main);
+        border-bottom: 2px solid var(--color-border);
         align-items: baseline;
         display: grid;
         justify-items: end;
@@ -692,8 +710,8 @@ button[data-toggler]::after {
 
     .comic-grid-box {
       grid-area: comic-grid;
-      background-color: var(--color-text-main);
-      box-shadow: 0 0.75vw var(--color-text-main);
+      background-color: var(--color-border);
+      box-shadow: 0 0.75vw var(--color-border);
       height: 100%;
       container-name: comic-grid;
       container-type: inline-size;
@@ -701,8 +719,8 @@ button[data-toggler]::after {
 
     .comic-grid {
       display: grid;
-      border-left: 0.75vw solid var(--color-text-main);
-      border-right: 0.75vw solid var(--color-text-main);
+      border-left: 0.75vw solid var(--color-border);
+      border-right: 0.75vw solid var(--color-border);
       gap: 0.75vw;
 
       & > li {
@@ -719,7 +737,7 @@ button[data-toggler]::after {
           z-index: 1;
 
           .comic-thumb {
-            box-shadow: 0 0 0px 0.45rem var(--color-text-main);
+            box-shadow: 0 0 0px 0.45rem var(--color-border);
           }
         }
 
@@ -1067,8 +1085,16 @@ button[data-toggler]::after {
   width: 100%;
   flex-wrap: wrap;
   position: relative;
-  background-color: black;
+  background-color: var(--color-border);
   z-index: 1;
+  
+  & a {
+    color: var(--color-link-contrast);
+    
+    &:hover {
+      text-shadow: 0 0 12px var(--color-link);
+    }
+  }
 
   &:before {
     content: "";
@@ -1077,10 +1103,11 @@ button[data-toggler]::after {
     right: 0;
     bottom: 100%;
     height: 16px;
-    background-image: url(/img/BGD_halftone-md-up.png);
-    background-repeat: repeat-x;
-    background-size: auto 16px;
-    background-position: center top;
+    background-color: var(--color-border);
+    mask-image: url(/img/BGD_halftone-md-up.png);
+    mask-repeat: repeat-x;
+    mask-size: auto 16px;
+    mask-position: center top;
   }
 
   .links {
