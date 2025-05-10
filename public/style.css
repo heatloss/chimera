@@ -179,7 +179,7 @@ button[data-toggler]::after {
   justify-content: center;
   justify-items: center;
   grid-template-areas:
-    'logotype logobadge'
+    'logobadge logotype'
     'logocollective logocollective'
     'navbar navbar';
   height: auto;
@@ -187,17 +187,42 @@ button[data-toggler]::after {
   margin-bottom: 4rem;
   position: relative;
 
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+
+  &:before {
+    left: 0;
+    background-image: url(/img/LOGO_splash-left.webp);
+    background-position: left top;
+  }
+
+  &:after {
+    right: 0;
+    background-image: url(/img/LOGO_splash-right.webp);
+    background-position: right top;
+  }
+
   .home-logotype {
     grid-area: logotype;
     align-content: center;
-    /* margin: 4rem 1.5rem 0 1.5rem; */
+    justify-self: start;
     max-width: 1084px;
     position: relative;
-    z-index: 1;
+    z-index: 3;
+    right: 5%;
 
     h1 {
-      width: 67vw;
-      height: 26vw;
+      width: calc(67vw * 0.8);
+      height: calc(26vw * 0.8);
       overflow: hidden;
       text-indent: -999vw;
       background-image: url(/img/LOGO_logotype.svg);
@@ -214,14 +239,15 @@ button[data-toggler]::after {
 
   .home-logobadge {
     grid-area: logobadge;
-    justify-self: start;
+    justify-self: end;
     position: relative;
     top: -0.5vw;
-    z-index: 1;
+    z-index: 2;
+    left: 5%;
 
     img {
-      width: 26vw;
-      height: 26vw;
+      width: calc(26vw * 0.8);
+      height: calc(26vw * 0.8);
     }
   }
 
@@ -235,6 +261,7 @@ button[data-toggler]::after {
     right: 0;
     height: 6.2vw;
     background-color: #000;
+    z-index: 1;
 
     &::before {
       content: '';
@@ -272,8 +299,8 @@ button[data-toggler]::after {
       bottom: 0;
       background-image: url(/img/LOGO_collective.svg);
       background-repeat: no-repeat;
-      background-size: 47% auto;
-      background-position: 17vw 0.3vw;
+      background-size: 43% auto;
+      background-position: center center;
     }
   }
 
@@ -915,13 +942,13 @@ button[data-toggler]::after {
             content: 'Bluesky';
           }
         }
-        
+
         a[href*='x.com'] {
           &::before {
             content: 'Twitter';
           }
         }
-        
+
         a[href*='mastodon'] {
           &::before {
             content: 'Mastodon';
@@ -1108,19 +1135,20 @@ button[data-toggler]::after {
       'logocollective'
       'navbar';
 
-    &::before {
+    /* &::before {
       background-size: auto 29%;
       background-position: center bottom calc(0.5rem + 6vw);
-    }
+    } */
 
     .home-logobadge {
       justify-self: center;
       margin-bottom: -5vw;
       top: 0;
+      left: 0;
 
       img {
-        width: 44vw;
-        height: 44vw;
+        width: 50vw;
+        height: 42vw;
       }
     }
 
@@ -1131,6 +1159,8 @@ button[data-toggler]::after {
       h1 {
         width: 93.5vw;
         height: 36vw;
+        position: relative;
+        left: 5%;
       }
     }
 
