@@ -1,0 +1,80 @@
+/* Our default values set as CSS variables */
+:root {
+  --color-bg: #111111;
+  --color-text-main: #B8B8B4;
+  --color-border: #3D3D3D;
+  --color-heading: #999996;
+  --color-border-faint: #454545;
+  --color-link: #B8247A;
+  --color-link-contrast: #C73B8D;
+  --color-link-hover: #D72F91;
+  --color-link-bg: #991E66;
+}
+
+/* Page structure */
+body {
+  background-color: var(--color-bg);
+  background-image: none;
+  
+}
+
+.home-header,
+.comic-header {
+  background-image: linear-gradient(180deg, transparent 0%, var(--color-border) 75%, transparent 75.1%);
+  background-repeat: no-repeat;
+
+  &:before,
+  &:after {
+    background-size: 75%;
+    bottom: 25%;
+    filter: saturate(0);
+    opacity: 0.16;
+  }
+
+  &:before {
+    background-size: 67%;
+  }
+
+  .home-logotype {
+
+    h1 {
+      background-image: url(/img/LOGO_logotype-dark.svg);
+    }
+  }
+
+  .home-logobadge {
+    background-color: var(--color-border);
+  }
+
+  .home-logocollective {
+    background-color: var(--color-bg);
+
+    &::before {
+      background-color: var(--color-bg);
+    }
+
+    &::after {
+      background-color: var(--color-bg);
+    }
+    
+    h2 {
+      background-image: url(/img/LOGO_collective-dark.svg);
+    }
+  }
+}
+
+.wrapper.home {
+  .splash-banner {
+    ul {
+      & > li {
+        .banner-block {
+          .banner-caption {
+            .banner-credit {
+              color: var(--color-heading);
+            }
+          }
+        }
+      }
+    }
+  }
+}
