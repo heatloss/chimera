@@ -27,7 +27,7 @@ body {
   &:after {
     background-size: 75%;
     bottom: 25%;
-    filter: saturate(0);
+    filter: saturate(0.05);
     opacity: 0.16;
   }
 
@@ -77,4 +77,13 @@ body {
       }
     }
   }
+}
+
+.footerBox {
+position: relative;
+
+&:before,
+&:after {
+  filter: saturate(0.05);
+  opacity: 0.1;
 }
