@@ -4,6 +4,10 @@
   gap: 0.25rem;
   margin: 1rem;
 
+  h2, .indicates-required, .asterisk {
+    display: none
+  }
+
   & label {
     font-style: italic;
     display: block;
@@ -12,7 +16,7 @@
   }
 
   & input[type="email"] {
-    border: 1px solid var(--color-border);
+    border: 1px solid var(--color-border-faint);
     border-radius: 2px;
     font-size: 12px;
     padding: 0.5em;
@@ -25,9 +29,9 @@
     border: solid;
     border-width: 1.5px;
     /* border-color: #EC2C8F  #373535 #3CACE1 #FAED36    ; */
-    border-color: #373535;
+    border-color: var(--color-border);
     border-radius: 1rem;
-    text-shadow: 1px 1px 2px #373535, -1px -1px 2px #373535;
+    text-shadow: 1px 1px 2px var(--color-border), -1px -1px 2px var(--color-border);
     font-size: 14px;
     font-weight: bold;
     padding: 0.5em;
@@ -44,7 +48,7 @@
       width: 16rem;
       justify-content: center;
       margin-top: 0.75rem;
-      
+
       & > a {
         display: block;
       }
