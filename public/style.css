@@ -11,6 +11,7 @@
   --color-bg: #f3f4ee;
   --color-text-main: #000000;
   --color-border: #292929;
+  --color-heading: #292929;
   --color-border-faint: #999996;
   --color-link: #801955;
   --color-link-contrast: #991E66;
@@ -30,6 +31,7 @@ body {
   background-size: 50%;
   margin: 0;
   container-type: inline-size;
+  color: var(--color-text-main);
 }
 
 main {
@@ -50,6 +52,7 @@ p {
 mark {
   font-weight: 600;
   background-color: transparent;
+  color: inherit;
 }
 
 h1,
@@ -186,9 +189,9 @@ button[data-toggler]::after {
     'logocollective logocollective'
     'navbar navbar';
   height: auto;
-  /* border-bottom: 3px solid var(--color-text-main); */
   margin-bottom: 4rem;
   position: relative;
+  padding-top: 1.5vw;
 
   &:before,
   &:after {
@@ -241,14 +244,21 @@ button[data-toggler]::after {
   }
 
   .home-logobadge {
+    display: block;
     grid-area: logobadge;
     justify-self: end;
     position: relative;
     top: -0.5vw;
     z-index: 2;
     left: 2.5vw;
+    background-color: var(--color-bg);
+    mask-image: url(/img/LOGO_chimera-bg.svg);
+    mask-repeat: no-repeat;
+    mask-position: center center;
+    mask-size: 100%;
 
     img {
+      display: block;
       width: calc(26vw * 0.8);
       height: calc(26vw * 0.8);
     }
@@ -259,7 +269,7 @@ button[data-toggler]::after {
     display: block;
     position: relative;
     width: 100%;
-    top: -2vw;
+    top: -1.5vw;
     left: 0;
     right: 0;
     height: 6.2vw;
@@ -314,6 +324,7 @@ button[data-toggler]::after {
     width: 72%;
     position: relative;
     z-index: 1;
+    margin-top: 0.5vw;
 
     ul {
       text-transform: uppercase;
@@ -348,7 +359,7 @@ button[data-toggler]::after {
     width: 100cqw;
     overflow-x: hidden;
     justify-content: flex-start;
-    background-image: linear-gradient(180deg, rgba(41, 41, 41, 0) 50%, rgba(41, 41, 41, 1) 50.1%);
+    background-image: linear-gradient(180deg, transparent 50%, var(--color-border) 50.1%);
     background-position: center -16px;
     position: relative;
 
@@ -451,7 +462,7 @@ button[data-toggler]::after {
           transition: transform 0.444s cubic-bezier(0.333, 0, 0, 1);
 
           a {
-            color: var(--color-border);
+            color: var(--color-heading);
 
             &:hover {
               text-shadow: none;
@@ -600,11 +611,11 @@ button[data-toggler]::after {
       font-weight: 800;
       padding-left: 5vw;
       padding-bottom: 0.1vw;
-      color: var(--color-border);
+      color: var(--color-heading);
       position: relative;
       border-bottom: 1vw solid var(--color-border);
+      z-index: 0;
 
-      
       &:after {
         content: "";
         position: absolute;
@@ -617,6 +628,7 @@ button[data-toggler]::after {
         mask-size: auto 10.5px;
         mask-repeat: repeat-x;
         mask-position: center bottom;
+        z-index: -1;
       }
     }
 
@@ -1087,10 +1099,10 @@ button[data-toggler]::after {
   position: relative;
   background-color: var(--color-border);
   z-index: 1;
-  
+
   & a {
     color: var(--color-link-contrast);
-    
+
     &:hover {
       text-shadow: 0 0 12px var(--color-link);
     }
