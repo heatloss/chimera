@@ -1234,6 +1234,7 @@ button[data-toggler]::after {
       margin-bottom: -5vw;
       top: 0;
       left: 0;
+      mask-size: 43.5vw;
 
       img {
         width: 50vw;
