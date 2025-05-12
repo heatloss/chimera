@@ -1385,7 +1385,7 @@ button[data-toggler]::after {
       }
 
       .comic-grid-box {
-        border-top: 1vw solid var(--color-text-main);
+        border-top: 1vw solid var(--color-border);
       }
     }
   }
