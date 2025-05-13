@@ -14,7 +14,7 @@ thumbnail: /img/TILE_Shaderunners.jpg
 
 banner: /img/BANNER_Shaderunners_2400x600.jpg
 
-cover: https://www.shaderunners.com/comics/1582899463-Page%20000.jpg
+cover: https://img.comicfury.com/comics/385/72525a1745681972b124697f521060370.jpg
 
 genre: 
  - history
