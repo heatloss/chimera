@@ -16,6 +16,8 @@ banner: /img/BANNER_Shaderunners_2400x600.jpg
 
 cover: https://img.comicfury.com/comics/385/72525a1745681972b124697f521060370.jpg
 
+chimebar: /img/BAR_Shaderunners.jpg
+
 genre: 
  - history
  - romance

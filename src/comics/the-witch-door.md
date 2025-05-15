@@ -16,7 +16,7 @@ banner: /img/BANNER_TheWitchDoor_2400x600.png
 
 cover: https://www.thewitchdoor.com/comics/1502240196-prologue-01.png
 
-chimebar: 
+chimebar: /img/BAR_TWD.png
 
 genre: 
   - urban fantasy
