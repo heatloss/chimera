@@ -19,9 +19,9 @@ cover: https://www.freakshow-comic.com/comics/1542252925-003.png
 genre:
   - drama
   - historical
+  - mystery
 
 general_tags: 
-  - mystery
   - violence
 
 update_status: hiatus

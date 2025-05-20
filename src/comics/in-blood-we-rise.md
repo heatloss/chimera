@@ -27,7 +27,7 @@ genre:
   - drama
 
 general_tags: 
-  - lgbt
+  - lgbtq+
   - witches
   - vampires
   - mature audiences

@@ -26,7 +26,7 @@ general_tags:
   - all-ages
   - furries
   - ghosts
-  - lgbt
+  - lgbtq+
 
 update_status: ongoing
 
