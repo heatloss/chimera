@@ -24,7 +24,7 @@ genre:
 
 general_tags: 
   - vampires
-  - lgbt
+  - lgbtq+
   - violence
   - black-and-white
 

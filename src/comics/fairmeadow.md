@@ -23,7 +23,7 @@ genre:
   - fantasy
 
 general_tags: 
-  - lgbt
+  - lgbtq+
   - nudity
   - mature audiences
 

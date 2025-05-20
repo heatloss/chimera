@@ -22,7 +22,7 @@ genre:
   - drama
 
 general_tags: 
-  - lgbt
+  - lgbtq+
   - found family
 
 update_status: ongoing

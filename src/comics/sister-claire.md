@@ -27,7 +27,7 @@ genre:
 general_tags: 
   - gore
   - violence
-  - lgbt
+  - lgbtq+
   - witches
   - werewolves
 

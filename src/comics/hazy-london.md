@@ -22,7 +22,7 @@ genre:
   - drama
 
 general_tags: 
-  - lgbt
+  - lgbtq+
   - contemporary 
 
 update_status: hiatus

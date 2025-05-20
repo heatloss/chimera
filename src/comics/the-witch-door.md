@@ -26,7 +26,7 @@ genre:
   
 general_tags: 
   - contemporary
-  - lgbt
+  - lgbtq+
   - witches
   - ghosts
 

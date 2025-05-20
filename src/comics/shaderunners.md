@@ -19,14 +19,16 @@ cover: https://img.comicfury.com/comics/385/72525a1745681972b124697f521060370.jp
 chimebar: /img/BAR_Shaderunners.jpg
 
 genre: 
- - history
+ - alternate history
  - romance
+ - mystery
  - fantasy
  - drama
 
 general_tags: 
-  - lgbt
-  - young adult
+  - lgbtq+
+  - mature audiences
+  - crime
 
 update_status: ongoing
 

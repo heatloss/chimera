@@ -24,7 +24,7 @@ genre:
   - drama
 
 general_tags: 
-  - lgbt
+  - lgbtq+
   - violence
   - werewolves
   - gore

@@ -23,7 +23,7 @@ genre:
   - action-adventure
 
 general_tags: 
-  - lgbt
+  - lgbtq+
   - aliens
   - supernatural
   - black-and-white

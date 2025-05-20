@@ -20,7 +20,7 @@ chimebar: /img/BAR_DOTL.png
 
 genre: 
  - fantasy
- - adventure
+ - action-adventure
 
 general_tags: 
   - mental health

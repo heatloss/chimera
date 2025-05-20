@@ -25,7 +25,7 @@ genre:
 
 general_tags: 
   - contemporary 
-  - lgbt
+  - lgbtq+
 
 update_status: ongoing
 
