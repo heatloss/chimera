@@ -2,6 +2,8 @@ import { DateTime } from 'luxon';
 import pluginSEO from 'eleventy-plugin-seo';
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import {} from 'dotenv/config';
+import markdownIt from 'markdown-it';
+import markdownItAttrs from 'markdown-it-attrs';
 
 /**
  * This is the JavaScript code that determines the config for your Eleventy site
@@ -10,7 +12,7 @@ import {} from 'dotenv/config';
  * Try extending it to suit your needs!
  */
 
-export default function (eleventyConfig) {
+export default function(eleventyConfig) {
   eleventyConfig.setTemplateFormats([
     // Templates:
     'html',
@@ -29,12 +31,14 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('public');
   eleventyConfig.addPassthroughCopy('src/img');
 
-  /* From: https://github.com/artstorm/eleventy-plugin-seo
+  const markdownLib = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true,
+  }).use(markdownItAttrs).disable('code');
   
-  Adds SEO settings to the top of all pages
-  The "glitch-default" bit allows someone to set the url in seo.json while
-  still letting it have a proper glitch.me address via PROJECT_DOMAIN
-  */
+  eleventyConfig.setLibrary('md', markdownLib);
+
   const seo = {
     title: 'Chimera Comics Collective',
     description: 'A webring, for webcomics',
@@ -56,9 +60,9 @@ export default function (eleventyConfig) {
     'twitter:image': 'https://chimeracollective.org/img/thechimera.png',
   };
 
+  /* From: https://github.com/artstorm/eleventy-plugin-seo */
   eleventyConfig.addPlugin(pluginSEO, seo);
 
-  // Filters let you modify the content https://www.11ty.dev/docs/filters/
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
       zone: 'utc',
@@ -72,7 +76,7 @@ export default function (eleventyConfig) {
     return newString;
   });
 
-  eleventyConfig.addFilter('toDDFromTitle', function (titles, arr, attr) {
+  eleventyConfig.addFilter('toDDFromTitle', function(titles, arr, attr) {
     if (typeof titles === 'string') {
       const titleURL = arr.find((item) => item.data.title === titles)['url'];
       return `<dd><a href="${titleURL}" target="_blank"><span class="link">${titles}<span></a></dd>`;
@@ -86,19 +90,19 @@ export default function (eleventyConfig) {
     }
   });
 
-  eleventyConfig.addFilter('getUrlFromTitle', function (title, arr, attr) {
+  eleventyConfig.addFilter('getUrlFromTitle', function(title, arr, attr) {
     return arr.find((item) => item.data.title === title)['url'];
   });
 
-  eleventyConfig.addFilter('getCreditsFromTitle', function (title, arr, attr) {
+  eleventyConfig.addFilter('getCreditsFromTitle', function(title, arr, attr) {
     return arr.find((item) => item.data.title === title).data['credits'];
   });
 
-  eleventyConfig.addFilter('toStringsArray', function (arr) {
+  eleventyConfig.addFilter('toStringsArray', function(arr) {
     return arr.map((item) => `"${item}",`);
   });
 
-  eleventyConfig.addFilter('toDD', function (list) {
+  eleventyConfig.addFilter('toDD', function(list) {
     const URLize = (string) => {
       try {
         new URL(string);
@@ -107,13 +111,13 @@ export default function (eleventyConfig) {
         return string;
       }
     };
-    return typeof list === 'string'
-      ? `<dd>${URLize(list)}</dd>`
-      : list
-          .map((item) => {
-            return `<dd>${URLize(item)}</dd>`;
-          })
-          .join('');
+    return typeof list === 'string' ?
+      `<dd>${URLize(list)}</dd>` :
+      list
+      .map((item) => {
+        return `<dd>${URLize(item)}</dd>`;
+      })
+      .join('');
   });
 
   eleventyConfig.setBrowserSyncConfig({

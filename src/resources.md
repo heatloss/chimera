@@ -7,20 +7,20 @@ title: Resources
 
 ##### Articles, tutorials, guides:
 
-* <a href="https://www.twwronline.com/2023/11/02/how-to-set-up-and-manage-an-rss-reader-to-keep-track-of-webcomics/" target="_blank">How to use RSS feeds to follow comics</a>
+* [How to use RSS feeds to follow comics](https://www.twwronline.com/2023/11/02/how-to-set-up-and-manage-an-rss-reader-to-keep-track-of-webcomics/){target='_blank'}
 
-* <a href="http://invoiceto.me" target="_blank">Invoicely, a customizable invoice generator, for sending out invoices.</a>
+* [Invoicely, a customizable invoice generator, for sending out invoices.](http://invoiceto.me){target='_blank'}
 
 ##### Videos that might be of interest to comic creators:
 
-* <a href="https://vimeo.com/22053820" target="_blank">Mike Monteiro's "Fuck You, Pay Me"</a>
+* [Mike Monteiro's "Fuck You, Pay Me"](https://vimeo.com/22053820){target='_blank'}
 
 ##### Sites we like:
 
-* <a href="https://webcomictravelogue.com/" target="_blank">The Webcomic Travelogue</a>
+* [The Webcomic Travelogue](https://webcomictravelogue.com/){target='_blank'}
 
-* <a href="https://cartoonist.coop/" target="_blank">The Cartoonist co-op</a>
+* [The Cartoonist co-op](https://cartoonist.coop/){target='_blank'}
 
-* <a href="https://www.screentonescast.com/" target="_blank">The Screen Tones podcast</a>
+* [The Screen Tones podcast](https://www.screentonescast.com/){target='_blank'}
 
 
