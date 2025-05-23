@@ -19,10 +19,10 @@ cover: https://www.catcoconut.com/content/images/2024/05/Prologue-1.png
 chimebar: 
 
 genre: 
- - supernatural
- - romance
+  - romance
 
 general_tags: 
+  - supernatural
   - detective
   - cryptids
 
