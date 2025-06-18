@@ -6,7 +6,7 @@ credits: Alex Assan and Lin Darrow
 
 site: https://www.shaderunners.com
 
-start_page: https://www.shaderunners.com/comic/chapter-1-cover
+start_page: https://shaderunners.com/comics/1#content-start
 
 about_page: https://www.shaderunners.com/about
 
@@ -42,7 +42,7 @@ support:
 social: 
   - https://shaderunnerscomic.tumblr.com/
   - https://bsky.app/profile/alexassan.bsky.social 
-  - https://x.com/linkeepsitreal 
+  - https://bsky.app/profile/lindarrow.bsky.social 
 
 ---
 

@@ -815,9 +815,9 @@ button[data-toggler]::after {
     grid-area: banner;
 
     img {
-      width: 100%;
-      height: 25vw;
-      object-fit: cover;
+      width: 100cqw;
+      height: 25cqw;
+      object-fit: contain;
     }
   }
 
@@ -1008,6 +1008,18 @@ button[data-toggler]::after {
         a[href*='bsky.app'] {
           &::before {
             content: 'Bluesky';
+          }
+        }
+        
+        a[href*='bsky.app/profile/alexassan.bsky.social'] {
+          &::before {
+            content: 'Bluesky (Alex)';
+          }
+        }
+        
+        a[href*='bsky.app/profile/lindarrow.bsky.social'] {
+          &::before {
+            content: 'Bluesky (Lin)';
           }
         }
 
