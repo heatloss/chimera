@@ -951,6 +951,7 @@ button[data-toggler]::after {
         a[href*='ko-fi.com'],
         a[href*='patreon.com'],
         a[href*='paypal.com'],
+        a[href*='paypal.me'],
         a[href*='gofundme.com'],
         a[href*='tumblr.com'],
         a[href*='bsky.app'],
@@ -987,7 +988,7 @@ button[data-toggler]::after {
           }
         }
 
-        a[href*='paypal.com'] {
+        a[href*='paypal.com'], a[href*='paypal.me'] {
           &::before {
             content: 'PayPal';
           }
