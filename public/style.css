@@ -198,7 +198,7 @@ button[data-toggler]::after {
     'logocollective logocollective'
     'navbar navbar';
   height: auto;
-  margin-bottom: 4rem;
+  margin-bottom: 1.5rem;
   position: relative;
   padding-top: 1.5vw;
 
