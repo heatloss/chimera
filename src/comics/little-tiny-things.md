@@ -24,7 +24,6 @@ genre:
 general_tags: 
   - black and white
   - lgbt
-  - violence
   - nudity
   - cats
 
@@ -36,6 +35,7 @@ merch:
 
 support:
   - https://www.patreon.com/gogetaroomie
+  - https://ko-fi.com/cloverscomics 
 
 social: 
   - https://bsky.app/profile/clovercomics.bsky.social
@@ -43,6 +43,5 @@ social:
  
 ---
 
-What are the little tiny things you enjoy, in your everyday life? What are the little tiny steps you take daily for a happier tomorrow? What are these little tiny critters crawling around your feet in the grass, so busy in their tasks?
-
-Perhaps all these little tiny things aren't as insignificant as one would think.
+Pia finds themself living alone in the countryside. The good news is: bugs! The bad news is: it can get pretty lonely. Luckily, there are many neighbors to meet. All have their quirks and troubles, some more so than others.
+And rumors go fast, in little towns…
