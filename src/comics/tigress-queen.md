@@ -14,7 +14,7 @@ thumbnail: https://webcomictraveloguecms.wordpress.com/wp-content/uploads/2024/0
 
 banner: /img/BANNER_TigressQueen_2400x600.jpg
 
-cover: https://www.tigressqueen.com/comics/1650911531-TQ%200001%20new.png
+cover: https://www.tigressqueen.com/wp-content/uploads/2025/07/TQ-0001-new.png
 
 chimebar: /img/BAR_TQ.png
 
