@@ -16,6 +16,8 @@ banner: /img/BANNER_Wychwood_2400x600.jpg
 
 cover: https://wychwoodcomic.com/comics/wychwood_000.jpg
 
+chimebar: /img/BAR_Wychwood.jpg
+
 genre: 
   - action-adventure
   - sci-fi
