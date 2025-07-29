@@ -27,6 +27,7 @@ const chimeStyles = `
   margin: 0 0 -0.35em -0.6em;
   overflow: hidden;
   text-indent: -999vw;
+  line-height: 1.212;
 }
 
 #chimebar > a.logo:hover ~ .description {

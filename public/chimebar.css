@@ -21,6 +21,7 @@
     margin: 0 0 -3px 0.5rem;
     overflow: hidden;
     text-indent: -999vw;
+    line-height: 1.212;
 
     &:hover ~ .description {
       visibility: visible;
