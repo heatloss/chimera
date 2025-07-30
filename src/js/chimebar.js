@@ -2,6 +2,7 @@ import data from '/api/data.js';
 const chimeDomain = 'https://chimeracomics.org';
 const chimeScript = document.getElementById('chimescript');
 const lightMode = chimeScript.getAttribute('mode') || "light";
+const openDir = chimeScript.getAttribute('dir') || "up";
 const chimeStyles = `
 :root {
   --bg-color: ${lightMode === "light" ? "#292929" : "#3d3d3d"};
@@ -14,6 +15,7 @@ const chimeStyles = `
   flex-direction: column;
   position: relative;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
+  max-width: calc(100vw - 2rem);
 }
 
 #chimebar > a.logo {
@@ -30,15 +32,29 @@ const chimeStyles = `
   line-height: 1.212;
 }
 
-#chimebar > a.logo:hover ~ .description {
+#chimebar[data-dir="up"] {
+  padding-bottom: 2.2rem;
+}
+
+#chimebar[data-dir="up"] > a.logo {
+  position: absolute;
+  bottom: 0.75rem;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(180deg, var(--bg-color) 45%, var(--text-color) 180%);
+}
+
+#chimebar > a.logo:hover ~ .description,
+#chimebar ul li:hover small {
   visibility: visible;
 }
 
-#chimebar > .description {
+#chimebar > .description,
+#chimebar ul li small {
+  padding: 0.5rem 0.75rem 1.25rem 0.75rem;
   background-color: var(--bg-color);
   box-shadow: 0 -16px 0 0 var(--bg-color);
   color: var(--text-color);
-  padding: 0 0.75rem 0.5rem 0.75rem;
   border-radius: 0 0 0.75vw 0.75vw;
   position: absolute;
   top: calc(100% + 6px);
@@ -47,9 +63,37 @@ const chimeStyles = `
   visibility: hidden;
 }
 
-#chimebar > .description strong {
+#chimebar ul li small {
+  padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+  box-shadow: 0 0 0px 3px var(--bg-color), 0 -12px 0px 3px var(--bg-color);
+}
+
+#chimebar[data-dir="up"] > .description,
+#chimebar[data-dir="up"] ul li small {
+  top: auto;
+  bottom: calc(100% + 5px);
+  border-radius: 0.75vw 0.75vw 0 0;
+}
+
+#chimebar[data-dir="up"] > .description {
+  padding: 1rem 0.75rem 0.75rem 0.75rem;
+  box-shadow: 0 16px 0 0 var(--bg-color);
+}
+
+#chimebar[data-dir="up"] ul li small {
+  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+  box-shadow: 0 0 0px 3px var(--bg-color), 0 12px 0px 3px var(--bg-color);
+}
+
+#chimebar > .description strong,
+#chimebar ul li small strong {
   font-weight: bold;
   text-transform: uppercase;
+}
+
+#chimebar ul li small p {
+  margin-block-start: 0.25rem;
+  margin-block-end: 0.5rem;
 }
 
 #chimebar ul {
@@ -64,6 +108,12 @@ const chimeStyles = `
   position: relative;
 }
 
+@media screen and (max-width: 767px) {
+  #chimebar ul li:nth-child(n+8) {
+    display: none;
+  }
+}
+  
 #chimebar ul li a {
   display: block;
   box-shadow: 0 0 0px 2px var(--bg-color);
@@ -82,34 +132,8 @@ const chimeStyles = `
 
 #chimebar ul li a img {
   display: block;
-}
-
-#chimebar ul li small {
-  background-color: var(--bg-color);
-  box-shadow: 0 0 0px 3px var(--bg-color), 0 -12px 0px 3px var(--bg-color);
-  color: var(--text-color);
-  padding: 0.5rem 0.75rem 0.125rem 0.75rem;
-  border-radius: 0 0 0.75vw 0.75vw;
-  position: absolute;
-  top: calc(100% + 6px);
-  left: 0;
-  width: 100%;
-  box-sizing: border-box;
-  visibility: hidden;
-}
-
-#chimebar ul li small strong {
-  font-size: 1.1rem;
-  text-transform: uppercase;
-}
-
-#chimebar ul li small p {
-  margin-block-end: 0.5rem;
-  margin-block-start: 0.5rem;
-}
-
-#chimebar ul li:hover small {
-  visibility: visible;
+  max-width: 100%;
+  height: auto;
 }
 `;
 
@@ -140,11 +164,10 @@ randomizedChimebar.forEach((comic) => {
   chimeList.insertAdjacentHTML('beforeend', barString);
 });
 
-document.querySelector('#chimebar').appendChild(chimeList);
-
-document
-  .querySelector('#chimebar')
-  .insertAdjacentHTML('afterbegin', chimeLabelString, chimeList);
+const chimeBar = document.querySelector('#chimebar');
+chimeBar.dataset.dir = openDir;
+chimeBar.appendChild(chimeList);
+chimeBar.insertAdjacentHTML('afterbegin', chimeLabelString, chimeList);
 
 const style = document.createElement('style');
 style.innerHTML = chimeStyles;
