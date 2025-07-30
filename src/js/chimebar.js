@@ -61,6 +61,7 @@ const chimeStyles = `
   left: 0;
   width: 100%;
   visibility: hidden;
+  box-sizing: border-box;
 }
 
 #chimebar ul li small {
