@@ -2,7 +2,7 @@ import data from '/api/data.js';
 const chimeDomain = 'https://chimeracomics.org';
 const chimeScript = document.getElementById('chimescript');
 const lightMode = chimeScript.getAttribute('mode') || "light";
-const openDir = chimeScript.getAttribute('dir') || "up";
+const openDir = chimeScript.getAttribute('dir') || "down";
 const chimeStyles = `
 :root {
   --bg-color: ${lightMode === "light" ? "#292929" : "#3d3d3d"};
