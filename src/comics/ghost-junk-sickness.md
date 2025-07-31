@@ -4,17 +4,17 @@ title: Ghost Junk Sickness
 
 credits: Krispy and Space (studioCARTRIDGE)
 
-site: https://www.ghostjunksickness.com
+site: https://ghostjunksickness.com
 
-start_page: https://www.ghostjunksickness.com/comic/volume-1-cover
+start_page: https://ghostjunksickness.com/comic/volume-1-cover
 
-about_page: https://www.ghostjunksickness.com/about
+about_page: https://ghostjunksickness.com/about
 
 thumbnail: /img/TILE_GJS.jpg
 
 banner: /img/BANNER_GhostJunkSickness_2400x600.jpg
 
-cover: https://www.ghostjunksickness.com/comics/1515103554-vol%201%20supernewcover%20title.jpg
+cover: https://ghostjunksickness.com/comics/1515103554-vol%201%20supernewcover%20title.jpg
 
 chimebar: /img/BAR_GJS.png
 

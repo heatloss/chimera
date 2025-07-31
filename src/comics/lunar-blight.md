@@ -27,7 +27,7 @@ general_tags:
 
 update_status: ongoing
 
-other_works: 
+other_works: Ghost Junk Sickness
 
 merch: 
 
