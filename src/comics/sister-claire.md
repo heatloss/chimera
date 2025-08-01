@@ -45,4 +45,4 @@ social:
 
 ---
 
-When Wayne reveals her current mission, Shep decides it’s time to put an end to some unfinished business. Leaving behind her beloved flock, she departs on a journey with her rival to the witches’ guild.
+Sister Claire is a novice nun, and all she ever wanted was a purpose in life, and a kitten would be nice, too. But when a beautiful blue businesswoman named Gabrielle explodes out of her toilet and tells her she's pregnant with the new Messiah, this Celibate Heroine realizes she may be in for more than she bargained for: a fantastic adventure to protect her miraculous baby (and possibly the universe) from total rapture.
