@@ -16,6 +16,8 @@ banner: /img/BANNER_Solstoria_2400x600.png
 
 cover: https://www.solstoria.net/comics/prologue_cover.png
 
+chimebar: /img/BAR_Solstoria.png
+
 genre: 
   - fantasy
   - action-adventure
