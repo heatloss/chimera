@@ -6,15 +6,15 @@ credits: Crystal Jayme (Scotty)
 
 site: https://www.nighheavenandhell.com
 
-start_page: https://www.nighheavenandhell.com/comic/007
+start_page: https://nighheavenandhell.com/comics/1/
 
-about_page: https://www.nighheavenandhell.com/about
+about_page: https://nighheavenandhell.com/about/
 
 thumbnail: /img/TILE_NighHeavenandHell.png
 
 banner: /img/BANNER_Nigh-Heaven-And-Hell.png
 
-cover: https://www.nighheavenandhell.com/comics/1701919362-007.png
+cover: https://img.comicfury.com/comics/387/70058a1746496594b17325f161574960.jpg
 
 genre: 
   - horror

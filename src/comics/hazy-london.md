@@ -6,15 +6,15 @@ credits: Crystal Jayme (Scotty)
 
 site: https://www.hazylondon.com/
 
-start_page: https://www.hazylondon.com/comic/001
+start_page: https://www.hazylondon.com/comics/1/
 
-about_page: https://www.hazylondon.com/about
+about_page: https://www.hazylondon.com/about/
 
 thumbnail: /img/TILE_HazyLondon.png
 
 banner: /img/BANNER_Hazy-London_2400x600.png
 
-cover: https://www.hazylondon.com/comics/1684372241-000.png
+cover: https://img.comicfury.com/comics/387/70056a1746493928b17325f1276154833.png
 
 genre:
   - romance
