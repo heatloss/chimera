@@ -6,15 +6,15 @@ credits: Crystal Jayme (Scotty)
 
 site: https://www.freakshow-comic.com
 
-start_page: https://www.freakshow-comic.com/comic/000
+start_page: https://www.freakshow-comic.com/comics/1/
 
-about_page: https://www.freakshow-comic.com/about
+about_page: https://www.freakshow-comic.com/about/
 
 thumbnail: /img/TILE_Freakshow.png
 
 banner: /img/BANNER_Freakshow_2400x600.png
 
-cover: https://www.freakshow-comic.com/comics/1542252925-003.png
+cover: https://img.comicfury.com/comics/387/70057a1746630063b17325f2024366761.png
 
 genre:
   - drama
