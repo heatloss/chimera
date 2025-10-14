@@ -174,5 +174,5 @@ if (chimeBar) {
   style.innerHTML = chimeStyles;
   document.head.appendChild(style);
 } else {
-  console.warn('No Chimebar found! Make sure you include <div id="chimebar"></div> where you want it to appear.')
+  console.error('No Chimebar found! Make sure you include <div id="chimebar"></div> where you want it to appear.')
 }
