@@ -166,10 +166,13 @@ randomizedChimebar.forEach((comic) => {
 });
 
 const chimeBar = document.querySelector('#chimebar');
-chimeBar.dataset.dir = openDir;
-chimeBar.appendChild(chimeList);
-chimeBar.insertAdjacentHTML('afterbegin', chimeLabelString, chimeList);
-
-const style = document.createElement('style');
-style.innerHTML = chimeStyles;
-document.head.appendChild(style);
+if (chimeBar) {
+  chimeBar.dataset.dir = openDir;
+  chimeBar.appendChild(chimeList);
+  chimeBar.insertAdjacentHTML('afterbegin', chimeLabelString, chimeList);
+  const style = document.createElement('style');
+  style.innerHTML = chimeStyles;
+  document.head.appendChild(style);
+} else {
+  console.warn('No Chimebar found! Make sure you include <div id="chimebar"></div> where you want it to appear.')
+}
