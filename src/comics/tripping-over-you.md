@@ -4,17 +4,17 @@ title: Tripping Over You
 
 credits: Suzana Harcum and Owena White
 
-site: https://www.trippingoveryou.com/
+site: https://trippingoveryou.com/webcomic/
 
-start_page: https://www.trippingoveryou.com/comic/wiggle-room
+start_page: https://trippingoveryou.com/comic/wiggle-room/
 
-about_page: https://www.trippingoveryou.com/cast
+about_page: https://trippingoveryou.com/cast/
 
 thumbnail: /img/TILE_TOY.jpg
 
 banner: /img/BANNER_TrippingOverYou_2400x600.jpg
 
-cover: https://www.trippingoveryou.com/comics/tripping00_01.png
+cover: https://trippingoveryou.com/wp-content/uploads/2025/06/0.01-wiggle-room.png
 
 chimebar: 
 

@@ -1023,7 +1023,19 @@ button[data-toggler]::after {
             content: 'Bluesky (Lin)';
           }
         }
-
+        
+        a[href*='https://bsky.app/profile/skullamity.bsky.social'] {
+          &::before {
+            content: 'Bluesky (August)';
+          }
+        }
+        
+        a[href*='https://bsky.app/profile/femonologue.bsky.social'] {
+          &::before {
+            content: 'Bluesky (Shay)';
+          }
+        }
+        
         a[href*='x.com'] {
           &::before {
             content: 'Twitter';
