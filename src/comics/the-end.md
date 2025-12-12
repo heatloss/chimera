@@ -16,7 +16,7 @@ thumbnail: /img/TILE_TheEnd.jpg
 
 banner: /img/BANNER_TheEnd_2400x600.jpg
 
-chimebar: /img/BAR_TheEnd.png
+chimebar: /img/BAR_TheEnd.jpg
 
 genre:
 - sci-fi
