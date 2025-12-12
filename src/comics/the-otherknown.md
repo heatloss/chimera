@@ -14,7 +14,7 @@ thumbnail: /img/TILE_Otherknown.png
 
 banner: /img/BANNER_Otherknown_2400x600.png
 
-cover: https://www.otherknown.com/images/Intro.jpg
+cover: /img/COVER_Otherknown_Intro.jpg
 
 genre: 
   - dystopian

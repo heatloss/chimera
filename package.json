@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
-    "@11ty/eleventy-img": "^4.0.2",
+    "@11ty/eleventy-img": "^6.0.4",
     "airtable": "^0.12.2",
-    "dotenv": "^16.4.5",
+    "dotenv": "^17.2.3",
     "eleventy-plugin-seo": "0.5.2",
-    "luxon": "^3.4.0",
+    "luxon": "^3.7.2",
     "markdown-it": "^14.1.0",
     "markdown-it-attrs": "^4.3.1"
   },
@@ -33,6 +33,6 @@
     "express"
   ],
   "devDependencies": {
-    "eslint": "^9.32.0"
+    "eslint": "^9.39.1"
   }
 }
