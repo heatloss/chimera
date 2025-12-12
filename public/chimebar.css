@@ -10,6 +10,7 @@
   position: relative;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
   max-width: calc(100vw - 2rem);
+  z-index: 1;
 
   > a.logo {
     display: block;

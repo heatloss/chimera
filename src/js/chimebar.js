@@ -1,12 +1,18 @@
 import data from '/api/data.js';
 const chimeDomain = 'https://chimeracomics.org';
 const chimeScript = document.getElementById('chimescript');
-const lightMode = chimeScript.getAttribute('mode') || "light";
-const openDir = chimeScript.getAttribute('dir') || "down";
+const selectedMode = chimeScript.getAttribute('mode') || 'light';
+const openDir = chimeScript.getAttribute('dir') || 'down';
+const modeMap = {
+  light: { bgColor: '#292929', textColor: '#B3B3B3' },
+  dark: { bgColor: '#3d3d3d', textColor: '#ABABAB' },
+  bright: { bgColor: '#FFFFFF', textColor: '#000000' },
+};
+
 const chimeStyles = `
 :root {
-  --bg-color: ${lightMode === "light" ? "#292929" : "#3d3d3d"};
-  --text-color: ${lightMode === "light" ? "#B3B3B3" : "#ABABAB"};
+  --bg-color: ${modeMap[selectedMode].bgColor};
+  --text-color: ${modeMap[selectedMode].textColor};
 }
 
 #chimebar {
@@ -16,6 +22,7 @@ const chimeStyles = `
   position: relative;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
   max-width: calc(100vw - 2rem);
+  z-index: 1;
 }
 
 #chimebar > a.logo {
@@ -174,5 +181,7 @@ if (chimeBar) {
   style.innerHTML = chimeStyles;
   document.head.appendChild(style);
 } else {
-  console.error('No Chimebar found! Make sure you include <div id="chimebar"></div> where you want it to appear.')
+  console.error(
+    'No Chimebar found! Make sure you include <div id="chimebar"></div> where you want it to appear.',
+  );
 }
