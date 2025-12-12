@@ -10,11 +10,11 @@ start_page: https://www.bicycleboy.net/bicycle-boy/1-0
 
 about_page: https://www.bicycleboy.net/about
 
-thumbnail: https://webcomictraveloguecms.files.wordpress.com/2024/02/hubbox_bicycle_boy.png
+thumbnail: /img/TILE_BB.png
 
 banner: /img/BANNER_BicycleBoy_2400x600.png
 
-cover: https://www.bicycleboy.net/comics/1681802719-BICYCLEBOY%20CH1%20P0-NEWnetvers2.png
+cover: /img/COVER_BB.png
 
 chimebar: /img/BAR_BB.png
 
