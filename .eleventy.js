@@ -78,12 +78,20 @@ export default function(eleventyConfig) {
 
   eleventyConfig.addFilter('toDDFromTitle', function(titles, arr, attr) {
     if (typeof titles === 'string') {
-      const titleURL = arr.find((item) => item.data.title === titles)['url'];
+      const found = arr.find((item) => item.data.title === titles);
+      if (!found) {
+        throw new Error(`Could not find comic with title: "${titles}". Available titles: ${arr.map(item => item.data.title).join(', ')}`);
+      }
+      const titleURL = found['url'];
       return `<dd><a href="${titleURL}" target="_blank"><span class="link">${titles}<span></a></dd>`;
     } else {
       return titles
         .map((title) => {
-          const titleURL = arr.find((item) => item.data.title === title)['url'];
+          const found = arr.find((item) => item.data.title === title);
+          if (!found) {
+            throw new Error(`Could not find comic with title: "${title}". Available titles: ${arr.map(item => item.data.title).join(', ')}`);
+          }
+          const titleURL = found['url'];
           return `<dd><a href="${titleURL}" target="_blank"><span class="link">${title}<span></a></dd>`;
         })
         .join('');
@@ -91,11 +99,19 @@ export default function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter('getUrlFromTitle', function(title, arr, attr) {
-    return arr.find((item) => item.data.title === title)['url'];
+    const found = arr.find((item) => item.data.title === title);
+    if (!found) {
+      throw new Error(`Could not find comic with title: "${title}". Available titles: ${arr.map(item => item.data.title).join(', ')}`);
+    }
+    return found['url'];
   });
 
   eleventyConfig.addFilter('getCreditsFromTitle', function(title, arr, attr) {
-    return arr.find((item) => item.data.title === title).data['credits'];
+    const found = arr.find((item) => item.data.title === title);
+    if (!found) {
+      throw new Error(`Could not find comic with title: "${title}". Available titles: ${arr.map(item => item.data.title).join(', ')}`);
+    }
+    return found.data['credits'];
   });
 
   eleventyConfig.addFilter('toStringsArray', function(arr) {
