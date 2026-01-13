@@ -1,4 +1,4 @@
 ---
 title: Fairmeadow
-image: /img/SPLASH_Fairmeadow.jpg
+image: /img/SPLASH_FAIRMEADOW.jpg
 ---
