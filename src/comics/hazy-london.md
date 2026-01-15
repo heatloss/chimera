@@ -16,6 +16,8 @@ banner: /img/BANNER_Hazy-London_2400x600.png
 
 cover: https://img.comicfury.com/comics/387/70056a1746493928b17325f1276154833.png
 
+chimebar: /img/BAR_HazyLondon.png
+
 genre:
   - romance
   - slice of life
