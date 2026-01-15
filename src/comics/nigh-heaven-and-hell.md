@@ -16,6 +16,8 @@ banner: /img/BANNER_Nigh-Heaven-And-Hell.png
 
 cover: https://img.comicfury.com/comics/387/70058a1746496594b17325f161574960.jpg
 
+chimebar: /img/BAR_NighHeavenandHell.png
+
 genre: 
   - horror
   - fantasy

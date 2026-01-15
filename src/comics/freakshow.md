@@ -16,6 +16,8 @@ banner: /img/BANNER_Freakshow_2400x600.png
 
 cover: https://img.comicfury.com/comics/387/70057a1746630063b17325f2024366761.png
 
+chimebar: /img/BAR_Freakshow.png
+
 genre:
   - drama
   - historical
