@@ -29,6 +29,7 @@ export default function(eleventyConfig) {
     'woff2',
   ]);
   eleventyConfig.addPassthroughCopy('public');
+  eleventyConfig.addPassthroughCopy({ "public/favicon*": "/" });
   eleventyConfig.addPassthroughCopy('src/img');
 
   const markdownLib = markdownIt({
