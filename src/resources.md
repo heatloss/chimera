@@ -24,3 +24,6 @@ title: Resources
 * [The Screen Tones podcast](https://www.screentonescast.com/){target='_blank'}
 
 
+##### Our press kit:
+
+* [Chimera Comics Collective Press Kit](/presskit)

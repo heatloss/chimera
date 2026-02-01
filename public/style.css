@@ -176,14 +176,21 @@ button[data-toggler]::after {
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
-    
+
     & > h4 {
       margin-top: 0.5rem;
       margin-bottom: 0.5rem;
     }
-    
+
     ul + h5 {
       margin-top: 1.5rem;
+    }
+
+    ul > li:has(a:only-child) {
+      
+      + li:has(a:only-child) {
+        margin-top: 1rem;
+      }
     }
   }
 }
@@ -988,7 +995,8 @@ button[data-toggler]::after {
           }
         }
 
-        a[href*='paypal.com'], a[href*='paypal.me'] {
+        a[href*='paypal.com'],
+        a[href*='paypal.me'] {
           &::before {
             content: 'PayPal';
           }
@@ -1011,31 +1019,31 @@ button[data-toggler]::after {
             content: 'Bluesky';
           }
         }
-        
+
         a[href*='bsky.app/profile/alexassan.bsky.social'] {
           &::before {
             content: 'Bluesky (Alex)';
           }
         }
-        
+
         a[href*='bsky.app/profile/lindarrow.bsky.social'] {
           &::before {
             content: 'Bluesky (Lin)';
           }
         }
-        
+
         a[href*='https://bsky.app/profile/skullamity.bsky.social'] {
           &::before {
             content: 'Bluesky (August)';
           }
         }
-        
+
         a[href*='https://bsky.app/profile/femonologue.bsky.social'] {
           &::before {
             content: 'Bluesky (Shay)';
           }
         }
-        
+
         a[href*='x.com'] {
           &::before {
             content: 'Twitter';
