@@ -14,7 +14,7 @@ thumbnail: /img/TILE_TOY.jpg
 
 banner: /img/BANNER_TrippingOverYou_2400x600.jpg
 
-cover: https://trippingoveryou.com/wp-content/uploads/2025/06/0.01-wiggle-room.png
+cover: https://toybox.gay/trippingoveryou/wp-content/uploads/sites/3/2025/06/0.01-wiggle-room.png
 
 chimebar: 
 
