@@ -27,7 +27,7 @@ general_tags:
 
 update_status: ongoing
 
-other_works: Chirault
+# other_works: Chirault
 
 merch: 
 
